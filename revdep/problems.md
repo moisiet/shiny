@@ -395,40 +395,14 @@ Version: 1.0.4
 
 ## In both
 
-*   checking whether package ‘BioNetStat’ can be installed ... ERROR
+*   checking installed package size ... NOTE
     ```
-    Installation failed.
-    See ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/BioNetStat/new/BioNetStat.Rcheck/00install.out’ for details.
+      installed size is  5.1Mb
+      sub-directories of 1Mb or more:
+        extdata   1.9Mb
+        shiny     1.6Mb
     ```
 
-## Installation
-
-### Devel
-
-```
-* installing *source* package ‘BioNetStat’ ...
-** R
-** data
-** inst
-** byte-compile and prepare package for lazy loading
-Error : package ‘org.Hs.eg.db’ required by ‘pathview’ could not be found
-ERROR: lazy loading failed for package ‘BioNetStat’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/BioNetStat/new/BioNetStat.Rcheck/BioNetStat’
-
-```
-### CRAN
-
-```
-* installing *source* package ‘BioNetStat’ ...
-** R
-** data
-** inst
-** byte-compile and prepare package for lazy loading
-Error : package ‘org.Hs.eg.db’ required by ‘pathview’ could not be found
-ERROR: lazy loading failed for package ‘BioNetStat’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/BioNetStat/old/BioNetStat.Rcheck/BioNetStat’
-
-```
 # biva
 
 Version: 0.1.0
@@ -589,6 +563,7 @@ Version: 2.10.2
     Packages required but not available:
       ‘ChAMPdata’ ‘DMRcate’ ‘IlluminaHumanMethylationEPICmanifest’
       ‘IlluminaHumanMethylation450kmanifest’
+      ‘IlluminaHumanMethylationEPICanno.ilm10b2.hg19’
     
     Depends: includes the non-default packages:
       ‘minfi’ ‘ChAMPdata’ ‘FEM’ ‘DMRcate’ ‘Illumina450ProbeVariants.db’
@@ -649,10 +624,52 @@ Version: 1.2.0
 
 ## In both
 
-*   checking whether package ‘chromVAR’ can be installed ... ERROR
+*   checking examples ... ERROR
     ```
-    Installation failed.
-    See ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/chromVAR/new/chromVAR.Rcheck/00install.out’ for details.
+    Running examples in ‘chromVAR-Ex.R’ failed
+    The error most likely occurred in:
+    
+    > ### Name: addGCBias
+    > ### Title: addGCBias
+    > ### Aliases: addGCBias addGCBias,RangedSummarizedExperiment-method
+    > ###   addGCBias,SummarizedExperiment-method
+    > 
+    > ### ** Examples
+    > 
+    > 
+    > data(example_counts, package = "chromVAR")
+    > # show example on small part of data 
+    > subset_counts <- example_counts[1:500,]
+    > library(BSgenome.Hsapiens.UCSC.hg19)
+    Error in library(BSgenome.Hsapiens.UCSC.hg19) : 
+      there is no package called ‘BSgenome.Hsapiens.UCSC.hg19’
+    Execution halted
+    ```
+
+*   checking re-building of vignette outputs ... WARNING
+    ```
+    ...
+    
+    The following objects are masked from 'package:Biobase':
+    
+        anyMissing, rowMedians
+    
+    Loading required package: BiocParallel
+    
+    Attaching package: 'DelayedArray'
+    
+    The following objects are masked from 'package:matrixStats':
+    
+        colMaxs, colMins, colRanges, rowMaxs, rowMins, rowRanges
+    
+    The following objects are masked from 'package:base':
+    
+        aperm, apply
+    
+    Quitting from lines 107-111 (Introduction.Rmd) 
+    Error: processing vignette 'Introduction.Rmd' failed with diagnostics:
+    there is no package called 'BSgenome.Hsapiens.UCSC.hg19'
+    Execution halted
     ```
 
 *   checking package dependencies ... NOTE
@@ -660,50 +677,6 @@ Version: 1.2.0
     Package suggested but not available for checking: ‘BSgenome.Hsapiens.UCSC.hg19’
     ```
 
-## Installation
-
-### Devel
-
-```
-* installing *source* package ‘chromVAR’ ...
-** libs
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/chromVAR/RcppArmadillo/include" -I/usr/local/include   -fPIC  -Wall -g -O2 -c RcppExports.cpp -o RcppExports.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/chromVAR/RcppArmadillo/include" -I/usr/local/include   -fPIC  -Wall -g -O2 -c pwm_similarity.cpp -o pwm_similarity.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/chromVAR/RcppArmadillo/include" -I/usr/local/include   -fPIC  -Wall -g -O2 -c utils.cpp -o utils.o
-clang++ -std=gnu++11 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -o chromVAR.so RcppExports.o pwm_similarity.o utils.o -L/Library/Frameworks/R.framework/Resources/lib -lRlapack -L/Library/Frameworks/R.framework/Resources/lib -lRblas -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin15/6.1.0 -L/usr/local/gfortran/lib -lgfortran -lquadmath -lm -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
-installing to /Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/chromVAR/new/chromVAR.Rcheck/chromVAR/libs
-** R
-** data
-*** moving datasets to lazyload DB
-** inst
-** byte-compile and prepare package for lazy loading
-Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-  there is no package called ‘GO.db’
-ERROR: lazy loading failed for package ‘chromVAR’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/chromVAR/new/chromVAR.Rcheck/chromVAR’
-
-```
-### CRAN
-
-```
-* installing *source* package ‘chromVAR’ ...
-** libs
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/chromVAR/RcppArmadillo/include" -I/usr/local/include   -fPIC  -Wall -g -O2 -c RcppExports.cpp -o RcppExports.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/chromVAR/RcppArmadillo/include" -I/usr/local/include   -fPIC  -Wall -g -O2 -c pwm_similarity.cpp -o pwm_similarity.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/chromVAR/RcppArmadillo/include" -I/usr/local/include   -fPIC  -Wall -g -O2 -c utils.cpp -o utils.o
-clang++ -std=gnu++11 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -o chromVAR.so RcppExports.o pwm_similarity.o utils.o -L/Library/Frameworks/R.framework/Resources/lib -lRlapack -L/Library/Frameworks/R.framework/Resources/lib -lRblas -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin15/6.1.0 -L/usr/local/gfortran/lib -lgfortran -lquadmath -lm -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
-installing to /Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/chromVAR/old/chromVAR.Rcheck/chromVAR/libs
-** R
-** data
-*** moving datasets to lazyload DB
-** inst
-** byte-compile and prepare package for lazy loading
-Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-  there is no package called ‘GO.db’
-ERROR: lazy loading failed for package ‘chromVAR’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/chromVAR/old/chromVAR.Rcheck/chromVAR’
-
-```
 # citr
 
 Version: 0.3.0
@@ -1050,40 +1023,15 @@ Version: 1.6.0
 
 ## In both
 
-*   checking whether package ‘crisprseekplus’ can be installed ... ERROR
+*   checking re-building of vignette outputs ... WARNING
     ```
-    Installation failed.
-    See ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/crisprseekplus/new/crisprseekplus.Rcheck/00install.out’ for details.
+    Error in re-building vignettes:
+      ...
+    Error: processing vignette 'crisprseekplus.Rmd' failed with diagnostics:
+    there is no package called ‘BiocStyle’
+    Execution halted
     ```
 
-## Installation
-
-### Devel
-
-```
-* installing *source* package ‘crisprseekplus’ ...
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
-  there is no package called ‘GO.db’
-ERROR: lazy loading failed for package ‘crisprseekplus’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/crisprseekplus/new/crisprseekplus.Rcheck/crisprseekplus’
-
-```
-### CRAN
-
-```
-* installing *source* package ‘crisprseekplus’ ...
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
-  there is no package called ‘GO.db’
-ERROR: lazy loading failed for package ‘crisprseekplus’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/crisprseekplus/old/crisprseekplus.Rcheck/crisprseekplus’
-
-```
 # crossmeta
 
 Version: 1.6.0
@@ -1136,50 +1084,50 @@ Version: 0.1.0
       All declared Imports should be used.
     ```
 
+# ctsem
+
+Version: 2.8.2
+
+## In both
+
+*   checking installed package size ... NOTE
+    ```
+      installed size is 10.5Mb
+      sub-directories of 1Mb or more:
+        data   1.8Mb
+        libs   6.7Mb
+    ```
+
+*   checking for GNU extensions in Makefiles ... NOTE
+    ```
+    GNU make is a SystemRequirements.
+    ```
+
 # CVE
 
 Version: 1.6.0
 
 ## In both
 
-*   checking whether package ‘CVE’ can be installed ... ERROR
+*   checking data for ASCII and uncompressed saves ... WARNING
     ```
-    Installation failed.
-    See ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/CVE/new/CVE.Rcheck/00install.out’ for details.
+      
+      Note: significantly better compression could be obtained
+            by using R CMD build --resave-data
+                                    old_size new_size compress
+      WGCNAmelanoma_extension.RData    2.4Mb    2.1Mb       xz
+      crcCase.RData                    1.1Mb    677Kb       xz
+      melanomaCase.RData               654Kb    473Kb       xz
     ```
 
-## Installation
+*   checking installed package size ... NOTE
+    ```
+      installed size is  5.6Mb
+      sub-directories of 1Mb or more:
+        data   4.1Mb
+        doc    1.3Mb
+    ```
 
-### Devel
-
-```
-* installing *source* package ‘CVE’ ...
-** R
-** data
-*** moving datasets to lazyload DB
-** inst
-** byte-compile and prepare package for lazy loading
-Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
-  there is no package called ‘GO.db’
-ERROR: lazy loading failed for package ‘CVE’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/CVE/new/CVE.Rcheck/CVE’
-
-```
-### CRAN
-
-```
-* installing *source* package ‘CVE’ ...
-** R
-** data
-*** moving datasets to lazyload DB
-** inst
-** byte-compile and prepare package for lazy loading
-Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
-  there is no package called ‘GO.db’
-ERROR: lazy loading failed for package ‘CVE’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/CVE/old/CVE.Rcheck/CVE’
-
-```
 # cydar
 
 Version: 1.4.0
@@ -3492,6 +3440,113 @@ Version: 1.14.0
     to your NAMESPACE file.
     ```
 
+# MSnbase
+
+Version: 2.6.4
+
+## In both
+
+*   checking examples ... ERROR
+    ```
+    Running examples in ‘MSnbase-Ex.R’ failed
+    The error most likely occurred in:
+    
+    > ### Name: FeatComp-class
+    > ### Title: Class '"FeatComp"'
+    > ### Aliases: FeatComp-class compfnames-methods
+    > ###   compfnames,MSnSet,MSnSet-method compfnames,list,missing-method
+    > ###   compfnames show,FeatComp-method names,FeatComp-method
+    > ###   common,FeatComp-method common,methods common unique1,FeatComp-method
+    > ###   unique1,methods unique1 unique2,FeatComp-method unique2,methods
+    > ###   unique2
+    > ### Keywords: classes
+    > 
+    > ### ** Examples
+    > 
+    > library("pRolocdata")
+    Error in library("pRolocdata") : there is no package called ‘pRolocdata’
+    Execution halted
+    ```
+
+*   checking tests ...
+    ```
+     ERROR
+    Running the tests in ‘tests/testthat.R’ failed.
+    Last 13 lines of output:
+      ══ testthat results  ═══════════════════════════════════════════════════════════
+      OK: 1908 SKIPPED: 8 FAILED: 10
+      1.  Error: MSnSet coersion (@test_MSnSet.R#25) 
+      2.  Error: commonFeatureNames works with lists or MSnSetLists (@test_MSnSet.R#358) 
+      3.  Error: keeping common features (@test_MSnSet.R#377) 
+      4.  Error: nFeatures are added correctly (@test_MSnSet.R#457) 
+      5.  Error: (unknown) (@test_average.R#1) 
+      6.  Error: Feature variable selection (@test_fdata-selection.R#4) 
+      7.  Error: (unknown) (@test_foi.R#1) 
+      8.  Error: readMSnSet2: rownames and fnames (@test_io.R#84) 
+      9.  Error: (unknown) (@test_nadata.R#2) 
+      10. Error: (unknown) (@test_trimws.R#4) 
+      
+      Error: testthat unit tests failed
+      Execution halted
+    ```
+
+*   checking re-building of vignette outputs ... WARNING
+    ```
+    ...
+    Warning in smooth_Spectrum(x, method = match.arg(method), halfWindowSize = halfWindowSize,  :
+      Negative intensities generated. Replaced by zeros.
+    Warning in smooth_Spectrum(x, method = match.arg(method), halfWindowSize = halfWindowSize,  :
+      Negative intensities generated. Replaced by zeros.
+    Warning in smooth_Spectrum(x, method = match.arg(method), halfWindowSize = halfWindowSize,  :
+      Negative intensities generated. Replaced by zeros.
+    Warning in smooth_Spectrum(x, method = match.arg(method), halfWindowSize = halfWindowSize,  :
+      Negative intensities generated. Replaced by zeros.
+    Warning in smooth_Spectrum(x, method = match.arg(method), halfWindowSize = halfWindowSize,  :
+      Negative intensities generated. Replaced by zeros.
+    Warning in has_utility("convert", "ImageMagick") :
+      ImageMagick not installed or not in PATH
+    Error in x$.self$finalize() : attempt to apply non-function
+    Warning: file MRM-standmix-5.mzML.gz contains multiple chromatograms with identical polarity, precursor and product m/z values
+    Warning: Removed 8 rows containing non-finite values (stat_boxplot).
+    Warning: Removed 7 rows containing non-finite values (stat_smooth).
+    Warning: Removed 7 rows containing missing values (geom_point).
+    Quitting from lines 1720-1725 (MSnbase-demo.Rmd) 
+    Error: processing vignette 'MSnbase-demo.Rmd' failed with diagnostics:
+    object 'dunkley2006' not found
+    Execution halted
+    ```
+
+*   checking package dependencies ... NOTE
+    ```
+    Package suggested but not available for checking: ‘pRolocdata’
+    ```
+
+*   checking installed package size ... NOTE
+    ```
+      installed size is 13.1Mb
+      sub-directories of 1Mb or more:
+        R      2.0Mb
+        data   1.9Mb
+        doc    7.8Mb
+    ```
+
+*   checking DESCRIPTION meta-information ... NOTE
+    ```
+    Authors@R field gives more than one person with maintainer role:
+      Laurent Gatto <lg390@cam.ac.uk> [aut, cre]
+      Johannes Rainer <Johannes.Rainer@eurac.edu> [aut, cre]
+      Sebastian Gibb <mail@sebastiangibb.de> [aut, cre]
+    ```
+
+*   checking dependencies in R code ... NOTE
+    ```
+    Unexported objects imported by ':::' calls:
+      ‘Biobase:::.showAnnotatedDataFrame’ ‘MALDIquant:::.estimateNoise’
+      ‘MALDIquant:::.localMaxima’ ‘MALDIquant:::.movingAverage’
+      ‘MALDIquant:::.savitzkyGolay’
+      See the note in ?`:::` about the use of this operator.
+    ```
+
 # MtreeRing
 
 Version: 1.1
@@ -4690,9 +4745,7 @@ Version: 1.12.1
 
 *   checking package dependencies ... NOTE
     ```
-    Packages suggested but not available for checking:
-      ‘IlluminaHumanMethylation450kmanifest’ ‘RnBeads.hg19’
-      ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’
+    Package suggested but not available for checking: ‘IlluminaHumanMethylation450kmanifest’
     
     Depends: includes the non-default packages:
       ‘BiocGenerics’ ‘S4Vectors’ ‘GenomicRanges’ ‘MASS’ ‘cluster’ ‘ff’
@@ -4781,7 +4834,7 @@ Version: 1.14.0
 
 # RQuantLib
 
-Version: 0.4.7
+Version: 0.4.8
 
 ## In both
 
@@ -4826,59 +4879,68 @@ clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDE
 clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c curves.cpp -o curves.o
 clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c dates.cpp -o dates.o
 clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c daycounter.cpp -o daycounter.o
-affine.cpp:28:68: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-                     const std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > &helpers,
-                                                         ~~~~~~~~~~^
-affine.cpp:28:92: error: expected a type
-                     const std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > &helpers,
-                                                                                           ^
-bermudan.cpp:28:67: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-                    const std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > &helpers,
-                                                        ~~~~~~~~~~^
-bermudan.cpp:28:91: error: expected a type
-                    const std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > &helpers,
-                                                                                          ^
-affine.cpp:157:45: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                  ~~~~~~~~~~^
-affine.cpp:157:69: error: expected a type
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                    ^
-affine.cpp:157:71: error: C++ requires a type specifier for all declarations
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                      ^
-bermudan.cpp:167:45: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                  ~~~~~~~~~~^
-bermudan.cpp:167:69: error: expected a type
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                    ^
-bermudan.cpp:167:71: error: C++ requires a type specifier for all declarations
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                      ^
-affine.cpp:164:57: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-        swaptions.push_back(boost::shared_ptr<QuantLib::BlackCalibrationHelper>(new QuantLib::SwaptionHelper(swaptionMaturities[i],
-                                              ~~~~~~~~~~^
-bermudan.cpp:174:57: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-        swaptions.push_back(boost::shared_ptr<QuantLib::BlackCalibrationHelper>(new QuantLib::SwaptionHelper(swaptionMaturities[i],
-                                              ~~~~~~~~~~^
-bermudan.cpp:393:45: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                  ~~~~~~~~~~^
-bermudan.cpp:393:69: error: expected a type
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                    ^
-bermudan.cpp:393:71: error: C++ requires a type specifier for all declarations
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                      ^
-bermudan.cpp:401:57: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-        swaptions.push_back(boost::shared_ptr<QuantLib::BlackCalibrationHelper>(new QuantLib::SwaptionHelper(swaptionMaturities[i],
-                                              ~~~~~~~~~~^
-6 errors generated.
-make: *** [affine.o] Error 1
+In file included from RcppExports.cpp:4:
+In file included from ./../inst/include/RQuantLib.h:22:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from bermudan.cpp:23:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from curves.cpp:24:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from asian.cpp:22:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from daycounter.cpp:20:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from bonds.cpp:24:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from barrier_binary.cpp:21:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from calendars.cpp:20:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from dates.cpp:21:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from affine.cpp:23:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+1 error generated.
+1 error generated.
+1 error generated.
+1 error generated.
+make: *** [RcppExports.o] Error 1
 make: *** Waiting for unfinished jobs....
-10 errors generated.
+make: *** [daycounter.o] Error 1
+1 error generated.
+1 error generated.
+1 error generated.
+1 error generated.
+make: *** [curves.o] Error 1
+make: *** [barrier_binary.o] Error 1
 make: *** [bermudan.o] Error 1
+make: *** [asian.o] Error 1
+1 error generated.
+make: *** [calendars.o] Error 1
+make: *** [dates.o] Error 1
+make: *** [bonds.o] Error 1
+make: *** [affine.o] Error 1
 ERROR: compilation failed for package ‘RQuantLib’
 * removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RQuantLib/new/RQuantLib.Rcheck/RQuantLib’
 
@@ -4916,59 +4978,68 @@ clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDE
 clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c curves.cpp -o curves.o
 clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c dates.cpp -o dates.o
 clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c daycounter.cpp -o daycounter.o
-affine.cpp:28:68: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-                     const std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > &helpers,
-                                                         ~~~~~~~~~~^
-affine.cpp:28:92: error: expected a type
-                     const std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > &helpers,
-                                                                                           ^
-bermudan.cpp:28:67: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-                    const std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > &helpers,
-                                                        ~~~~~~~~~~^
-bermudan.cpp:28:91: error: expected a type
-                    const std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > &helpers,
-                                                                                          ^
-affine.cpp:157:45: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                  ~~~~~~~~~~^
-affine.cpp:157:69: error: expected a type
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                    ^
-affine.cpp:157:71: error: C++ requires a type specifier for all declarations
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                      ^
-bermudan.cpp:167:45: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                  ~~~~~~~~~~^
-bermudan.cpp:167:69: error: expected a type
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                    ^
-bermudan.cpp:167:71: error: C++ requires a type specifier for all declarations
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                      ^
-affine.cpp:164:57: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-        swaptions.push_back(boost::shared_ptr<QuantLib::BlackCalibrationHelper>(new QuantLib::SwaptionHelper(swaptionMaturities[i],
-                                              ~~~~~~~~~~^
-bermudan.cpp:174:57: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-        swaptions.push_back(boost::shared_ptr<QuantLib::BlackCalibrationHelper>(new QuantLib::SwaptionHelper(swaptionMaturities[i],
-                                              ~~~~~~~~~~^
-bermudan.cpp:393:45: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                  ~~~~~~~~~~^
-bermudan.cpp:393:69: error: expected a type
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                    ^
-bermudan.cpp:393:71: error: C++ requires a type specifier for all declarations
-    std::vector<boost::shared_ptr<QuantLib::BlackCalibrationHelper> > swaptions;
-                                                                      ^
-bermudan.cpp:401:57: error: no member named 'BlackCalibrationHelper' in namespace 'QuantLib'
-        swaptions.push_back(boost::shared_ptr<QuantLib::BlackCalibrationHelper>(new QuantLib::SwaptionHelper(swaptionMaturities[i],
-                                              ~~~~~~~~~~^
-6 errors generated.
-make: *** [affine.o] Error 1
+In file included from RcppExports.cpp:4:
+In file included from ./../inst/include/RQuantLib.h:22:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from asian.cpp:22:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from bonds.cpp:24:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from daycounter.cpp:20:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from dates.cpp:21:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from affine.cpp:23:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from bermudan.cpp:23:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from calendars.cpp:20:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from barrier_binary.cpp:21:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+In file included from curves.cpp:24:
+../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
+#include <ql/shared_ptr.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [RcppExports.o] Error 1
 make: *** Waiting for unfinished jobs....
-10 errors generated.
+1 error generated.
+1 error generated.
+make: *** [asian.o] Error 1
+1 error generated.
+1 error generated.
+1 error generated.
+1 error generated.
+make: *** [bonds.o] Error 1
+make: *** [daycounter.o] Error 1
+make: *** [dates.o] Error 1
+1 error generated.
+make: *** [affine.o] Error 1
+1 error generated.
 make: *** [bermudan.o] Error 1
+1 error generated.
+make: *** [calendars.o] Error 1
+make: *** [barrier_binary.o] Error 1
+make: *** [curves.o] Error 1
 ERROR: compilation failed for package ‘RQuantLib’
 * removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RQuantLib/old/RQuantLib.Rcheck/RQuantLib’
 

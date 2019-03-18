@@ -10,7 +10,7 @@
 |collate  |en_US.UTF-8                  |
 |ctype    |en_US.UTF-8                  |
 |tz       |America/New_York             |
-|date     |2019-03-15                   |
+|date     |2019-03-18                   |
 
 # Dependencies
 
@@ -35,18 +35,14 @@
 
 # Revdeps
 
-## Couldn't check (8)
+## Couldn't check (4)
 
-|package                                      |version |error |warning |note |
-|:--------------------------------------------|:-------|:-----|:-------|:----|
-|[BioNetStat](problems.md#bionetstat)         |1.0.4   |1     |        |     |
-|[chromVAR](problems.md#chromvar)             |1.2.0   |1     |        |1    |
-|[crisprseekplus](problems.md#crisprseekplus) |1.6.0   |1     |        |     |
-|[CVE](problems.md#cve)                       |1.6.0   |1     |        |     |
-|[Imetagene](problems.md#imetagene)           |1.10.0  |1     |        |     |
-|[JMbayes](problems.md#jmbayes)               |0.8-71  |1     |        |     |
-|[RnBeads](problems.md#rnbeads)               |1.12.1  |1     |        |2    |
-|[RQuantLib](problems.md#rquantlib)           |0.4.7   |1     |        |     |
+|package                            |version |error |warning |note |
+|:----------------------------------|:-------|:-----|:-------|:----|
+|[Imetagene](problems.md#imetagene) |1.10.0  |1     |        |     |
+|[JMbayes](problems.md#jmbayes)     |0.8-71  |1     |        |     |
+|[RnBeads](problems.md#rnbeads)     |1.12.1  |1     |        |2    |
+|[RQuantLib](problems.md#rquantlib) |0.4.8   |1     |        |     |
 
 ## Broken (1)
 
@@ -54,7 +50,7 @@
 |:----------------------------------------|:-------|:------|:-------|:----|
 |[shinyWidgets](problems.md#shinywidgets) |0.4.7   |__+1__ |        |     |
 
-## All (658)
+## All (661)
 
 |package                                                      |version    |error  |warning |note |
 |:------------------------------------------------------------|:----------|:------|:-------|:----|
@@ -113,7 +109,7 @@
 |[bioCancer](problems.md#biocancer)                           |1.8.0      |1      |        |     |
 |[BiocOncoTK](problems.md#bioconcotk)                         |1.0.3      |       |1       |3    |
 |[BioInstaller](problems.md#bioinstaller)                     |0.3.7      |       |        |1    |
-|[BioNetStat](problems.md#bionetstat)                         |1.0.4      |1      |        |     |
+|[BioNetStat](problems.md#bionetstat)                         |1.0.4      |       |        |1    |
 |[biva](problems.md#biva)                                     |0.1.0      |       |        |1    |
 |[blkbox](problems.md#blkbox)                                 |1.0        |       |        |2    |
 |[blockseg](problems.md#blockseg)                             |0.5.0      |       |        |1    |
@@ -136,7 +132,7 @@
 |[ChannelAttributionApp](problems.md#channelattributionapp)   |1.1        |       |        |1    |
 |[chipPCR](problems.md#chippcr)                               |0.0.8-10   |       |        |1    |
 |chromoMap                                                    |0.1        |       |        |     |
-|[chromVAR](problems.md#chromvar)                             |1.2.0      |1      |        |1    |
+|[chromVAR](problems.md#chromvar)                             |1.2.0      |1      |1       |1    |
 |circglmbayes                                                 |1.2.3      |       |        |     |
 |Cite                                                         |0.1.0      |       |        |     |
 |[citr](problems.md#citr)                                     |0.3.0      |       |        |1    |
@@ -164,17 +160,18 @@
 |[CRANsearcher](problems.md#cransearcher)                     |1.0.0      |       |        |1    |
 |[crawl](problems.md#crawl)                                   |2.2.1      |       |        |1    |
 |credsubs                                                     |1.0.1      |       |        |     |
-|[crisprseekplus](problems.md#crisprseekplus)                 |1.6.0      |1      |        |     |
+|[crisprseekplus](problems.md#crisprseekplus)                 |1.6.0      |       |1       |     |
 |cromwellDashboard                                            |0.5.1      |       |        |     |
 |cronR                                                        |0.4.0      |       |        |     |
 |[crossmeta](problems.md#crossmeta)                           |1.6.0      |       |1       |4    |
 |crosstalk                                                    |1.0.0      |       |        |     |
 |crunchy                                                      |0.2.0      |       |        |     |
 |[CTRE](problems.md#ctre)                                     |0.1.0      |       |        |1    |
+|[ctsem](problems.md#ctsem)                                   |2.8.2      |       |        |2    |
 |ctsGE                                                        |1.6.1      |       |        |     |
 |CTTinShiny                                                   |0.1.0      |       |        |     |
 |CTTShiny                                                     |0.1        |       |        |     |
-|[CVE](problems.md#cve)                                       |1.6.0      |1      |        |     |
+|[CVE](problems.md#cve)                                       |1.6.0      |       |1       |1    |
 |[cydar](problems.md#cydar)                                   |1.4.0      |       |1       |1    |
 |CytobankAPIstats                                             |2.0        |       |        |     |
 |[cytofkit](problems.md#cytofkit)                             |1.12.0     |1      |        |2    |
@@ -403,6 +400,7 @@
 |mplot                                                        |1.0.2      |       |        |     |
 |mrMLM.GUI                                                    |3.2        |       |        |     |
 |[MSGFgui](problems.md#msgfgui)                               |1.14.0     |       |        |2    |
+|[MSnbase](problems.md#msnbase)                               |2.6.4      |2      |1       |4    |
 |MSstatsQCgui                                                 |1.0.0      |       |        |     |
 |[MtreeRing](problems.md#mtreering)                           |1.1        |1      |        |     |
 |[MuChPoint](problems.md#muchpoint)                           |0.6.1      |       |        |1    |
@@ -529,11 +527,12 @@
 |[RnBeads](problems.md#rnbeads)                               |1.12.1     |1      |        |2    |
 |Rnightlights                                                 |0.2.3      |       |        |     |
 |rnn                                                          |0.8.1      |       |        |     |
+|roadoi                                                       |0.5.2      |       |        |     |
 |robmed                                                       |0.3.0      |       |        |     |
 |[rosr](problems.md#rosr)                                     |0.0.5      |       |        |1    |
 |[rpostgisLT](problems.md#rpostgislt)                         |0.6.0      |1      |        |     |
 |[Rqc](problems.md#rqc)                                       |1.14.0     |       |        |1    |
-|[RQuantLib](problems.md#rquantlib)                           |0.4.7      |1      |        |     |
+|[RQuantLib](problems.md#rquantlib)                           |0.4.8      |1      |        |     |
 |rrtable                                                      |0.1.0      |       |        |     |
 |[rsconnect](problems.md#rsconnect)                           |0.8.13     |       |        |1    |
 |[rtimicropem](problems.md#rtimicropem)                       |1.3        |       |        |1    |
