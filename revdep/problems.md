@@ -33,12 +33,11 @@ Version: 0.4.1
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking installed package size ... NOTE
     ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+      installed size is  5.2Mb
+      sub-directories of 1Mb or more:
+        doc   3.2Mb
     ```
 
 # airGRteaching
@@ -192,12 +191,11 @@ Version: 0.1.5
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking dependencies in R code ... NOTE
     ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+    Namespaces in Imports field not imported from:
+      ‘shinytest’ ‘testthat’
+      All declared Imports should be used.
     ```
 
 # BCEA
@@ -277,9 +275,9 @@ Version: 2.4
 
 *   checking installed package size ... NOTE
     ```
-      installed size is  8.3Mb
+      installed size is  8.6Mb
       sub-directories of 1Mb or more:
-        libs   6.9Mb
+        libs   7.2Mb
     ```
 
 *   checking dependencies in R code ... NOTE
@@ -383,7 +381,7 @@ Version: 0.3.7
 
 *   checking installed package size ... NOTE
     ```
-      installed size is 11.0Mb
+      installed size is 11.1Mb
       sub-directories of 1Mb or more:
         doc       2.5Mb
         extdata   8.1Mb
@@ -469,17 +467,6 @@ Version: 0.1.3
     ```
     Namespace in Imports field not imported from: ‘methods’
       All declared Imports should be used.
-    ```
-
-# bs4Dash
-
-Version: 0.2.0
-
-## In both
-
-*   checking package dependencies ... NOTE
-    ```
-    Package suggested but not available for checking: ‘shinyWidgets’
     ```
 
 # bsplus
@@ -704,6 +691,20 @@ Version: 2.1.0
 *   checking data for non-ASCII characters ... NOTE
     ```
       Note: found 29 marked UTF-8 strings
+    ```
+
+# clustDRM
+
+Version: 0.1-0
+
+## In both
+
+*   checking package dependencies ... ERROR
+    ```
+    Package required but not available: ‘IsoGene’
+    
+    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
+    manual.
     ```
 
 # CNVPanelizer
@@ -1095,7 +1096,7 @@ Version: 2.8.2
       installed size is 10.5Mb
       sub-directories of 1Mb or more:
         data   1.8Mb
-        libs   6.7Mb
+        libs   6.8Mb
     ```
 
 *   checking for GNU extensions in Makefiles ... NOTE
@@ -1117,7 +1118,7 @@ Version: 1.6.0
                                     old_size new_size compress
       WGCNAmelanoma_extension.RData    2.4Mb    2.1Mb       xz
       crcCase.RData                    1.1Mb    677Kb       xz
-      melanomaCase.RData               654Kb    473Kb       xz
+      melanomaCase.RData               654Kb    472Kb       xz
     ```
 
 *   checking installed package size ... NOTE
@@ -1333,7 +1334,7 @@ Version: 1.2.0
 
 # detzrcr
 
-Version: 0.2.4
+Version: 0.2.5
 
 ## In both
 
@@ -1364,9 +1365,9 @@ Version: 5.3
 
 *   checking installed package size ... NOTE
     ```
-      installed size is  5.5Mb
+      installed size is  5.6Mb
       sub-directories of 1Mb or more:
-        R      2.0Mb
+        R      2.1Mb
         data   2.1Mb
     ```
 
@@ -1391,12 +1392,11 @@ Version: 0.1.0
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking dependencies in R code ... NOTE
     ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+    Namespaces in Imports field not imported from:
+      ‘tidyr’ ‘tidyverse’
+      All declared Imports should be used.
     ```
 
 # dropR
@@ -1473,21 +1473,7 @@ Version: 0.6.4
       sub-directories of 1Mb or more:
         data   5.1Mb
         doc    1.6Mb
-        libs   2.6Mb
-    ```
-
-# eAnalytics
-
-Version: 0.1.4
-
-## In both
-
-*   checking package dependencies ... ERROR
-    ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+        libs   2.7Mb
     ```
 
 # EBImage
@@ -1502,6 +1488,17 @@ Version: 4.22.1
       sub-directories of 1Mb or more:
         doc     14.0Mb
         images   1.7Mb
+    ```
+
+# echarts4r
+
+Version: 0.2.1
+
+## In both
+
+*   checking package dependencies ... NOTE
+    ```
+    Package suggested but not available for checking: ‘quantmod’
     ```
 
 # effectR
@@ -1727,22 +1724,6 @@ Version: 0.12.0
     ```
     Package required but not available: ‘Homo.sapiens’
     
-    Package suggested but not available for checking: ‘GO.db’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
-    ```
-
-# esquisse
-
-Version: 0.1.7
-
-## In both
-
-*   checking package dependencies ... ERROR
-    ```
-    Package required but not available: ‘shinyWidgets’
-    
     See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
     manual.
     ```
@@ -1788,19 +1769,19 @@ Version: 1.0.1
     ```
        ‘quickstart.Rmd’ using ‘UTF-8’ ... OK
        ‘FELLA.Rnw’ ... failed
-     ERROR
+     WARNING
     Errors in running code in vignettes:
     when running code in ‘FELLA.Rnw’
       ...
-    [19] M00075  --2.4.1.68  hsa00512--2.4.99.3  hsa05231--2.7.1.32 
-    + ... omitted several edges
-    
-    > g.go <- addGOToGraph(graph = g, GOterm = "GO:0005739", 
     +     godata.options = list(OrgDb = "org.Hs.eg.db", ont = "CC"), 
     +     mart.options = list( .... [TRUNCATED] 
     
+    Loading required package: org.Hs.eg.db
+    Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+      there is no package called ‘org.Hs.eg.db’
+    
       When sourcing ‘FELLA.R’:
-    Error: Package GOSemSim must be installed to add GO semantic similarity
+    Error: object 'org.Hs.eg.db' not found
     Execution halted
     ```
 
@@ -1812,12 +1793,8 @@ Version: 1.0.1
 *   checking re-building of vignette outputs ... NOTE
     ```
     ...
-    Loading pagerank data...
-    Loading matrix...
-    'pagerank.matrix.RData' not loaded. Simulated permutations may execute slower for pagerank.
-    Done.
     Loading rowSums...
-    'pagerank.rowSums.RData' not present in:/var/folders/0k/bxg5lhr92sq74mb1d446ql540000gp/T//RtmpIoeoh6/my_database/pagerank.rowSums.RData. Z-scores won't be available for pagerank.
+    'pagerank.rowSums.RData' not present in:/var/folders/0k/bxg5lhr92sq74mb1d446ql540000gp/T//RtmpfD8daU/my_database/pagerank.rowSums.RData. Z-scores won't be available for pagerank.
     Done.
     Data successfully loaded.
     No background compounds specified. Default background will be used.
@@ -1826,12 +1803,16 @@ Version: 1.0.1
     Running diffusion...
     Computing p-scores through the specified distribution.
     Done.
-    267 nodes below the threshold have been limited to 150 nodes.
-    267 nodes below the threshold have been limited to 150 nodes.
+    262 nodes below the threshold have been limited to 150 nodes.
+    262 nodes below the threshold have been limited to 150 nodes.
+    
+    Loading required package: org.Hs.eg.db
+    Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+      there is no package called ‘org.Hs.eg.db’
     
     Error: processing vignette 'FELLA.Rnw' failed with diagnostics:
      chunk 15 (label = 04_go) 
-    Error : Package GOSemSim must be installed to add GO semantic similarity
+    Error in eval(parse(text = OrgDb)) : object 'org.Hs.eg.db' not found
     Execution halted
     ```
 
@@ -1912,9 +1893,9 @@ Version: 1.14.0
 
 *   checking installed package size ... NOTE
     ```
-      installed size is 11.3Mb
+      installed size is 11.1Mb
       sub-directories of 1Mb or more:
-        data   2.1Mb
+        data   1.9Mb
         doc    8.7Mb
     ```
 
@@ -1969,7 +1950,7 @@ Version: 1.6.0
 
 *   checking installed package size ... NOTE
     ```
-      installed size is 24.5Mb
+      installed size is 24.4Mb
       sub-directories of 1Mb or more:
         doc       1.9Mb
         extdata  21.5Mb
@@ -2053,9 +2034,9 @@ Version: 0.4.4
 
 *   checking installed package size ... NOTE
     ```
-      installed size is  7.6Mb
+      installed size is  7.9Mb
       sub-directories of 1Mb or more:
-        libs   7.3Mb
+        libs   7.5Mb
     ```
 
 *   checking dependencies in R code ... NOTE
@@ -2162,17 +2143,6 @@ Version: 1.2
       All declared Imports should be used.
     ```
 
-# getTBinR
-
-Version: 0.5.7
-
-## In both
-
-*   checking package dependencies ... NOTE
-    ```
-    Package suggested but not available for checking: ‘shinyWidgets’
-    ```
-
 # ggedit
 
 Version: 0.3.0
@@ -2214,12 +2184,11 @@ Version: 0.1.3
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking dependencies in R code ... NOTE
     ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+    Namespaces in Imports field not imported from:
+      ‘gcookbook’ ‘ggthemes’ ‘moonBook’ ‘tidyverse’
+      All declared Imports should be used.
     ```
 
 # ggquickeda
@@ -2246,20 +2215,6 @@ Version: 0.4.4
 *   checking Rd cross-references ... NOTE
     ```
     Package unavailable to check Rd xrefs: ‘plyr’
-    ```
-
-# gimmeTools
-
-Version: 0.1
-
-## In both
-
-*   checking package dependencies ... ERROR
-    ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
     ```
 
 # googleAuthR
@@ -2415,12 +2370,12 @@ Version: 0.7.0
 
 ## In both
 
-*   checking installed package size ... NOTE
+*   checking package dependencies ... ERROR
     ```
-      installed size is  8.7Mb
-      sub-directories of 1Mb or more:
-        doc           3.7Mb
-        htmlwidgets   4.0Mb
+    Package required but not available: ‘quantmod’
+    
+    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
+    manual.
     ```
 
 # ideal
@@ -2429,15 +2384,69 @@ Version: 1.4.0
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking examples ... ERROR
     ```
-    Package required but not available: ‘GO.db’
+    Running examples in ‘ideal-Ex.R’ failed
+    The error most likely occurred in:
     
+    > ### Name: ggplotCounts
+    > ### Title: Plot normalized counts for a gene
+    > ### Aliases: ggplotCounts
+    > 
+    > ### ** Examples
+    > 
+    > library(airway)
+    Error in library(airway) : there is no package called ‘airway’
+    Execution halted
+    ```
+
+*   checking re-building of vignette outputs ... WARNING
+    ```
+    ...
+    Loading required package: SparseM
+    
+    Attaching package: 'SparseM'
+    
+    The following object is masked from 'package:base':
+    
+        backsolve
+    
+    
+    groupGOTerms: 	GOBPTerm, GOMFTerm, GOCCTerm environments built.
+    
+    Attaching package: 'topGO'
+    
+    The following object is masked from 'package:IRanges':
+    
+        members
+    
+    Quitting from lines 310-321 (ideal-usersguide.Rmd) 
+    Error: processing vignette 'ideal-usersguide.Rmd' failed with diagnostics:
+    there is no package called 'airway'
+    Execution halted
+    ```
+
+*   checking package dependencies ... NOTE
+    ```
     Packages suggested but not available for checking:
       ‘airway’ ‘org.Hs.eg.db’ ‘TxDb.Hsapiens.UCSC.hg38.knownGene’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+    ```
+
+*   checking for hidden files and directories ... NOTE
+    ```
+    Found the following hidden files and directories:
+      .travis.yml
+    These were most likely included in error. See section ‘Package
+    structure’ in the ‘Writing R Extensions’ manual.
+    ```
+
+*   checking R code for possible problems ... NOTE
+    ```
+    ideal: no visible binding for '<<-' assignment to ‘ideal_env’
+    ideal : <anonymous>: no visible binding for global variable ‘airway’
+    ideal : <anonymous>: no visible binding for global variable ‘ideal_env’
+    Undefined global functions or variables:
+      airway ideal_env
     ```
 
 # idefix
@@ -2475,48 +2484,6 @@ Version: 4.0
     GNU make is a SystemRequirements.
     ```
 
-# Imetagene
-
-Version: 1.10.0
-
-## In both
-
-*   checking whether package ‘Imetagene’ can be installed ... ERROR
-    ```
-    Installation failed.
-    See ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/Imetagene/new/Imetagene.Rcheck/00install.out’ for details.
-    ```
-
-## Installation
-
-### Devel
-
-```
-* installing *source* package ‘Imetagene’ ...
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-Error: package or namespace load failed for 'metagene' in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
- there is no package called 'EnsDb.Hsapiens.v86'
-Error : package 'metagene' could not be loaded
-ERROR: lazy loading failed for package 'Imetagene'
-* removing '/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/Imetagene/new/Imetagene.Rcheck/Imetagene'
-
-```
-### CRAN
-
-```
-* installing *source* package ‘Imetagene’ ...
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-Error: package or namespace load failed for 'metagene' in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
- there is no package called 'EnsDb.Hsapiens.v86'
-Error : package 'metagene' could not be loaded
-ERROR: lazy loading failed for package 'Imetagene'
-* removing '/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/Imetagene/old/Imetagene.Rcheck/Imetagene'
-
-```
 # INDperform
 
 Version: 0.2.0
@@ -2558,7 +2525,7 @@ Version: 1.18.0
 
 *   checking package dependencies ... NOTE
     ```
-    Packages suggested but not available for checking: ‘hgu95av2.db’ ‘GO.db’
+    Package suggested but not available for checking: ‘hgu95av2.db’
     
     Package which this enhances but not available for checking: ‘rstudio’
     ```
@@ -2788,81 +2755,9 @@ Version: 1.2.0
       ivySE
     ```
 
-# JMbayes
-
-Version: 0.8-71
-
-## In both
-
-*   checking whether package ‘JMbayes’ can be installed ... ERROR
-    ```
-    Installation failed.
-    See ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/JMbayes/new/JMbayes.Rcheck/00install.out’ for details.
-    ```
-
-## Installation
-
-### Devel
-
-```
-* installing *source* package ‘JMbayes’ ...
-** package ‘JMbayes’ successfully unpacked and MD5 sums checked
-** libs
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c RcppExports.cpp -o RcppExports.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c fast_LAPRWM.cpp -o fast_LAPRWM.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c fast_dmvnorm.cpp -o fast_dmvnorm.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c fast_logPost.cpp -o fast_logPost.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c fast_score.cpp -o fast_score.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c survfitJM_mvJMbayes.cpp -o survfitJM_mvJMbayes.o
-clang++ -std=gnu++11 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -o JMbayes.so RcppExports.o fast_LAPRWM.o fast_dmvnorm.o fast_logPost.o fast_score.o survfitJM_mvJMbayes.o -fopenmp -L/Library/Frameworks/R.framework/Resources/lib -lRlapack -L/Library/Frameworks/R.framework/Resources/lib -lRblas -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin15/6.1.0 -L/usr/local/gfortran/lib -lgfortran -lquadmath -lm -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
-installing to /Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/JMbayes/new/JMbayes.Rcheck/JMbayes/libs
-** R
-** data
-*** moving datasets to lazyload DB
-** inst
-** byte-compile and prepare package for lazy loading
-Error : .onLoad failed in loadNamespace() for 'rjags', details:
-  call: dyn.load(file, DLLpath = DLLpath, ...)
-  error: unable to load shared object '/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/rjags/libs/rjags.so':
-  dlopen(/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/rjags/libs/rjags.so, 10): Library not loaded: /usr/local/lib/libjags.4.dylib
-  Referenced from: /Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/rjags/libs/rjags.so
-  Reason: image not found
-ERROR: lazy loading failed for package ‘JMbayes’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/JMbayes/new/JMbayes.Rcheck/JMbayes’
-
-```
-### CRAN
-
-```
-* installing *source* package ‘JMbayes’ ...
-** package ‘JMbayes’ successfully unpacked and MD5 sums checked
-** libs
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c RcppExports.cpp -o RcppExports.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c fast_LAPRWM.cpp -o fast_LAPRWM.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c fast_dmvnorm.cpp -o fast_dmvnorm.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c fast_logPost.cpp -o fast_logPost.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c fast_score.cpp -o fast_score.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/RcppArmadillo/include" -I/usr/local/include  -fopenmp -fPIC  -Wall -g -O2 -c survfitJM_mvJMbayes.cpp -o survfitJM_mvJMbayes.o
-clang++ -std=gnu++11 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -o JMbayes.so RcppExports.o fast_LAPRWM.o fast_dmvnorm.o fast_logPost.o fast_score.o survfitJM_mvJMbayes.o -fopenmp -L/Library/Frameworks/R.framework/Resources/lib -lRlapack -L/Library/Frameworks/R.framework/Resources/lib -lRblas -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin15/6.1.0 -L/usr/local/gfortran/lib -lgfortran -lquadmath -lm -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
-installing to /Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/JMbayes/old/JMbayes.Rcheck/JMbayes/libs
-** R
-** data
-*** moving datasets to lazyload DB
-** inst
-** byte-compile and prepare package for lazy loading
-Error : .onLoad failed in loadNamespace() for 'rjags', details:
-  call: dyn.load(file, DLLpath = DLLpath, ...)
-  error: unable to load shared object '/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/rjags/libs/rjags.so':
-  dlopen(/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/rjags/libs/rjags.so, 10): Library not loaded: /usr/local/lib/libjags.4.dylib
-  Referenced from: /Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/JMbayes/rjags/libs/rjags.so
-  Reason: image not found
-ERROR: lazy loading failed for package ‘JMbayes’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/JMbayes/old/JMbayes.Rcheck/JMbayes’
-
-```
 # jpmesh
 
-Version: 1.1.1
+Version: 1.1.2
 
 ## In both
 
@@ -2877,9 +2772,12 @@ Version: 0.3.2
 
 ## In both
 
-*   checking data for non-ASCII characters ... NOTE
+*   checking package dependencies ... ERROR
     ```
-      Note: found 502 marked UTF-8 strings
+    Package required but not available: ‘jpmesh’
+    
+    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
+    manual.
     ```
 
 # kokudosuuchi
@@ -2994,7 +2892,7 @@ Version: 0.2.1
 
 *   checking installed package size ... NOTE
     ```
-      installed size is  7.4Mb
+      installed size is  7.5Mb
       sub-directories of 1Mb or more:
         doc           1.2Mb
         htmlwidgets   1.4Mb
@@ -3009,13 +2907,40 @@ Version: 0.2.1
 
 # mapedit
 
-Version: 0.4.3
+Version: 0.5.0
 
 ## In both
 
 *   checking package dependencies ... NOTE
     ```
     Package which this enhances but not available for checking: ‘geojsonio’
+    ```
+
+# MazamaSpatialUtils
+
+Version: 0.6.1
+
+## In both
+
+*   checking installed package size ... NOTE
+    ```
+      installed size is  5.1Mb
+      sub-directories of 1Mb or more:
+        data   4.4Mb
+    ```
+
+# mbgraphic
+
+Version: 1.0.0
+
+## In both
+
+*   checking package dependencies ... ERROR
+    ```
+    Package required but not available: ‘extracat’
+    
+    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
+    manual.
     ```
 
 # memapp
@@ -3045,6 +2970,20 @@ Version: 0.5.0
     Namespaces in Imports field not imported from:
       ‘colourpicker’ ‘shinyBS’ ‘shinycssloaders’
       All declared Imports should be used.
+    ```
+
+# mephas
+
+Version: 1.0.0
+
+## In both
+
+*   checking package dependencies ... ERROR
+    ```
+    Package required but not available: ‘ggfortify’
+    
+    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
+    manual.
     ```
 
 # meta4diag
@@ -3167,19 +3106,6 @@ Version: 1.14.0
       ‘MethylAidData’ ‘minfiData’ ‘minfiDataEPIC’
     ```
 
-# microsamplingDesign
-
-Version: 1.0.5
-
-## In both
-
-*   checking R code for possible problems ... NOTE
-    ```
-    runMicrosamplingDesignApp: warning in dev_package_deps(pkg =
-      system.file(package = "microsamplingDesign"), dependencies =
-      "Suggests"): partial argument match of 'pkg' to 'pkgdir'
-    ```
-
 # miRcomp
 
 Version: 1.10.0
@@ -3194,7 +3120,7 @@ Version: 1.10.0
                       old_size new_size compress
       lifetech.rda       350Kb    276Kb       xz
       qpcRb4.rda         290Kb    244Kb       xz
-      qpcRb5.rda         288Kb    241Kb       xz
+      qpcRb5.rda         288Kb    242Kb       xz
       qpcRdefault.rda    290Kb    242Kb       xz
       qpcRl5.rda         287Kb    239Kb       xz
       qpcRlinexp.rda     235Kb    199Kb       xz
@@ -3264,7 +3190,7 @@ Version: 1.60.1
 *   checking running R code from vignettes ...
     ```
     ...
-      B:M  11  34   1   4
+      B:M  10  35   1   4
       O:F   8   0  38   4
       O:M   4   2   0  44
     
@@ -3387,6 +3313,19 @@ Version: 1.8.0
       Execution halted
     ```
 
+# MNLR
+
+Version: 0.1.0
+
+## In both
+
+*   checking dependencies in R code ... NOTE
+    ```
+    Namespaces in Imports field not imported from:
+      ‘caret’ ‘datasets’ ‘e1071’ ‘nnet’ ‘shiny’ ‘stats’
+      All declared Imports should be used.
+    ```
+
 # MODIStsp
 
 Version: 1.3.8
@@ -3493,6 +3432,7 @@ Version: 2.6.4
 *   checking re-building of vignette outputs ... WARNING
     ```
     ...
+      Negative intensities generated. Replaced by zeros.
     Warning in smooth_Spectrum(x, method = match.arg(method), halfWindowSize = halfWindowSize,  :
       Negative intensities generated. Replaced by zeros.
     Warning in smooth_Spectrum(x, method = match.arg(method), halfWindowSize = halfWindowSize,  :
@@ -3505,7 +3445,6 @@ Version: 2.6.4
       Negative intensities generated. Replaced by zeros.
     Warning in has_utility("convert", "ImageMagick") :
       ImageMagick not installed or not in PATH
-    Error in x$.self$finalize() : attempt to apply non-function
     Warning: file MRM-standmix-5.mzML.gz contains multiple chromatograms with identical polarity, precursor and product m/z values
     Warning: Removed 8 rows containing non-finite values (stat_boxplot).
     Warning: Removed 7 rows containing non-finite values (stat_smooth).
@@ -3525,7 +3464,7 @@ Version: 2.6.4
     ```
       installed size is 13.1Mb
       sub-directories of 1Mb or more:
-        R      2.0Mb
+        R      2.1Mb
         data   1.9Mb
         doc    7.8Mb
     ```
@@ -3545,20 +3484,6 @@ Version: 2.6.4
       ‘MALDIquant:::.localMaxima’ ‘MALDIquant:::.movingAverage’
       ‘MALDIquant:::.savitzkyGolay’
       See the note in ?`:::` about the use of this operator.
-    ```
-
-# MtreeRing
-
-Version: 1.1
-
-## In both
-
-*   checking package dependencies ... ERROR
-    ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
     ```
 
 # MuChPoint
@@ -3608,6 +3533,20 @@ Version: 0.6.4
     ```
     Namespace in Imports field not imported from: ‘rstudioapi’
       All declared Imports should be used.
+    ```
+
+# olsrr
+
+Version: 0.5.2
+
+## In both
+
+*   checking package dependencies ... ERROR
+    ```
+    Package required but not available: ‘recipes’
+    
+    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
+    manual.
     ```
 
 # oneSENSE
@@ -3747,6 +3686,17 @@ Version: 1.2.0
       for when this namespace is loaded but not attached.
     ```
 
+# oppr
+
+Version: 0.0.2
+
+## In both
+
+*   checking package dependencies ... NOTE
+    ```
+    Packages suggested but not available for checking: ‘gurobi’ ‘Rsymphony’
+    ```
+
 # pairsD3
 
 Version: 0.1.0
@@ -3797,14 +3747,85 @@ Version: 2.6.0
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking examples ... ERROR
     ```
-    Package required but not available: ‘GO.db’
+    Running examples in ‘pcaExplorer-Ex.R’ failed
+    The error most likely occurred in:
     
+    > ### Name: get_annotation
+    > ### Title: Get an annotation data frame from biomaRt
+    > ### Aliases: get_annotation
+    > 
+    > ### ** Examples
+    > 
+    > library(airway)
+    Error in library(airway) : there is no package called ‘airway’
+    Execution halted
+    ```
+
+*   checking tests ...
+    ```
+     ERROR
+    Running the tests in ‘tests/testthat.R’ failed.
+    Last 13 lines of output:
+      > library(pcaExplorer)
+      
+      > 
+      > test_check("pcaExplorer")
+      ── 1. Error: (unknown) (@test_pca2go.R#6)  ─────────────────────────────────────
+      there is no package called 'airway'
+      1: library(airway) at testthat/test_pca2go.R:6
+      2: stop(txt, domain = NA)
+      
+      ══ testthat results  ═══════════════════════════════════════════════════════════
+      OK: 13 SKIPPED: 0 FAILED: 1
+      1. Error: (unknown) (@test_pca2go.R#6) 
+      
+      Error: testthat unit tests failed
+      Execution halted
+    ```
+
+*   checking re-building of vignette outputs ... WARNING
+    ```
+    Error in re-building vignettes:
+      ...
+    
+    Quitting from lines 375-384 (pcaExplorer.Rmd) 
+    Error: processing vignette 'pcaExplorer.Rmd' failed with diagnostics:
+    there is no package called 'airway'
+    Execution halted
+    ```
+
+*   checking package dependencies ... NOTE
+    ```
     Packages suggested but not available for checking: ‘airway’ ‘org.Hs.eg.db’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+    ```
+
+*   checking for hidden files and directories ... NOTE
+    ```
+    Found the following hidden files and directories:
+      .travis.yml
+    These were most likely included in error. See section ‘Package
+    structure’ in the ‘Writing R Extensions’ manual.
+    ```
+
+*   checking installed package size ... NOTE
+    ```
+      installed size is  7.0Mb
+      sub-directories of 1Mb or more:
+        doc   6.6Mb
+    ```
+
+*   checking R code for possible problems ... NOTE
+    ```
+    pcaExplorer: no visible binding for '<<-' assignment to
+      ‘pcaexplorer_env’
+    pcaExplorer : <anonymous>: no visible binding for global variable
+      ‘airway’
+    pcaExplorer : <anonymous>: no visible binding for global variable
+      ‘pcaexplorer_env’
+    Undefined global functions or variables:
+      airway pcaexplorer_env
     ```
 
 # pepStat
@@ -3893,7 +3914,7 @@ Version: 1.8.2
 
 # pivottabler
 
-Version: 1.1.0
+Version: 1.2.0
 
 ## In both
 
@@ -3912,12 +3933,12 @@ Version: 0.1.7
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking dependencies in R code ... NOTE
     ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+    Namespaces in Imports field not imported from:
+      ‘V8’ ‘devtools’ ‘formatR’ ‘gdata’ ‘rhandsontable’ ‘shinythemes’
+      ‘sqldf’
+      All declared Imports should be used.
     ```
 
 # plotly
@@ -4021,12 +4042,10 @@ Version: 0.2.0
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking dependencies in R code ... NOTE
     ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+    Namespace in Imports field not imported from: ‘shinyWidgets’
+      All declared Imports should be used.
     ```
 
 # predictoR
@@ -4035,12 +4054,14 @@ Version: 1.0.4
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking dependencies in R code ... NOTE
     ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+    Namespaces in Imports field not imported from:
+      ‘DT’ ‘ROCR’ ‘ada’ ‘colourpicker’ ‘corrplot’ ‘e1071’ ‘flexdashboard’
+      ‘kknn’ ‘neuralnet’ ‘randomForest’ ‘rattle’ ‘rpart’ ‘scatterplot3d’
+      ‘shinyAce’ ‘shinyWidgets’ ‘shinydashboardPlus’ ‘shinyjs’ ‘tidyverse’
+      ‘xgboost’ ‘zip’
+      All declared Imports should be used.
     ```
 
 # prioritizr
@@ -4081,12 +4102,11 @@ Version: 0.1.0
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking dependencies in R code ... NOTE
     ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+    Namespaces in Imports field not imported from:
+      ‘TH.data’ ‘jtools’ ‘modelr’ ‘prediction’ ‘rlang’ ‘tidyr’
+      All declared Imports should be used.
     ```
 
 # pRolocGUI
@@ -4123,8 +4143,8 @@ Version: 1.14.0
 *   checking re-building of vignette outputs ... WARNING
     ```
     ...
-    Loading required package: cluster
     Warning: replacing previous import 'BiocGenerics::var' by 'stats::var' when loading 'MLInterfaces'
+    Warning: replacing previous import 'Biobase::dims' by 'BiocGenerics::dims' when loading 'pRoloc'
     Warning: namespace 'dimRed' is not available and has been replaced
     by .GlobalEnv when processing object ''
     Warning: namespace 'dimRed' is not available and has been replaced
@@ -4260,7 +4280,7 @@ Version: 1.12.0
 
 *   checking installed package size ... NOTE
     ```
-      installed size is  5.9Mb
+      installed size is  6.0Mb
       sub-directories of 1Mb or more:
         data      3.0Mb
         example   1.0Mb
@@ -4329,17 +4349,6 @@ Version: 2.1.10
       sub-directories of 1Mb or more:
         api           3.1Mb
         htmlwidgets   9.2Mb
-    ```
-
-# rangeMapper
-
-Version: 0.3-4
-
-## In both
-
-*   checking Rd cross-references ... NOTE
-    ```
-    Package unavailable to check Rd xrefs: ‘snow’
     ```
 
 # Rariant
@@ -4412,10 +4421,12 @@ Version: 0.1.1
 
 ## In both
 
-*   checking dependencies in R code ... NOTE
+*   checking package dependencies ... ERROR
     ```
-    Namespace in Imports field not imported from: ‘utils’
-      All declared Imports should be used.
+    Package required but not available: ‘recipes’
+    
+    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
+    manual.
     ```
 
 # rblt
@@ -4623,32 +4634,32 @@ Version: 1.18.1
     ```
     ...
     
+    Attaching package: 'XML'
+    
+    The following object is masked from 'package:tools':
+    
+        toHTML
+    
+    
+    Attaching package: 'annotate'
+    
+    The following object is masked from 'package:mzR':
+    
         nChrom
     
     Loading required package: cluster
     Warning: replacing previous import 'BiocGenerics::var' by 'stats::var' when loading 'MLInterfaces'
-    Warning: namespace 'dimRed' is not available and has been replaced
-    by .GlobalEnv when processing object ''
-    Warning: namespace 'dimRed' is not available and has been replaced
-    by .GlobalEnv when processing object ''
-    Warning: namespace 'dimRed' is not available and has been replaced
-    by .GlobalEnv when processing object ''
-    Warning: namespace 'dimRed' is not available and has been replaced
-    by .GlobalEnv when processing object ''
-    
-    This is pRoloc version 1.20.2 
-      Visit https://lgatto.github.io/pRoloc/ to get started.
-    
     Quitting from lines 29-46 (RProtVis.Rmd) 
     Error: processing vignette 'RProtVis.Rmd' failed with diagnostics:
-    there is no package called 'pRolocdata'
+    package or namespace load failed for 'pRoloc' in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]):
+     there is no package called 'recipes'
     Execution halted
     ```
 
 *   checking package dependencies ... NOTE
     ```
     Packages suggested but not available for checking:
-      ‘synapterdata’ ‘GO.db’ ‘org.Hs.eg.db’ ‘pRolocdata’
+      ‘synapterdata’ ‘org.Hs.eg.db’ ‘pRolocdata’
     ```
 
 *   checking installed package size ... NOTE
@@ -4737,10 +4748,26 @@ Version: 1.12.1
 
 ## In both
 
-*   checking whether package ‘RnBeads’ can be installed ... ERROR
+*   checking tests ...
     ```
-    Installation failed.
-    See ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RnBeads/new/RnBeads.Rcheck/00install.out’ for details.
+     ERROR
+    Running the tests in ‘tests/runTests.R’ failed.
+    Last 13 lines of output:
+       
+      1 Test Suite : 
+      RnBeads RUnit Tests - 8 test functions, 1 error, 0 failures
+      ERROR in /Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RnBeads/new/RnBeads.Rcheck/RnBeads/unitTests/test_differential.R: Error while sourcing  /Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RnBeads/new/RnBeads.Rcheck/RnBeads/unitTests/test_differential.R : Error in logger.error(txt) : 
+        Missing required package missMethyl or its dependency
+      
+      Test files with failing tests
+      
+         test_differential.R 
+           /Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RnBeads/new/RnBeads.Rcheck/RnBeads/unitTests/test_differential.R 
+      
+      
+      Error in BiocGenerics:::testPackage("RnBeads") : 
+        unit tests failed for package RnBeads
+      Execution halted
     ```
 
 *   checking package dependencies ... NOTE
@@ -4763,37 +4790,64 @@ Version: 1.12.1
     structure’ in the ‘Writing R Extensions’ manual.
     ```
 
-## Installation
+*   checking installed package size ... NOTE
+    ```
+      installed size is  8.6Mb
+      sub-directories of 1Mb or more:
+        R     3.1Mb
+        doc   3.2Mb
+    ```
 
-### Devel
+*   checking whether the namespace can be loaded with stated dependencies ... NOTE
+    ```
+    Warning: no function found corresponding to methods exports from ‘RnBeads’ for: ‘samples’
+    
+    A namespace must be able to be loaded with just the base namespace
+    loaded: otherwise if the namespace gets loaded by a saved object, the
+    session will be unable to start.
+    
+    Probably some imports need to be declared in the NAMESPACE file.
+    ```
 
-```
-* installing *source* package ‘RnBeads’ ...
-** R
-** data
-** inst
-** byte-compile and prepare package for lazy loading
-Error : package ‘FDb.InfiniumMethylation.hg19’ required by ‘methylumi’ could not be found
-ERROR: lazy loading failed for package ‘RnBeads’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RnBeads/new/RnBeads.Rcheck/RnBeads’
+*   checking dependencies in R code ... NOTE
+    ```
+    Unexported objects imported by ':::' calls:
+      'Gviz:::.getBMFeatureMap' 'doParallel:::.options'
+      'grDevices:::.smoothScatterCalcDensity'
+      'minfi:::.default.450k.annotation' 'minfi:::.extractFromRGSet450k'
+      'minfi:::.normalizeFunnorm450k'
+      See the note in ?`:::` about the use of this operator.
+    ```
 
-```
-### CRAN
+*   checking R code for possible problems ... NOTE
+    ```
+    ...
+      Density Deviance Difference DoISVA Error EstDimRMT GenomeAxisTrack ID
+      IdeogramTrack IlluminaHumanMethylation450kmanifest
+      IlluminaHumanMethylationEPICmanifest Index Intensity Measure
+      PairsBootRefFreeEwasModel Probe RGChannelSet Rd2HTML RefFreeEwasModel
+      SNP Sample Slide Target Term UcscTrack Value addSex as.profileCGH
+      assayDataElement assayDataElementNames barcode bv chrom combinedRank
+      combinedRank.var comma covgMedian covgPercLow covgPercUp cv.glmnet
+      daglad diffmeth diffmeth.p.adj.fdr diffmeth.p.val
+      dinucleotideFrequency eps expectedCounts featureData featureData<-
+      featureNames featureNames<- foreach geneCounts genome<- getCN
+      getDoParWorkers getGreen getManifest getMeth getRed getSex getUnmeth
+      getVarCov glmnet grid.draw grid.newpage group group1 group2 i
+      impute.knn intensities is.subsegmentation k letterFrequency lme
+      loadRegionDB log10FDR log10P mapToGenome mean.diff mean.quot.log2
+      melt mergeRegionDBs muted n.sites ng.2 num.sites numSites
+      numeric.names oddsRatios p.vals.t.na.adj pData percent_format
+      phenoData phenoData<- plotTracks preprocessSWAN pvalues qvalue
+      refText reg.type region.size registerDoParallel relative.coord report
+      runLOLA samples seqlengths seqlevels<- sigCategories sites2ignore
+      size solve.QP stopCluster sva target tsne type types universeCounts
+      useMart v var.diff varFit varLabels x xmlValue y yint
+    ```
 
-```
-* installing *source* package ‘RnBeads’ ...
-** R
-** data
-** inst
-** byte-compile and prepare package for lazy loading
-Error : package ‘FDb.InfiniumMethylation.hg19’ required by ‘methylumi’ could not be found
-ERROR: lazy loading failed for package ‘RnBeads’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RnBeads/old/RnBeads.Rcheck/RnBeads’
-
-```
 # rosr
 
-Version: 0.0.5
+Version: 0.0.6
 
 ## In both
 
@@ -4810,12 +4864,10 @@ Version: 0.6.0
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking dependencies in R code ... NOTE
     ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+    Namespace in Imports field not imported from: ‘htmltools’
+      All declared Imports should be used.
     ```
 
 # Rqc
@@ -4838,212 +4890,54 @@ Version: 0.4.8
 
 ## In both
 
-*   checking whether package ‘RQuantLib’ can be installed ... ERROR
+*   checking examples ... ERROR
     ```
-    Installation failed.
-    See ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RQuantLib/new/RQuantLib.Rcheck/00install.out’ for details.
+    ...
+    +                fixFreq="Annual",
+    +                floatFreq="Semiannual")
+    + 
+    + setEvaluationDate(as.Date("2016-2-16"))               
+    + times<-times <- seq(0,14.75,.25)
+    + dcurve <- DiscountCurve(params, tsQuotes, times=times,legparams)
+    + 
+    + # Price the Bermudan swaption
+    + pricing <- AffineSwaption(params, dcurve,swaptionMaturities, swapTenors, volMatrix,legparams)
+    + summary(pricing)
+    + 
+    + }    
+    
+     *** caught segfault ***
+    address 0x0, cause 'memory not mapped'
+    
+    Traceback:
+     1: affineWithRebuiltCurveEngine(params, matchlegs, c(ts$table$date),     ts$table$zeroRates, expiry, tenor, vol)
+     2: AffineSwaption.default(params, dcurve, swaptionMaturities, swapTenors,     volMatrix, legparams)
+     3: AffineSwaption(params, dcurve, swaptionMaturities, swapTenors,     volMatrix, legparams)
+    An irrecoverable exception occurred. R is aborting now ...
     ```
 
-## Installation
+*   checking tests ...
+    ```
+     ERROR
+    Running the tests in ‘tests/RQuantlib.R’ failed.
+    Last 13 lines of output:
+      +                             settleDate=as.Date('2002-2-15'),
+      +                             dt=0.25,
+      +                             interpWhat='discount', interpHow='loglinear')
+      > discountCurve <- DiscountCurve(discountCurve.param, list(flat=0.05))
+      > 
+      > ZeroCouponBond(bond, discountCurve, dateparams)
+      
+       *** caught segfault ***
+      address 0x0, cause 'memory not mapped'
+      
+      Traceback:
+       1: ZeroBondWithRebuiltCurve(bond, c(discountCurve$table$date), discountCurve$table$zeroRates,     dateparams)
+       2: ZeroCouponBond.default(bond, discountCurve, dateparams)
+       3: ZeroCouponBond(bond, discountCurve, dateparams)
+      An irrecoverable exception occurred. R is aborting now ...
+    ```
 
-### Devel
-
-```
-* installing *source* package ‘RQuantLib’ ...
-** package ‘RQuantLib’ successfully unpacked and MD5 sums checked
-checking whether the C++ compiler works... yes
-checking for C++ compiler default output file name... a.out
-checking for suffix of executables... 
-checking whether we are cross compiling... no
-checking for suffix of object files... o
-checking whether we are using the GNU C++ compiler... yes
-checking whether clang++ accepts -g... yes
-checking how to run the C++ preprocessor... clang++ -E
-checking whether we are using the GNU C++ compiler... (cached) yes
-checking whether clang++ accepts -g... (cached) yes
-checking for R... yes
-checking for quantlib-config... yes
-checking for Boost development files... yes
-checking for minimal Boost version... yes
-configure: creating ./config.status
-config.status: creating src/Makevars
-Completed configuration and ready to build.
-** libs
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c RcppExports.cpp -o RcppExports.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c affine.cpp -o affine.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c asian.cpp -o asian.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c barrier_binary.cpp -o barrier_binary.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c bermudan.cpp -o bermudan.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c bonds.cpp -o bonds.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c calendars.cpp -o calendars.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c curves.cpp -o curves.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c dates.cpp -o dates.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/new/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c daycounter.cpp -o daycounter.o
-In file included from RcppExports.cpp:4:
-In file included from ./../inst/include/RQuantLib.h:22:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from bermudan.cpp:23:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from curves.cpp:24:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from asian.cpp:22:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from daycounter.cpp:20:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from bonds.cpp:24:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from barrier_binary.cpp:21:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from calendars.cpp:20:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from dates.cpp:21:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from affine.cpp:23:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-1 error generated.
-1 error generated.
-1 error generated.
-1 error generated.
-1 error generated.
-make: *** [RcppExports.o] Error 1
-make: *** Waiting for unfinished jobs....
-make: *** [daycounter.o] Error 1
-1 error generated.
-1 error generated.
-1 error generated.
-1 error generated.
-make: *** [curves.o] Error 1
-make: *** [barrier_binary.o] Error 1
-make: *** [bermudan.o] Error 1
-make: *** [asian.o] Error 1
-1 error generated.
-make: *** [calendars.o] Error 1
-make: *** [dates.o] Error 1
-make: *** [bonds.o] Error 1
-make: *** [affine.o] Error 1
-ERROR: compilation failed for package ‘RQuantLib’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RQuantLib/new/RQuantLib.Rcheck/RQuantLib’
-
-```
-### CRAN
-
-```
-* installing *source* package ‘RQuantLib’ ...
-** package ‘RQuantLib’ successfully unpacked and MD5 sums checked
-checking whether the C++ compiler works... yes
-checking for C++ compiler default output file name... a.out
-checking for suffix of executables... 
-checking whether we are cross compiling... no
-checking for suffix of object files... o
-checking whether we are using the GNU C++ compiler... yes
-checking whether clang++ accepts -g... yes
-checking how to run the C++ preprocessor... clang++ -E
-checking whether we are using the GNU C++ compiler... (cached) yes
-checking whether clang++ accepts -g... (cached) yes
-checking for R... yes
-checking for quantlib-config... yes
-checking for Boost development files... yes
-checking for minimal Boost version... yes
-configure: creating ./config.status
-config.status: creating src/Makevars
-Completed configuration and ready to build.
-** libs
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c RcppExports.cpp -o RcppExports.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c affine.cpp -o affine.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c asian.cpp -o asian.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c barrier_binary.cpp -o barrier_binary.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c bermudan.cpp -o bermudan.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c bonds.cpp -o bonds.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c calendars.cpp -o calendars.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c curves.cpp -o curves.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c dates.cpp -o dates.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/library.noindex/shiny/old/Rcpp/include" -I/usr/local/include  -Wall -g -O2  -I/usr/local/Cellar/quantlib/1.13/include  -I../inst/include -I. -DBOOST_NO_AUTO_PTR -fopenmp -fPIC  -Wall -g -O2 -c daycounter.cpp -o daycounter.o
-In file included from RcppExports.cpp:4:
-In file included from ./../inst/include/RQuantLib.h:22:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from asian.cpp:22:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from bonds.cpp:24:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from daycounter.cpp:20:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from dates.cpp:21:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from affine.cpp:23:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from bermudan.cpp:23:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from calendars.cpp:20:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from barrier_binary.cpp:21:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-In file included from curves.cpp:24:
-../inst/include/rquantlib_internal.h:26:10: fatal error: 'ql/shared_ptr.hpp' file not found
-#include <ql/shared_ptr.hpp>
-         ^~~~~~~~~~~~~~~~~~~
-1 error generated.
-make: *** [RcppExports.o] Error 1
-make: *** Waiting for unfinished jobs....
-1 error generated.
-1 error generated.
-make: *** [asian.o] Error 1
-1 error generated.
-1 error generated.
-1 error generated.
-1 error generated.
-make: *** [bonds.o] Error 1
-make: *** [daycounter.o] Error 1
-make: *** [dates.o] Error 1
-1 error generated.
-make: *** [affine.o] Error 1
-1 error generated.
-make: *** [bermudan.o] Error 1
-1 error generated.
-make: *** [calendars.o] Error 1
-make: *** [barrier_binary.o] Error 1
-make: *** [curves.o] Error 1
-ERROR: compilation failed for package ‘RQuantLib’
-* removing ‘/Users/barret/odrive/AmazonCloudDrive/git/rstudio/shiny/shiny/revdep/checks.noindex/RQuantLib/old/RQuantLib.Rcheck/RQuantLib’
-
-```
 # rsconnect
 
 Version: 0.8.13
@@ -5167,7 +5061,7 @@ Version: 1.8.0
 
 *   checking installed package size ... NOTE
     ```
-      installed size is  6.4Mb
+      installed size is  6.3Mb
       sub-directories of 1Mb or more:
         data   2.6Mb
         doc    3.0Mb
@@ -5341,9 +5235,9 @@ Version: 1.8.4
 
 *   checking installed package size ... NOTE
     ```
-      installed size is  6.1Mb
+      installed size is  6.2Mb
       sub-directories of 1Mb or more:
-        libs   5.0Mb
+        libs   5.1Mb
     ```
 
 # SDEFSR
@@ -5406,7 +5300,7 @@ Version: 1.18.0
 
 *   checking installed package size ... NOTE
     ```
-      installed size is 14.9Mb
+      installed size is 14.8Mb
       sub-directories of 1Mb or more:
         doc        3.7Mb
         seqplots  10.1Mb
@@ -5549,17 +5443,6 @@ Version: 0.61
     to your NAMESPACE file.
     ```
 
-# shinydashboardPlus
-
-Version: 0.6.0
-
-## In both
-
-*   checking package dependencies ... NOTE
-    ```
-    Package suggested but not available for checking: ‘shinyWidgets’
-    ```
-
 # shinyEffects
 
 Version: 0.1.0
@@ -5614,6 +5497,32 @@ Version: 1.3.0
 *   checking Rd cross-references ... NOTE
     ```
     Package unavailable to check Rd xrefs: ‘WrightMap’
+    ```
+
+# shinyjqui
+
+Version: 0.3.2
+
+## In both
+
+*   checking examples ... ERROR
+    ```
+    Running examples in ‘shinyjqui-Ex.R’ failed
+    The error most likely occurred in:
+    
+    > ### Name: Interactions
+    > ### Title: Mouse interactions
+    > ### Aliases: Interactions jqui_draggabled jqui_droppabled jqui_resizabled
+    > ###   jqui_selectabled jqui_sortabled jqui_draggable jqui_droppable
+    > ###   jqui_resizable jqui_selectable jqui_sortable
+    > 
+    > ### ** Examples
+    > 
+    > library(shiny)
+    > library(highcharter)
+    Error: package or namespace load failed for ‘highcharter’ in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]):
+     there is no package called ‘quantmod’
+    Execution halted
     ```
 
 # shinyjs
@@ -5722,33 +5631,6 @@ Version: 1.18.0
     contains 'methods').
     ```
 
-# shinyWidgets
-
-Version: 0.4.7
-
-## Newly broken
-
-*   checking tests ...
-    ```
-     ERROR
-    Running the tests in ‘tests/testthat.R’ failed.
-    Last 13 lines of output:
-      > library(testthat)
-      > library(shinyWidgets)
-      > 
-      > test_check("shinyWidgets")
-      ── 1. Failure: attach ressources (@test-onLoad.R#8)  ───────────────────────────
-      shiny:::.globals$resources$shinyWidgets$directoryPath not identical to normalizePath(system.file("www", package = "shinyWidgets")).
-      target is NULL, current is character
-      
-      ══ testthat results  ═══════════════════════════════════════════════════════════
-      OK: 213 SKIPPED: 0 FAILED: 1
-      1. Failure: attach ressources (@test-onLoad.R#8) 
-      
-      Error: testthat unit tests failed
-      Execution halted
-    ```
-
 # sigmajs
 
 Version: 0.1.2
@@ -5757,7 +5639,7 @@ Version: 0.1.2
 
 *   checking installed package size ... NOTE
     ```
-      installed size is  6.9Mb
+      installed size is  6.8Mb
       sub-directories of 1Mb or more:
         doc   5.3Mb
     ```
@@ -5874,20 +5756,6 @@ Version: 0.0.8
       All declared Imports should be used.
     ```
 
-# spotGUI
-
-Version: 0.2.1
-
-## In both
-
-*   checking package dependencies ... ERROR
-    ```
-    Package required but not available: ‘rclipboard’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
-    ```
-
 # SSDM
 
 Version: 0.2.4
@@ -5950,18 +5818,6 @@ Version: 2.0.2
       All declared Imports should be used.
     ```
 
-# StratigrapheR
-
-Version: 0.0.2
-
-## In both
-
-*   checking dependencies in R code ... NOTE
-    ```
-    Namespace in Imports field not imported from: ‘hexbin’
-      All declared Imports should be used.
-    ```
-
 # subscreen
 
 Version: 2.0.1
@@ -5978,9 +5834,16 @@ Version: 2.0.1
 
 # tableHTML
 
-Version: 1.1.0
+Version: 2.0.0
 
 ## In both
+
+*   checking installed package size ... NOTE
+    ```
+      installed size is  6.1Mb
+      sub-directories of 1Mb or more:
+        doc   5.8Mb
+    ```
 
 *   checking dependencies in R code ... NOTE
     ```
@@ -5993,11 +5856,6 @@ Version: 1.1.0
 Version: 0.1.0
 
 ## In both
-
-*   checking package dependencies ... NOTE
-    ```
-    Package suggested but not available for checking: ‘shinyWidgets’
-    ```
 
 *   checking dependencies in R code ... NOTE
     ```
@@ -6131,7 +5989,7 @@ Version: 1.0.0
 *   checking package dependencies ... NOTE
     ```
     Packages suggested but not available for checking:
-      ‘Homo.sapiens’ ‘GO.db’ ‘org.Hs.eg.db’ ‘EnsDb.Hsapiens.v75’
+      ‘Homo.sapiens’ ‘org.Hs.eg.db’ ‘EnsDb.Hsapiens.v75’
     ```
 
 *   checking data for non-ASCII characters ... NOTE
@@ -6245,17 +6103,20 @@ Version: 2.0-1
     Package unavailable to check Rd xrefs: ‘osmar’
     ```
 
-# toxEval
+# TreeSearch
 
-Version: 1.0.3
+Version: 0.3.0
 
 ## In both
 
-*   checking dependencies in R code ... NOTE
+*   checking re-building of vignette outputs ... WARNING
     ```
-    Namespaces in Imports field not imported from:
-      ‘shinyAce’ ‘shinycssloaders’ ‘shinydashboard’
-      All declared Imports should be used.
+    Error in re-building vignettes:
+      ...
+    Quitting from lines 40-68 (profile-scores.Rmd) 
+    Error: processing vignette 'profile-scores.Rmd' failed with diagnostics:
+    non-conformable arrays
+    Execution halted
     ```
 
 # treespace
@@ -6266,7 +6127,7 @@ Version: 1.1.3
 
 *   checking installed package size ... NOTE
     ```
-      installed size is  6.2Mb
+      installed size is  6.1Mb
       sub-directories of 1Mb or more:
         doc   4.7Mb
     ```
@@ -6557,20 +6418,16 @@ Version: 0.3.0
 
 # visNetwork
 
-Version: 2.0.5
+Version: 2.0.6
 
 ## In both
-
-*   checking package dependencies ... NOTE
-    ```
-    Package suggested but not available for checking: ‘shinyWidgets’
-    ```
 
 *   checking installed package size ... NOTE
     ```
       installed size is 11.1Mb
       sub-directories of 1Mb or more:
-        doc           5.6Mb
+        doc           4.2Mb
+        docjs         1.4Mb
         htmlwidgets   3.9Mb
     ```
 
@@ -6595,12 +6452,21 @@ Version: 1.0.1
 
 ## In both
 
-*   checking package dependencies ... ERROR
+*   checking installed package size ... NOTE
     ```
-    Package required but not available: ‘shinyWidgets’
-    
-    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-    manual.
+      installed size is  7.2Mb
+      sub-directories of 1Mb or more:
+        bn   7.1Mb
+    ```
+
+*   checking dependencies in R code ... NOTE
+    ```
+    Namespaces in Imports field not imported from:
+      ‘DT’ ‘DescTools’ ‘HydeNet’ ‘RBGL’ ‘Rgraphviz’ ‘arules’ ‘bnlearn’
+      ‘dplyr’ ‘graph’ ‘igraph’ ‘linkcomm’ ‘missRanger’ ‘parallel’ ‘psych’
+      ‘rhandsontable’ ‘rintrojs’ ‘shinyBS’ ‘shinyWidgets’ ‘shinyalert’
+      ‘shinycssloaders’ ‘shinydashboard’ ‘tools’ ‘visNetwork’
+      All declared Imports should be used.
     ```
 
 # wTO
@@ -6621,10 +6487,12 @@ Version: 1.3.0
 
 ## In both
 
-*   checking dependencies in R code ... NOTE
+*   checking package dependencies ... ERROR
     ```
-    Namespace in Imports field not imported from: ‘ghyp’
-      All declared Imports should be used.
+    Package required but not available: ‘quantmod’
+    
+    See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
+    manual.
     ```
 
 # zscorer

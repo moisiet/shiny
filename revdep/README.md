@@ -2,7 +2,7 @@
 
 |field    |value                        |
 |:--------|:----------------------------|
-|version  |R version 3.5.2 (2018-12-20) |
+|version  |R version 3.5.3 (2019-03-11) |
 |os       |macOS Mojave 10.14.3         |
 |system   |x86_64, darwin15.6.0         |
 |ui       |X11                          |
@@ -10,7 +10,7 @@
 |collate  |en_US.UTF-8                  |
 |ctype    |en_US.UTF-8                  |
 |tz       |America/New_York             |
-|date     |2019-03-18                   |
+|date     |2019-03-28                   |
 
 # Dependencies
 
@@ -21,698 +21,692 @@
 |crayon      |1.3.4    |1.3.4    |   |
 |digest      |0.6.18   |0.6.18   |   |
 |htmltools   |0.3.6    |0.3.6    |   |
-|httpuv      |1.4.5.1  |1.5.0    |*  |
+|httpuv      |1.5.0    |1.5.1    |*  |
 |jsonlite    |1.6      |1.6      |   |
 |later       |0.8.0    |0.8.0    |   |
 |magrittr    |1.5      |1.5      |   |
 |mime        |0.6      |0.6      |   |
 |promises    |1.0.1    |1.0.1    |   |
 |R6          |2.4.0    |2.4.0    |   |
-|Rcpp        |1.0.0    |1.0.0    |   |
-|rlang       |0.3.1    |0.3.1    |   |
+|Rcpp        |1.0.1    |1.0.1    |   |
+|rlang       |0.3.2    |0.3.2    |   |
 |sourcetools |0.1.7    |0.1.7    |   |
 |xtable      |1.8-3    |1.8-3    |   |
 
 # Revdeps
 
-## Couldn't check (4)
+## All (670)
 
-|package                            |version |error |warning |note |
-|:----------------------------------|:-------|:-----|:-------|:----|
-|[Imetagene](problems.md#imetagene) |1.10.0  |1     |        |     |
-|[JMbayes](problems.md#jmbayes)     |0.8-71  |1     |        |     |
-|[RnBeads](problems.md#rnbeads)     |1.12.1  |1     |        |2    |
-|[RQuantLib](problems.md#rquantlib) |0.4.8   |1     |        |     |
-
-## Broken (1)
-
-|package                                  |version |error  |warning |note |
-|:----------------------------------------|:-------|:------|:-------|:----|
-|[shinyWidgets](problems.md#shinywidgets) |0.4.7   |__+1__ |        |     |
-
-## All (661)
-
-|package                                                      |version    |error  |warning |note |
-|:------------------------------------------------------------|:----------|:------|:-------|:----|
-|abstractr                                                    |0.1.0      |       |        |     |
-|[adapr](problems.md#adapr)                                   |2.0.0      |       |        |1    |
-|AdaptGauss                                                   |1.5        |       |        |     |
-|adaptiveGPCA                                                 |0.1.2      |       |        |     |
-|addinslist                                                   |0.2        |       |        |     |
-|[adegenet](problems.md#adegenet)                             |2.1.1      |       |        |1    |
-|adepro                                                       |2.0.0      |       |        |     |
-|adespatial                                                   |0.3-4      |       |        |     |
-|[AdhereR](problems.md#adherer)                               |0.4.1      |1      |        |     |
-|AFM                                                          |1.2.4      |       |        |     |
-|ahp                                                          |0.2.12     |       |        |     |
-|[airGRteaching](problems.md#airgrteaching)                   |0.2.3.2    |       |        |1    |
-|AMModels                                                     |0.1.4      |       |        |     |
-|AmyloGram                                                    |1.1        |       |        |     |
-|[analysisPipelines](problems.md#analysispipelines)           |1.0.0      |       |        |2    |
-|ANOVAreplication                                             |1.1.3      |       |        |     |
-|antaresRead                                                  |2.2.3      |       |        |     |
-|antaresViz                                                   |0.15.0     |       |        |     |
-|AnthropMMD                                                   |2.5.2      |       |        |     |
-|antitrust                                                    |0.99.10    |       |        |     |
-|[ArchaeoPhases](problems.md#archaeophases)                   |1.4        |       |        |1    |
-|[archivist](problems.md#archivist)                           |2.3.2      |       |        |1    |
-|[arena2r](problems.md#arena2r)                               |1.0.0      |       |        |1    |
-|argonDash                                                    |0.1.0      |       |        |     |
-|arulesViz                                                    |1.3-2      |       |        |     |
-|[AUCell](problems.md#aucell)                                 |1.2.4      |       |        |5    |
-|auth0                                                        |0.1.1      |       |        |     |
-|AutoDeskR                                                    |0.1.3      |       |        |     |
-|autoshiny                                                    |0.0.2      |       |        |     |
-|backpipe                                                     |0.2.3      |       |        |     |
-|bairt                                                        |0.1.2      |       |        |     |
-|baRcodeR                                                     |0.1.2      |       |        |     |
-|basictabler                                                  |0.2.0      |       |        |     |
-|[BatchQC](problems.md#batchqc)                               |1.8.1      |       |        |1    |
-|[BayesBD](problems.md#bayesbd)                               |1.2        |1      |        |     |
-|[BayesianNetwork](problems.md#bayesiannetwork)               |0.1.5      |1      |        |     |
-|BayesNetBP                                                   |1.4.0      |       |        |     |
-|BBEST                                                        |0.1-6      |       |        |     |
-|[BCEA](problems.md#bcea)                                     |2.2-6      |       |        |1    |
-|[bdchecks](problems.md#bdchecks)                             |0.1.7      |       |        |1    |
-|bdDwC                                                        |0.1.15     |       |        |     |
-|[bde](problems.md#bde)                                       |1.0.1      |       |        |1    |
-|BDP2                                                         |0.1.3      |       |        |     |
-|[bea.R](problems.md#bear)                                    |1.0.6      |       |        |1    |
-|BEACH                                                        |1.3.1      |       |        |     |
-|[beanz](problems.md#beanz)                                   |2.4        |       |        |3    |
-|BETS                                                         |0.4.9      |       |        |     |
-|bibliometrix                                                 |2.1.2      |       |        |     |
-|bigKRLS                                                      |3.0.2      |       |        |     |
-|BIGL                                                         |1.3.0      |       |        |     |
-|[bigQueryR](problems.md#bigqueryr)                           |0.4.0      |       |        |1    |
-|billboarder                                                  |0.2.5      |       |        |     |
-|[bioCancer](problems.md#biocancer)                           |1.8.0      |1      |        |     |
-|[BiocOncoTK](problems.md#bioconcotk)                         |1.0.3      |       |1       |3    |
-|[BioInstaller](problems.md#bioinstaller)                     |0.3.7      |       |        |1    |
-|[BioNetStat](problems.md#bionetstat)                         |1.0.4      |       |        |1    |
-|[biva](problems.md#biva)                                     |0.1.0      |       |        |1    |
-|[blkbox](problems.md#blkbox)                                 |1.0        |       |        |2    |
-|[blockseg](problems.md#blockseg)                             |0.5.0      |       |        |1    |
-|blogdown                                                     |0.11       |       |        |     |
-|[blorr](problems.md#blorr)                                   |0.2.1      |       |        |1    |
-|bookdown                                                     |0.9        |       |        |     |
-|[bpbounds](problems.md#bpbounds)                             |0.1.3      |       |        |1    |
-|bridger2                                                     |0.1.0      |       |        |     |
-|[bs4Dash](problems.md#bs4dash)                               |0.2.0      |       |        |1    |
-|[bsplus](problems.md#bsplus)                                 |0.1.1      |       |        |1    |
-|bullwhipgame                                                 |0.1.0      |       |        |     |
-|bunchr                                                       |1.2.0      |       |        |     |
-|bupaR                                                        |0.4.2      |       |        |     |
-|[caffsim](problems.md#caffsim)                               |0.2.2      |       |        |1    |
-|canvasXpress                                                 |1.23.3     |       |        |     |
-|[cartools](problems.md#cartools)                             |0.1.0      |       |        |1    |
-|[CATALYST](problems.md#catalyst)                             |1.4.2      |       |        |3    |
-|cbsodataR                                                    |0.3.2      |       |        |     |
-|[ChAMP](problems.md#champ)                                   |2.10.2     |1      |        |     |
-|[ChannelAttributionApp](problems.md#channelattributionapp)   |1.1        |       |        |1    |
-|[chipPCR](problems.md#chippcr)                               |0.0.8-10   |       |        |1    |
-|chromoMap                                                    |0.1        |       |        |     |
-|[chromVAR](problems.md#chromvar)                             |1.2.0      |1      |1       |1    |
-|circglmbayes                                                 |1.2.3      |       |        |     |
-|Cite                                                         |0.1.0      |       |        |     |
-|[citr](problems.md#citr)                                     |0.3.0      |       |        |1    |
-|[cjoint](problems.md#cjoint)                                 |2.1.0      |       |        |2    |
-|CLME                                                         |2.0-11     |       |        |     |
-|cNORM                                                        |1.1.5      |       |        |     |
-|[CNVPanelizer](problems.md#cnvpanelizer)                     |1.12.0     |       |        |1    |
-|[CNVScope](problems.md#cnvscope)                             |1.9.7      |1      |        |     |
-|[cocktailApp](problems.md#cocktailapp)                       |0.2.0      |       |        |1    |
-|[codebook](problems.md#codebook)                             |0.8.0      |       |        |3    |
-|[CoGAPS](problems.md#cogaps)                                 |3.0.2      |       |        |2    |
-|colorspace                                                   |1.4-0      |       |        |     |
-|colourpicker                                                 |1.0        |       |        |     |
-|[compareGroups](problems.md#comparegroups)                   |4.0.0      |       |        |1    |
-|[COMPASS](problems.md#compass)                               |1.18.1     |       |1       |3    |
-|complexity                                                   |1.1.1      |       |        |     |
-|[condformat](problems.md#condformat)                         |0.8.0      |       |        |1    |
-|condir                                                       |0.1.1      |       |        |     |
-|condvis                                                      |0.5-1      |       |        |     |
-|convertr                                                     |0.1        |       |        |     |
-|[CoRegNet](problems.md#coregnet)                             |1.18.0     |1      |1       |2    |
-|[cosinor](problems.md#cosinor)                               |1.1        |       |        |1    |
-|countfitteR                                                  |1.0        |       |        |     |
-|[coveffectsplot](problems.md#coveffectsplot)                 |0.0.3      |       |        |1    |
-|[CRANsearcher](problems.md#cransearcher)                     |1.0.0      |       |        |1    |
-|[crawl](problems.md#crawl)                                   |2.2.1      |       |        |1    |
-|credsubs                                                     |1.0.1      |       |        |     |
-|[crisprseekplus](problems.md#crisprseekplus)                 |1.6.0      |       |1       |     |
-|cromwellDashboard                                            |0.5.1      |       |        |     |
-|cronR                                                        |0.4.0      |       |        |     |
-|[crossmeta](problems.md#crossmeta)                           |1.6.0      |       |1       |4    |
-|crosstalk                                                    |1.0.0      |       |        |     |
-|crunchy                                                      |0.2.0      |       |        |     |
-|[CTRE](problems.md#ctre)                                     |0.1.0      |       |        |1    |
-|[ctsem](problems.md#ctsem)                                   |2.8.2      |       |        |2    |
-|ctsGE                                                        |1.6.1      |       |        |     |
-|CTTinShiny                                                   |0.1.0      |       |        |     |
-|CTTShiny                                                     |0.1        |       |        |     |
-|[CVE](problems.md#cve)                                       |1.6.0      |       |1       |1    |
-|[cydar](problems.md#cydar)                                   |1.4.0      |       |1       |1    |
-|CytobankAPIstats                                             |2.0        |       |        |     |
-|[cytofkit](problems.md#cytofkit)                             |1.12.0     |1      |        |2    |
-|[d3heatmap](problems.md#d3heatmap)                           |0.6.1.2    |       |        |1    |
-|[d3Tree](problems.md#d3tree)                                 |0.2.0      |       |        |1    |
-|data.world                                                   |1.2.2      |       |        |     |
-|[datacheck](problems.md#datacheck)                           |1.2.2      |       |        |2    |
-|[datadigest](problems.md#datadigest)                         |1.0.2      |       |        |1    |
-|datamaps                                                     |0.0.3      |       |        |     |
-|datasets.load                                                |0.3.0      |       |        |     |
-|ddpcr                                                        |1.11       |       |        |     |
-|[debrowser](problems.md#debrowser)                           |1.8.5      |1      |        |     |
-|deisotoper                                                   |0.0.3      |       |        |     |
-|[DEP](problems.md#dep)                                       |1.2.0      |       |        |1    |
-|[detzrcr](problems.md#detzrcr)                               |0.2.4      |       |        |1    |
-|dexter                                                       |0.8.4      |       |        |     |
-|[dextergui](problems.md#dextergui)                           |0.1.6      |       |        |1    |
-|diffr                                                        |0.1        |       |        |     |
-|discoveR                                                     |1.1.0      |       |        |     |
-|distcomp                                                     |1.0-1      |       |        |     |
-|distreg.vis                                                  |1.1.0      |       |        |     |
-|diveRsity                                                    |1.9.90     |       |        |     |
-|[DLMtool](problems.md#dlmtool)                               |5.3        |       |        |1    |
-|[Doscheda](problems.md#doscheda)                             |1.2.0      |       |        |1    |
-|dpcR                                                         |0.5        |       |        |     |
-|[dplyrAssist](problems.md#dplyrassist)                       |0.1.0      |1      |        |     |
-|dqshiny                                                      |0.0.3      |       |        |     |
-|dragulaR                                                     |0.3.1      |       |        |     |
-|DRomics                                                      |1.0-2      |       |        |     |
-|[dropR](problems.md#dropr)                                   |0.1        |       |        |1    |
-|[DSAIDE](problems.md#dsaide)                                 |0.7.0      |       |        |2    |
-|[DSAIRM](problems.md#dsairm)                                 |0.5.5      |       |        |1    |
-|DT                                                           |0.5        |       |        |     |
-|DTAT                                                         |0.3-1      |       |        |     |
-|[dtwclust](problems.md#dtwclust)                             |5.5.2      |       |        |1    |
-|DVHmetrics                                                   |0.3.7      |       |        |     |
-|[dynamichazard](problems.md#dynamichazard)                   |0.6.4      |       |        |1    |
-|DynNom                                                       |4.1.1      |       |        |     |
-|Eagle                                                        |1.3.0      |       |        |     |
-|[eAnalytics](problems.md#eanalytics)                         |0.1.4      |1      |        |     |
-|easySdcTable                                                 |0.3.3      |       |        |     |
-|[EBImage](problems.md#ebimage)                               |4.22.1     |       |        |1    |
-|ECharts2Shiny                                                |0.2.13     |       |        |     |
-|echarts4r                                                    |0.2.1      |       |        |     |
-|edeaR                                                        |0.8.2      |       |        |     |
-|edgebundleR                                                  |0.1.4      |       |        |     |
-|editData                                                     |0.1.2      |       |        |     |
-|eemR                                                         |0.1.5      |       |        |     |
-|EffectLiteR                                                  |0.4-3      |       |        |     |
-|[effectR](problems.md#effectr)                               |1.0.2      |       |        |1    |
-|[egor](problems.md#egor)                                     |0.19.1     |       |        |1    |
-|[EHRtemporalVariability](problems.md#ehrtemporalvariability) |1.0        |       |        |2    |
-|[elementR](problems.md#elementr)                             |1.3.6      |1      |        |     |
-|[embryogrowth](problems.md#embryogrowth)                     |7.4.1      |       |        |1    |
-|[EmiStatR](problems.md#emistatr)                             |1.2.1.2    |1      |        |     |
-|EMMAgeo                                                      |0.9.4      |       |        |     |
-|EMSaov                                                       |2.3        |       |        |     |
-|[emuR](problems.md#emur)                                     |1.1.2      |       |        |1    |
-|[ENCODExplorer](problems.md#encodexplorer)                   |2.6.0      |       |        |3    |
-|[enviGCMS](problems.md#envigcms)                             |0.5.0      |       |        |1    |
-|enviPick                                                     |1.5        |       |        |     |
-|[epicontacts](problems.md#epicontacts)                       |1.1.0      |       |        |1    |
-|epimdr                                                       |0.6-2      |       |        |     |
-|EpiModel                                                     |1.7.2      |       |        |     |
-|[EpiSignalDetection](problems.md#episignaldetection)         |0.1.1      |       |        |1    |
-|[erma](problems.md#erma)                                     |0.12.0     |1      |        |     |
-|ERSA                                                         |0.1.1      |       |        |     |
-|[esquisse](problems.md#esquisse)                             |0.1.7      |1      |        |     |
-|EurosarcBayes                                                |1.1        |       |        |     |
-|evaluator                                                    |0.3.2      |       |        |     |
-|[EventStudy](problems.md#eventstudy)                         |0.36       |       |        |2    |
-|evobiR                                                       |1.1        |       |        |     |
-|ExPanDaR                                                     |0.3.0      |       |        |     |
-|explor                                                       |0.3.4      |       |        |     |
-|Factoshiny                                                   |1.0.7      |       |        |     |
-|[fanplot](problems.md#fanplot)                               |3.4.1      |       |        |1    |
-|[FELLA](problems.md#fella)                                   |1.0.1      |1      |        |2    |
-|findviews                                                    |0.1.3      |       |        |     |
-|[fingertipsR](problems.md#fingertipsr)                       |0.2.1      |       |        |1    |
-|[fitteR](problems.md#fitter)                                 |0.1.0      |       |        |1    |
-|[fitur](problems.md#fitur)                                   |0.6.1      |       |        |1    |
-|flacco                                                       |1.7        |       |        |     |
-|flexdashboard                                                |0.5.1.1    |       |        |     |
-|[flora](problems.md#flora)                                   |0.3.0      |       |        |1    |
-|[flowAI](problems.md#flowai)                                 |1.10.1     |       |        |1    |
-|[flowcatchR](problems.md#flowcatchr)                         |1.14.0     |       |        |3    |
-|[flowPloidy](problems.md#flowploidy)                         |1.6.0      |       |        |1    |
-|formatR                                                      |1.6        |       |        |     |
-|formattable                                                  |0.2.0.1    |       |        |     |
-|FreqProf                                                     |0.0.1      |       |        |     |
-|frequency                                                    |0.3.1      |       |        |     |
-|[FunChIP](problems.md#funchip)                               |1.6.0      |       |2       |3    |
-|FuzzyR                                                       |2.1        |       |        |     |
-|G2Sd                                                         |2.1.5      |       |        |     |
-|g3viz                                                        |0.1.4      |       |        |     |
-|[GA4GHshiny](problems.md#ga4ghshiny)                         |1.2.0      |1      |        |2    |
-|[gamesGA](problems.md#gamesga)                               |1.1.3.6    |       |        |1    |
-|[gastempt](problems.md#gastempt)                             |0.4.4      |       |        |3    |
-|gazepath                                                     |1.2        |       |        |     |
-|[GDCRNATools](problems.md#gdcrnatools)                       |1.1.1      |1      |        |     |
-|GDINA                                                        |2.4.0      |       |        |     |
-|[genBaRcode](problems.md#genbarcode)                         |1.1.0      |1      |        |     |
-|[genBart](problems.md#genbart)                               |1.0.1      |       |        |1    |
-|[GeneNetworkBuilder](problems.md#genenetworkbuilder)         |1.22.0     |       |1       |1    |
-|GenEst                                                       |1.2.3      |       |        |     |
-|genogeographer                                               |0.1.8      |       |        |     |
-|[GerminaR](problems.md#germinar)                             |1.2        |       |        |1    |
-|[getTBinR](problems.md#gettbinr)                             |0.5.7      |       |        |1    |
-|[ggedit](problems.md#ggedit)                                 |0.3.0      |       |        |1    |
-|[ggExtra](problems.md#ggextra)                               |0.8        |       |        |1    |
-|[ggiraph](problems.md#ggiraph)                               |0.6.0      |       |        |1    |
-|[ggplotAssist](problems.md#ggplotassist)                     |0.1.3      |1      |        |     |
-|ggplotgui                                                    |1.0.0      |       |        |     |
-|[ggquickeda](problems.md#ggquickeda)                         |0.1.2      |       |        |1    |
-|ggraptR                                                      |1.1        |       |        |     |
-|ggThemeAssist                                                |0.1.5      |       |        |     |
-|[ggvis](problems.md#ggvis)                                   |0.4.4      |       |        |1    |
-|[gimmeTools](problems.md#gimmetools)                         |0.1        |1      |        |     |
-|giphyr                                                       |0.1.3      |       |        |     |
-|gitgadget                                                    |0.2.1      |       |        |     |
-|gitlabr                                                      |1.1.6      |       |        |     |
-|gmDatabase                                                   |0.5.0      |       |        |     |
-|GMSE                                                         |0.4.0.7    |       |        |     |
-|googleAnalyticsR                                             |0.6.0      |       |        |     |
-|[googleAuthR](problems.md#googleauthr)                       |0.7.0      |       |        |1    |
-|googleLanguageR                                              |0.2.0      |       |        |     |
-|googleVis                                                    |0.6.3      |       |        |     |
-|googleway                                                    |2.7.1      |       |        |     |
-|[gQTLstats](problems.md#gqtlstats)                           |1.12.0     |1      |        |     |
-|gradientPickerD3                                             |0.1.0.0    |       |        |     |
-|[gridsampler](problems.md#gridsampler)                       |0.6        |       |        |1    |
-|[GSCA](problems.md#gsca)                                     |2.10.0     |       |        |3    |
-|[GSVA](problems.md#gsva)                                     |1.28.0     |       |1       |2    |
-|gwdegree                                                     |0.1.1      |       |        |     |
-|GWSDAT                                                       |3.0.3      |       |        |     |
-|HARtools                                                     |0.0.5      |       |        |     |
-|HelpersMG                                                    |3.5        |       |        |     |
-|HH                                                           |3.1-35     |       |        |     |
-|[highcharter](problems.md#highcharter)                       |0.7.0      |       |        |1    |
-|highlightHTML                                                |0.2.1      |       |        |     |
-|hR                                                           |0.1.7      |       |        |     |
-|iCOBRA                                                       |1.8.0      |       |        |     |
-|ICSShiny                                                     |0.5        |       |        |     |
-|[ideal](problems.md#ideal)                                   |1.4.0      |1      |        |     |
-|[idefix](problems.md#idefix)                                 |0.3.3      |       |        |2    |
-|[idem](problems.md#idem)                                     |4.0        |       |        |2    |
-|ifaTools                                                     |0.19       |       |        |     |
-|igraphinshiny                                                |0.1        |       |        |     |
-|iheatmapr                                                    |0.4.3      |       |        |     |
-|[Imetagene](problems.md#imetagene)                           |1.10.0     |1      |        |     |
-|IMP                                                          |1.1        |       |        |     |
-|ImportExport                                                 |1.1        |       |        |     |
-|IncucyteDRC                                                  |0.5.4      |       |        |     |
-|[INDperform](problems.md#indperform)                         |0.2.0      |       |        |1    |
-|inferr                                                       |0.3.0      |       |        |     |
-|[inlabru](problems.md#inlabru)                               |2.1.9      |       |        |2    |
-|[interactiveDisplay](problems.md#interactivedisplay)         |1.18.0     |       |1       |3    |
-|[interactiveDisplayBase](problems.md#interactivedisplaybase) |1.18.0     |       |        |2    |
-|[interAdapt](problems.md#interadapt)                         |0.1        |       |        |2    |
-|ioncopy                                                      |2.1.1      |       |        |     |
-|ipc                                                          |0.1.2      |       |        |     |
-|[ipumsr](problems.md#ipumsr)                                 |0.4.0      |       |        |1    |
-|irtDemo                                                      |0.1.4      |       |        |     |
-|IRTShiny                                                     |1.2        |       |        |     |
-|[iSEE](problems.md#isee)                                     |1.0.1      |2      |1       |2    |
-|[ivygapSE](problems.md#ivygapse)                             |1.2.0      |       |1       |2    |
-|[JMbayes](problems.md#jmbayes)                               |0.8-71     |1      |        |     |
-|JointNets                                                    |1.0.0      |       |        |     |
-|[jpmesh](problems.md#jpmesh)                                 |1.1.1      |       |        |1    |
-|[jpndistrict](problems.md#jpndistrict)                       |0.3.2      |       |        |1    |
-|jsmodule                                                     |0.7.10     |       |        |     |
-|KappaGUI                                                     |2.0.2      |       |        |     |
-|kgc                                                          |1.0.0.2    |       |        |     |
-|kgschart                                                     |1.3.5      |       |        |     |
-|[kokudosuuchi](problems.md#kokudosuuchi)                     |0.4.2      |       |        |1    |
-|[koRpus](problems.md#korpus)                                 |0.11-5     |       |        |1    |
-|lavaan.shiny                                                 |1.2        |       |        |     |
-|LBSPR                                                        |0.1.3      |       |        |     |
-|LDAvis                                                       |0.3.2      |       |        |     |
-|leaflet                                                      |2.0.2      |       |        |     |
-|leaflet.minicharts                                           |0.5.4      |       |        |     |
-|learnr                                                       |0.9.2.1    |       |        |     |
-|[learnstats](problems.md#learnstats)                         |0.1.1      |       |        |1    |
-|lifelogr                                                     |0.1.0      |       |        |     |
-|lightsout                                                    |0.3        |       |        |     |
-|[likert](problems.md#likert)                                 |1.3.5      |       |        |1    |
-|lime                                                         |0.4.1      |-1     |        |     |
-|linguisticsdown                                              |1.2.0      |       |        |     |
-|linkspotter                                                  |1.2.0      |       |        |     |
-|linpk                                                        |1.0        |       |        |     |
-|[listviewer](problems.md#listviewer)                         |2.1.0      |       |        |1    |
-|[live](problems.md#live)                                     |1.5.10     |       |        |1    |
-|[lmviz](problems.md#lmviz)                                   |0.1.1      |       |        |1    |
-|manipulateWidget                                             |0.10.0     |       |        |     |
-|[mapdeck](problems.md#mapdeck)                               |0.2.1      |       |        |2    |
-|[mapedit](problems.md#mapedit)                               |0.4.3      |       |        |1    |
-|MAVIS                                                        |1.1.3      |       |        |     |
-|MazamaSpatialUtils                                           |0.6.1      |       |        |     |
-|mbgraphic                                                    |1.0.0      |       |        |     |
-|meltt                                                        |0.4.0      |       |        |     |
-|[memapp](problems.md#memapp)                                 |2.12       |       |        |1    |
-|[memery](problems.md#memery)                                 |0.5.0      |       |        |1    |
-|mephas                                                       |1.0.0      |       |        |     |
-|merTools                                                     |0.4.1      |       |        |     |
-|[meta4diag](problems.md#meta4diag)                           |2.0.8      |       |        |1    |
-|MetaAnalyser                                                 |0.2.1      |       |        |     |
-|[MetamapsDB](problems.md#metamapsdb)                         |0.0.2      |       |        |1    |
-|metamer                                                      |0.1.0      |       |        |     |
-|[MetCirc](problems.md#metcirc)                               |1.10.0     |1      |        |1    |
-|[MethylAid](problems.md#methylaid)                           |1.14.0     |2      |1       |1    |
-|metricsgraphics                                              |0.9.0      |       |        |     |
-|mgcViz                                                       |0.1.3      |       |        |     |
-|[microsamplingDesign](problems.md#microsamplingdesign)       |1.0.5      |       |        |1    |
-|midas                                                        |1.0.1      |       |        |     |
-|miniUI                                                       |0.1.1.1    |       |        |     |
-|[miRcomp](problems.md#mircomp)                               |1.10.0     |       |1       |     |
-|mirt                                                         |1.30       |       |        |     |
-|mirtCAT                                                      |1.8        |       |        |     |
-|mizer                                                        |1.0.1      |       |        |     |
-|mldr                                                         |0.4.2      |       |        |     |
-|[MLInterfaces](problems.md#mlinterfaces)                     |1.60.1     |2      |2       |5    |
-|mlxR                                                         |3.3.0      |       |        |     |
-|[MMDiff2](problems.md#mmdiff2)                               |1.8.0      |       |        |5    |
-|modest                                                       |0.3-1      |       |        |     |
-|[MODIStsp](problems.md#modistsp)                             |1.3.8      |1      |        |     |
-|mplot                                                        |1.0.2      |       |        |     |
-|mrMLM.GUI                                                    |3.2        |       |        |     |
-|[MSGFgui](problems.md#msgfgui)                               |1.14.0     |       |        |2    |
-|[MSnbase](problems.md#msnbase)                               |2.6.4      |2      |1       |4    |
-|MSstatsQCgui                                                 |1.0.0      |       |        |     |
-|[MtreeRing](problems.md#mtreering)                           |1.1        |1      |        |     |
-|[MuChPoint](problems.md#muchpoint)                           |0.6.1      |       |        |1    |
-|multichull                                                   |1.0.0      |       |        |     |
-|mwaved                                                       |1.1.5      |       |        |     |
-|mwshiny                                                      |0.1.0      |       |        |     |
-|[nbc4va](problems.md#nbc4va)                                 |1.1        |       |        |1    |
-|[neo4r](problems.md#neo4r)                                   |0.1.1      |       |        |1    |
-|netrankr                                                     |0.2.1      |       |        |     |
-|nlgeocoder                                                   |0.1.3      |       |        |     |
-|NNTbiomarker                                                 |0.29.11    |       |        |     |
-|normalr                                                      |1.0.0      |       |        |     |
-|npregfast                                                    |1.5.1      |       |        |     |
-|[objectremover](problems.md#objectremover)                   |0.6.4      |       |        |1    |
-|olsrr                                                        |0.5.2      |       |        |     |
-|omicplotR                                                    |1.0.1      |       |        |     |
-|[oneSENSE](problems.md#onesense)                             |1.2.0      |       |1       |1    |
-|[ontoProc](problems.md#ontoproc)                             |1.2.1      |2      |1       |5    |
-|OpenImageR                                                   |1.1.5      |       |        |     |
-|[openPrimeRui](problems.md#openprimerui)                     |1.2.0      |       |        |2    |
-|optimStrat                                                   |2.0        |       |        |     |
-|OWEA                                                         |0.1.1      |       |        |     |
-|[pairsD3](problems.md#pairsd3)                               |0.1.0      |       |        |1    |
-|[PanVizGenerator](problems.md#panvizgenerator)               |1.8.0      |       |        |1    |
-|ParallelLogger                                               |1.1.0      |       |        |     |
-|paramGUI                                                     |2.1.3      |       |        |     |
-|PathoStat                                                    |1.6.1      |       |        |     |
-|[pcadapt](problems.md#pcadapt)                               |4.1.0      |       |        |1    |
-|[pcaExplorer](problems.md#pcaexplorer)                       |2.6.0      |1      |        |     |
-|pdfsearch                                                    |0.3.0      |       |        |     |
-|PDShiny                                                      |0.1.0      |       |        |     |
-|PELVIS                                                       |1.1.0      |       |        |     |
-|[pepStat](problems.md#pepstat)                               |1.14.0     |       |        |3    |
-|[periscope](problems.md#periscope)                           |0.4.1      |       |        |1    |
-|[phenocamr](problems.md#phenocamr)                           |1.1.3      |       |        |1    |
-|phenology                                                    |7.3        |       |        |     |
-|phuse                                                        |0.1.7      |       |        |     |
-|pipe.design                                                  |0.5.1      |       |        |     |
-|pipefittr                                                    |0.1.2      |       |        |     |
-|[pitchRx](problems.md#pitchrx)                               |1.8.2      |       |        |1    |
-|PivotalR                                                     |0.1.18.3.1 |       |        |     |
-|[pivottabler](problems.md#pivottabler)                       |1.1.0      |       |        |1    |
-|pixels                                                       |0.1.0      |       |        |     |
-|PKconverter                                                  |1.3        |       |        |     |
-|[plethem](problems.md#plethem)                               |0.1.7      |1      |        |     |
-|[plotly](problems.md#plotly)                                 |4.8.0      |       |        |1    |
-|plotROC                                                      |2.2.1      |       |        |     |
-|plotSEMM                                                     |2.4        |       |        |     |
-|plsr                                                         |0.0.1      |       |        |     |
-|[pmd](problems.md#pmd)                                       |0.1.1      |       |        |2    |
-|[pogos](problems.md#pogos)                                   |1.0.0      |       |1       |1    |
-|polmineR                                                     |0.7.11     |       |        |     |
-|[PopED](problems.md#poped)                                   |0.4.0      |       |        |1    |
-|[poppr](problems.md#poppr)                                   |2.8.2      |       |        |1    |
-|populationPDXdesign                                          |1.0.3      |       |        |     |
-|[powdR](problems.md#powdr)                                   |0.2.0      |1      |        |     |
-|powerlmm                                                     |0.4.0      |       |        |     |
-|ppcSpatial                                                   |0.2.0      |       |        |     |
-|pqantimalarials                                              |0.2        |       |        |     |
-|[predictoR](problems.md#predictor)                           |1.0.4      |1      |        |     |
-|[prioritizr](problems.md#prioritizr)                         |4.0.2      |       |        |1    |
-|[processanimateR](problems.md#processanimater)               |1.0.0      |       |        |2    |
-|processmapR                                                  |0.3.3      |       |        |     |
-|processmonitR                                                |0.1.0      |       |        |     |
-|[processR](problems.md#processr)                             |0.1.0      |1      |        |     |
-|ProjectionBasedClustering                                    |1.0.7      |       |        |     |
-|projector                                                    |0.0.2      |       |        |     |
-|[pRolocGUI](problems.md#prolocgui)                           |1.14.0     |1      |2       |3    |
-|Prostar                                                      |1.12.18    |       |        |     |
-|[psichomics](problems.md#psichomics)                         |1.6.2      |       |        |2    |
-|[QCA](problems.md#qca)                                       |3.4        |       |        |1    |
-|qgam                                                         |1.2.3      |       |        |     |
-|[qlcData](problems.md#qlcdata)                               |0.2.1      |       |        |1    |
-|[qqplotr](problems.md#qqplotr)                               |0.0.3      |       |        |1    |
-|qqvases                                                      |1.0.0      |       |        |     |
-|QRAGadget                                                    |0.1.0      |       |        |     |
-|qrage                                                        |1.0        |       |        |     |
-|QTL.gCIMapping.GUI                                           |1.0        |       |        |     |
-|[questionr](problems.md#questionr)                           |0.7.0      |       |        |2    |
-|r2d3                                                         |0.2.3      |       |        |     |
-|[R3CPET](problems.md#r3cpet)                                 |1.12.0     |       |        |5    |
-|rabi                                                         |1.0.0      |       |        |     |
-|radarchart                                                   |0.3.1      |       |        |     |
-|radiant                                                      |0.9.9      |       |        |     |
-|radiant.basics                                               |0.9.9      |       |        |     |
-|radiant.data                                                 |0.9.9      |       |        |     |
-|radiant.design                                               |0.9.9      |       |        |     |
-|radiant.model                                                |0.9.9      |       |        |     |
-|radiant.multivariate                                         |0.9.9      |       |        |     |
-|radix                                                        |0.6        |       |        |     |
-|[RagGrid](problems.md#raggrid)                               |0.2.0      |       |        |1    |
-|[rAmCharts](problems.md#ramcharts)                           |2.1.10     |       |        |1    |
-|[rangeMapper](problems.md#rangemapper)                       |0.3-4      |       |        |1    |
-|RanglaPunjab                                                 |2.3.4      |       |        |     |
-|[Rariant](problems.md#rariant)                               |1.16.0     |1      |        |4    |
-|[rbin](problems.md#rbin)                                     |0.1.1      |       |        |1    |
-|[rblt](problems.md#rblt)                                     |0.2.3.6    |1      |        |     |
-|[rcellminer](problems.md#rcellminer)                         |2.2.0      |1      |        |     |
-|[rCGH](problems.md#rcgh)                                     |1.10.0     |1      |        |     |
-|rclipboard                                                   |0.1.1      |       |        |     |
-|rcrossref                                                    |0.9.0      |       |        |     |
-|rddapp                                                       |1.1.0      |       |        |     |
-|[RDML](problems.md#rdml)                                     |0.9-9      |       |        |1    |
-|reactR                                                       |0.3.0      |       |        |     |
-|[recmap](problems.md#recmap)                                 |1.0.1      |       |        |1    |
-|[RefNet](problems.md#refnet)                                 |1.16.0     |1      |1       |3    |
-|refund.shiny                                                 |0.3.0      |       |        |     |
-|regexSelect                                                  |1.0.0      |       |        |     |
-|Repliscope                                                   |1.0.0      |       |        |     |
-|repo                                                         |2.1.3      |       |        |     |
-|[ReportingTools](problems.md#reportingtools)                 |2.20.0     |1      |        |     |
-|[reprex](problems.md#reprex)                                 |0.2.1      |       |        |1    |
-|[revtools](problems.md#revtools)                             |0.3.0      |       |        |1    |
-|[RforProteomics](problems.md#rforproteomics)                 |1.18.1     |       |1       |2    |
-|RGA                                                          |0.4.2      |       |        |     |
-|[rgl](problems.md#rgl)                                       |0.100.19   |       |        |2    |
-|[rhandsontable](problems.md#rhandsontable)                   |0.3.7      |       |        |1    |
-|Rilostat                                                     |0.2.1      |       |        |     |
-|rintrojs                                                     |0.2.0      |       |        |     |
-|rivr                                                         |1.2-1      |       |        |     |
-|[RLumShiny](problems.md#rlumshiny)                           |0.2.2      |       |        |1    |
-|[rmarkdown](problems.md#rmarkdown)                           |1.12       |       |        |1    |
-|[rmd](problems.md#rmd)                                       |0.1.4      |       |        |1    |
-|[RnBeads](problems.md#rnbeads)                               |1.12.1     |1      |        |2    |
-|Rnightlights                                                 |0.2.3      |       |        |     |
-|rnn                                                          |0.8.1      |       |        |     |
-|roadoi                                                       |0.5.2      |       |        |     |
-|robmed                                                       |0.3.0      |       |        |     |
-|[rosr](problems.md#rosr)                                     |0.0.5      |       |        |1    |
-|[rpostgisLT](problems.md#rpostgislt)                         |0.6.0      |1      |        |     |
-|[Rqc](problems.md#rqc)                                       |1.14.0     |       |        |1    |
-|[RQuantLib](problems.md#rquantlib)                           |0.4.8      |1      |        |     |
-|rrtable                                                      |0.1.0      |       |        |     |
-|[rsconnect](problems.md#rsconnect)                           |0.8.13     |       |        |1    |
-|[rtimicropem](problems.md#rtimicropem)                       |1.3        |       |        |1    |
-|[rTRMui](problems.md#rtrmui)                                 |1.18.0     |1      |        |     |
-|[RtutoR](problems.md#rtutor)                                 |1.2        |       |        |1    |
-|rusk                                                         |0.1.1      |       |        |     |
-|ruv                                                          |0.9.7      |       |        |     |
-|rwalkr                                                       |0.4.0      |       |        |     |
-|[RxODE](problems.md#rxode)                                   |0.8.0-9    |       |        |1    |
-|sadists                                                      |0.2.3      |       |        |     |
-|safetyGraphics                                               |0.7.3      |       |        |     |
-|samr                                                         |3.0        |       |        |     |
-|[sangerseqR](problems.md#sangerseqr)                         |1.16.0     |       |        |1    |
-|[santaR](problems.md#santar)                                 |1.0        |       |        |1    |
-|[SC3](problems.md#sc3)                                       |1.8.0      |       |1       |1    |
-|[scater](problems.md#scater)                                 |1.8.4      |1      |1       |1    |
-|scdhlm                                                       |0.3.1      |       |        |     |
-|[scone](problems.md#scone)                                   |1.4.0      |       |1       |2    |
-|[scran](problems.md#scran)                                   |1.8.4      |       |2       |2    |
-|sdcHierarchies                                               |0.17       |       |        |     |
-|sdcMicro                                                     |5.3.0      |       |        |     |
-|[SDEFSR](problems.md#sdefsr)                                 |0.7.1.0    |       |        |1    |
-|sdm                                                          |1.0-67     |       |        |     |
-|[SEA](problems.md#sea)                                       |1.0        |       |        |1    |
-|searchConsoleR                                               |0.3.0      |       |        |     |
-|seasonalview                                                 |0.3        |       |        |     |
-|semantic.dashboard                                           |0.1.1      |       |        |     |
-|[semdrw](problems.md#semdrw)                                 |0.1.0      |       |        |1    |
-|SensMixed                                                    |2.1-0      |       |        |     |
-|[SEPA](problems.md#sepa)                                     |1.10.0     |1      |        |     |
-|[seqplots](problems.md#seqplots)                             |1.18.0     |       |        |3    |
-|serieslcb                                                    |0.3.0      |       |        |     |
-|[sevenbridges](problems.md#sevenbridges)                     |1.10.5     |       |        |1    |
-|[sglr](problems.md#sglr)                                     |0.7        |       |        |2    |
-|SHELF                                                        |1.4.0      |       |        |     |
-|[shiny.router](problems.md#shinyrouter)                      |0.1.1      |       |        |1    |
-|[shiny.semantic](problems.md#shinysemantic)                  |0.2.1      |       |        |1    |
-|[shinyAce](problems.md#shinyace)                             |0.3.3      |       |        |1    |
-|[shinyaframe](problems.md#shinyaframe)                       |1.0.1      |       |        |1    |
-|shinyalert                                                   |1.0        |       |        |     |
-|shinyanimate                                                 |0.3.0      |       |        |     |
-|shinybootstrap2                                              |0.2.1      |       |        |     |
-|[shinyBS](problems.md#shinybs)                               |0.61       |       |        |1    |
-|shinycssloaders                                              |0.2.0      |       |        |     |
-|shinycustomloader                                            |0.9.0      |       |        |     |
-|shinydashboard                                               |0.7.1      |       |        |     |
-|[shinydashboardPlus](problems.md#shinydashboardplus)         |0.6.0      |       |        |1    |
-|shinyDND                                                     |0.1.0      |       |        |     |
-|[shinyEffects](problems.md#shinyeffects)                     |0.1.0      |       |        |1    |
-|shinyEventLogger                                             |0.1.1      |       |        |     |
-|shinyFeedback                                                |0.1.0      |       |        |     |
-|shinyFiles                                                   |0.7.2      |       |        |     |
-|[shinyHeatmaply](problems.md#shinyheatmaply)                 |0.1.0      |       |        |1    |
-|[shinyhelper](problems.md#shinyhelper)                       |0.3.1      |       |        |1    |
-|ShinyImage                                                   |0.1.0      |       |        |     |
-|[ShinyItemAnalysis](problems.md#shinyitemanalysis)           |1.3.0      |       |        |2    |
-|shinyjqui                                                    |0.3.2      |       |        |     |
-|[shinyjs](problems.md#shinyjs)                               |1.0        |       |        |1    |
-|[shinyKGode](problems.md#shinykgode)                         |1.0.5      |       |        |1    |
-|shinyLP                                                      |1.1.2      |       |        |     |
-|shinymaterial                                                |0.5.5      |       |        |     |
-|shinyMatrix                                                  |0.1.0      |       |        |     |
-|[shinyMethyl](problems.md#shinymethyl)                       |1.16.0     |1      |        |     |
-|[shinyrecap](problems.md#shinyrecap)                         |0.1.0      |       |        |1    |
-|shinyRGL                                                     |0.1.0      |       |        |     |
-|[shinystan](problems.md#shinystan)                           |2.5.0      |       |        |1    |
-|[shinyTANDEM](problems.md#shinytandem)                       |1.18.0     |       |        |2    |
-|shinytest                                                    |1.3.0      |       |        |     |
-|shinythemes                                                  |1.1.2      |       |        |     |
-|shinyTime                                                    |0.2.1      |       |        |     |
-|shinytoastr                                                  |2.1.1      |       |        |     |
-|shinyTree                                                    |0.2.6      |       |        |     |
-|[shinyWidgets](problems.md#shinywidgets)                     |0.4.7      |__+1__ |        |     |
-|shotGroups                                                   |0.7.4      |       |        |     |
-|[sigmajs](problems.md#sigmajs)                               |0.1.2      |       |        |2    |
-|sigmaNet                                                     |1.1.0      |       |        |     |
-|signalHsmm                                                   |1.5        |       |        |     |
-|[SimDesign](problems.md#simdesign)                           |1.13       |       |        |1    |
-|simglm                                                       |0.7.2      |       |        |     |
-|simPATHy                                                     |0.2        |       |        |     |
-|sinew                                                        |0.3.8      |       |        |     |
-|SingleCaseES                                                 |0.4.1      |       |        |     |
-|[singleCellTK](problems.md#singlecelltk)                     |1.0.3      |1      |        |     |
-|skeleSim                                                     |0.9.8      |       |        |     |
-|skpr                                                         |0.57.0     |       |        |     |
-|slickR                                                       |0.2.4      |       |        |     |
-|SMITIDvisu                                                   |0.0.4      |       |        |     |
-|snotelr                                                      |1.0.1      |       |        |     |
-|[soc.ca](problems.md#socca)                                  |0.7.3      |       |        |1    |
-|Sofi                                                         |0.16.4.8   |       |        |     |
-|[soilcarbon](problems.md#soilcarbon)                         |1.2.0      |       |        |1    |
-|solvebio                                                     |2.6.1      |       |        |     |
-|SOMbrero                                                     |1.2-4      |       |        |     |
-|[soundgen](problems.md#soundgen)                             |1.4.0      |       |        |1    |
-|[SpaDES.addins](problems.md#spadesaddins)                    |0.1.2      |       |        |1    |
-|sparkline                                                    |2.0        |       |        |     |
-|sparklyr                                                     |1.0.0      |       |        |     |
-|sparkTable                                                   |1.3.0      |       |        |     |
-|[SpatialEpiApp](problems.md#spatialepiapp)                   |0.3        |       |        |2    |
-|[spectrolab](problems.md#spectrolab)                         |0.0.8      |       |        |1    |
-|SpNetPrep                                                    |1.1        |       |        |     |
-|[spotGUI](problems.md#spotgui)                               |0.2.1      |1      |        |     |
-|SqlRender                                                    |1.6.0      |       |        |     |
-|squid                                                        |0.1.1      |       |        |     |
-|[SSDM](problems.md#ssdm)                                     |0.2.4      |       |        |1    |
-|[sstModel](problems.md#sstmodel)                             |1.0.0      |       |        |1    |
-|statnetWeb                                                   |0.5.0      |       |        |     |
-|statsr                                                       |0.1-0      |       |        |     |
-|[steemr](problems.md#steemr)                                 |0.1.3      |       |        |1    |
-|StereoMorph                                                  |1.6.2      |       |        |     |
-|stmgui                                                       |0.1.6      |       |        |     |
-|[stminsights](problems.md#stminsights)                       |0.3.0      |       |        |1    |
-|STMotif                                                      |1.0.2      |       |        |     |
-|[strataG](problems.md#stratag)                               |2.0.2      |       |        |1    |
-|[StratigrapheR](problems.md#stratigrapher)                   |0.0.2      |       |        |1    |
-|[subscreen](problems.md#subscreen)                           |2.0.1      |       |        |1    |
-|SubVis                                                       |2.0.2      |       |        |     |
-|swirlify                                                     |0.5.2      |       |        |     |
-|synthACS                                                     |1.4.5      |       |        |     |
-|[tableHTML](problems.md#tablehtml)                           |1.1.0      |       |        |1    |
-|[tablerDash](problems.md#tablerdash)                         |0.1.0      |       |        |2    |
-|tabulizer                                                    |0.2.2      |       |        |     |
-|taipan                                                       |0.1.2      |       |        |     |
-|[TAShiny](problems.md#tashiny)                               |0.1.0      |       |        |1    |
-|[TCGAbiolinksGUI](problems.md#tcgabiolinksgui)               |1.6.1      |1      |        |     |
-|TeachBayes                                                   |1.0        |       |        |     |
-|teachingApps                                                 |1.0.4      |       |        |     |
-|[tenXplore](problems.md#tenxplore)                           |1.2.0      |1      |        |     |
-|[testextra](problems.md#testextra)                           |0.1.0      |       |        |1    |
-|texPreview                                                   |1.2.3      |       |        |     |
-|[TFutils](problems.md#tfutils)                               |1.0.0      |2      |1       |2    |
-|themetagenomics                                              |0.1.0      |       |        |     |
-|tidystats                                                    |0.3        |       |        |     |
-|tigerstats                                                   |0.3        |       |        |     |
-|[timeline](problems.md#timeline)                             |0.9        |       |        |2    |
-|[TimerQuant](problems.md#timerquant)                         |1.10.0     |       |        |1    |
-|[timeseriesdb](problems.md#timeseriesdb)                     |0.4.1      |       |        |1    |
-|[timevis](problems.md#timevis)                               |0.5        |       |        |1    |
-|tippy                                                        |0.0.1      |       |        |     |
-|[tmaptools](problems.md#tmaptools)                           |2.0-1      |       |        |1    |
-|TnT                                                          |1.2.0      |       |        |     |
-|[toxEval](problems.md#toxeval)                               |1.0.3      |       |        |1    |
-|trackdem                                                     |0.4.2      |       |        |     |
-|trackr                                                       |0.10.5     |       |        |     |
-|trade                                                        |0.5.3      |       |        |     |
-|treemap                                                      |2.4-2      |       |        |     |
-|TreeSearch                                                   |0.2.2      |       |        |     |
-|[treespace](problems.md#treespace)                           |1.1.3      |       |        |1    |
-|Trendy                                                       |1.2.11     |       |        |     |
-|[tricolore](problems.md#tricolore)                           |1.2.0      |       |        |2    |
-|[TSCAN](problems.md#tscan)                                   |1.18.0     |       |        |1    |
-|[ttestshiny](problems.md#ttestshiny)                         |0.1.0      |       |        |1    |
-|[TVTB](problems.md#tvtb)                                     |1.6.0      |1      |1       |2    |
-|[twoddpcr](problems.md#twoddpcr)                             |1.4.1      |       |        |1    |
-|UCSCXenaTools                                                |1.0.1      |       |        |     |
-|Umatrix                                                      |3.1        |       |        |     |
-|[VariantFiltering](problems.md#variantfiltering)             |1.16.0     |3      |        |5    |
-|VarSelLCM                                                    |2.1.3      |       |        |     |
-|[vdiffr](problems.md#vdiffr)                                 |0.3.0      |       |        |1    |
-|vegawidget                                                   |0.1.0      |       |        |     |
-|VineCopula                                                   |2.1.8      |       |        |     |
-|[visNetwork](problems.md#visnetwork)                         |2.0.5      |       |        |2    |
-|vistributions                                                |0.1.1      |       |        |     |
-|visvow                                                       |0.4.0      |       |        |     |
-|voronoiTreemap                                               |0.2.0      |       |        |     |
-|VRPM                                                         |1.2        |       |        |     |
-|VWPre                                                        |1.1.0      |       |        |     |
-|waiter                                                       |0.0.1      |       |        |     |
-|[wallace](problems.md#wallace)                               |1.0.6      |       |        |1    |
-|webshot                                                      |0.5.1      |       |        |     |
-|weco                                                         |1.2        |       |        |     |
-|weightr                                                      |2.0.1      |       |        |     |
-|wilson                                                       |2.0.2      |       |        |     |
-|wiqid                                                        |0.2.1      |       |        |     |
-|[wiseR](problems.md#wiser)                                   |1.0.1      |1      |        |     |
-|wppExplorer                                                  |2.1-1      |       |        |     |
-|[wTO](problems.md#wto)                                       |1.6.3      |       |        |1    |
-|xplorerr                                                     |0.1.1      |       |        |     |
-|xROI                                                         |0.9.13     |       |        |     |
-|[yuimaGUI](problems.md#yuimagui)                             |1.3.0      |       |        |1    |
-|zooimage                                                     |5.5.2      |       |        |     |
-|[zscorer](problems.md#zscorer)                               |0.2.0      |       |        |1    |
+|package                                                      |version    |error |warning |note |source                                                                              |
+|:------------------------------------------------------------|:----------|:-----|:-------|:----|:-----------------------------------------------------------------------------------|
+|abstractr                                                    |0.1.0      |      |        |     |[cran/abstractr](https://github.com/cran/abstractr)                                 |
+|[adapr](problems.md#adapr)                                   |2.0.0      |      |        |1    |[cran/adapr](https://github.com/cran/adapr)                                         |
+|AdaptGauss                                                   |1.5        |      |        |     |[cran/AdaptGauss](https://github.com/cran/AdaptGauss)                               |
+|adaptiveGPCA                                                 |0.1.2      |      |        |     |[cran/adaptiveGPCA](https://github.com/cran/adaptiveGPCA)                           |
+|addinslist                                                   |0.2        |      |        |     |[cran/addinslist](https://github.com/cran/addinslist)                               |
+|[adegenet](problems.md#adegenet)                             |2.1.1      |      |        |1    |[cran/adegenet](https://github.com/cran/adegenet)                                   |
+|adepro                                                       |2.0.0      |      |        |     |[cran/adepro](https://github.com/cran/adepro)                                       |
+|adespatial                                                   |0.3-4      |      |        |     |[cran/adespatial](https://github.com/cran/adespatial)                               |
+|[AdhereR](problems.md#adherer)                               |0.4.1      |      |        |1    |[cran/AdhereR](https://github.com/cran/AdhereR)                                     |
+|AFM                                                          |1.2.4      |      |        |     |[cran/AFM](https://github.com/cran/AFM)                                             |
+|ahp                                                          |0.2.12     |      |        |     |[cran/ahp](https://github.com/cran/ahp)                                             |
+|[airGRteaching](problems.md#airgrteaching)                   |0.2.3.2    |      |        |1    |[cran/airGRteaching](https://github.com/cran/airGRteaching)                         |
+|AMModels                                                     |0.1.4      |      |        |     |[cran/AMModels](https://github.com/cran/AMModels)                                   |
+|AmyloGram                                                    |1.1        |      |        |     |[cran/AmyloGram](https://github.com/cran/AmyloGram)                                 |
+|[analysisPipelines](problems.md#analysispipelines)           |1.0.0      |      |        |2    |[cran/analysisPipelines](https://github.com/cran/analysisPipelines)                 |
+|ANOVAreplication                                             |1.1.3      |      |        |     |[cran/ANOVAreplication](https://github.com/cran/ANOVAreplication)                   |
+|antaresRead                                                  |2.2.3      |      |        |     |[cran/antaresRead](https://github.com/cran/antaresRead)                             |
+|antaresViz                                                   |0.15.0     |      |        |     |[cran/antaresViz](https://github.com/cran/antaresViz)                               |
+|AnthropMMD                                                   |2.5.3      |      |        |     |[cran/AnthropMMD](https://github.com/cran/AnthropMMD)                               |
+|antitrust                                                    |0.99.10    |      |        |     |[cran/antitrust](https://github.com/cran/antitrust)                                 |
+|[ArchaeoPhases](problems.md#archaeophases)                   |1.4        |      |        |1    |[cran/ArchaeoPhases](https://github.com/cran/ArchaeoPhases)                         |
+|[archivist](problems.md#archivist)                           |2.3.2      |      |        |1    |[cran/archivist](https://github.com/cran/archivist)                                 |
+|[arena2r](problems.md#arena2r)                               |1.0.0      |      |        |1    |[cran/arena2r](https://github.com/cran/arena2r)                                     |
+|argonDash                                                    |0.1.0      |      |        |     |[cran/argonDash](https://github.com/cran/argonDash)                                 |
+|arulesViz                                                    |1.3-2      |      |        |     |[cran/arulesViz](https://github.com/cran/arulesViz)                                 |
+|[AUCell](problems.md#aucell)                                 |1.2.4      |      |        |5    |[cran/AUCell](https://github.com/cran/AUCell)                                       |
+|auth0                                                        |0.1.1      |      |        |     |[cran/auth0](https://github.com/cran/auth0)                                         |
+|AutoDeskR                                                    |0.1.3      |      |        |     |[cran/AutoDeskR](https://github.com/cran/AutoDeskR)                                 |
+|autoshiny                                                    |0.0.2      |      |        |     |[cran/autoshiny](https://github.com/cran/autoshiny)                                 |
+|backpipe                                                     |0.2.3      |      |        |     |[cran/backpipe](https://github.com/cran/backpipe)                                   |
+|bairt                                                        |0.1.2      |      |        |     |[cran/bairt](https://github.com/cran/bairt)                                         |
+|baRcodeR                                                     |0.1.2      |      |        |     |[cran/baRcodeR](https://github.com/cran/baRcodeR)                                   |
+|basictabler                                                  |0.3.0      |      |        |     |[cran/basictabler](https://github.com/cran/basictabler)                             |
+|[BatchQC](problems.md#batchqc)                               |1.8.1      |      |        |1    |[cran/BatchQC](https://github.com/cran/BatchQC)                                     |
+|[BayesBD](problems.md#bayesbd)                               |1.2        |1     |        |     |[cran/BayesBD](https://github.com/cran/BayesBD)                                     |
+|[BayesianNetwork](problems.md#bayesiannetwork)               |0.1.5      |      |        |1    |[cran/BayesianNetwork](https://github.com/cran/BayesianNetwork)                     |
+|BayesNetBP                                                   |1.4.0      |      |        |     |[cran/BayesNetBP](https://github.com/cran/BayesNetBP)                               |
+|BBEST                                                        |0.1-6      |      |        |     |[cran/BBEST](https://github.com/cran/BBEST)                                         |
+|[BCEA](problems.md#bcea)                                     |2.2-6      |      |        |1    |[cran/BCEA](https://github.com/cran/BCEA)                                           |
+|[bdchecks](problems.md#bdchecks)                             |0.1.7      |      |        |1    |[cran/bdchecks](https://github.com/cran/bdchecks)                                   |
+|bdDwC                                                        |0.1.15     |      |        |     |[cran/bdDwC](https://github.com/cran/bdDwC)                                         |
+|[bde](problems.md#bde)                                       |1.0.1      |      |        |1    |[cran/bde](https://github.com/cran/bde)                                             |
+|BDP2                                                         |0.1.3      |      |        |     |[cran/BDP2](https://github.com/cran/BDP2)                                           |
+|[bea.R](problems.md#bear)                                    |1.0.6      |      |        |1    |[cran/bea.R](https://github.com/cran/bea.R)                                         |
+|BEACH                                                        |1.3.1      |      |        |     |[cran/BEACH](https://github.com/cran/BEACH)                                         |
+|[beanz](problems.md#beanz)                                   |2.4        |      |        |3    |[cran/beanz](https://github.com/cran/beanz)                                         |
+|BETS                                                         |0.4.9      |      |        |     |[cran/BETS](https://github.com/cran/BETS)                                           |
+|bibliometrix                                                 |2.1.2      |      |        |     |[cran/bibliometrix](https://github.com/cran/bibliometrix)                           |
+|bigKRLS                                                      |3.0.5      |      |        |     |[cran/bigKRLS](https://github.com/cran/bigKRLS)                                     |
+|BIGL                                                         |1.3.0      |      |        |     |[cran/BIGL](https://github.com/cran/BIGL)                                           |
+|[bigQueryR](problems.md#bigqueryr)                           |0.4.0      |      |        |1    |[cran/bigQueryR](https://github.com/cran/bigQueryR)                                 |
+|billboarder                                                  |0.2.5      |      |        |     |[cran/billboarder](https://github.com/cran/billboarder)                             |
+|[bioCancer](problems.md#biocancer)                           |1.8.0      |1     |        |     |[cran/bioCancer](https://github.com/cran/bioCancer)                                 |
+|[BiocOncoTK](problems.md#bioconcotk)                         |1.0.3      |      |1       |3    |[cran/BiocOncoTK](https://github.com/cran/BiocOncoTK)                               |
+|[BioInstaller](problems.md#bioinstaller)                     |0.3.7      |      |        |1    |[cran/BioInstaller](https://github.com/cran/BioInstaller)                           |
+|[BioNetStat](problems.md#bionetstat)                         |1.0.4      |      |        |1    |[cran/BioNetStat](https://github.com/cran/BioNetStat)                               |
+|[biva](problems.md#biva)                                     |0.1.0      |      |        |1    |[cran/biva](https://github.com/cran/biva)                                           |
+|[blkbox](problems.md#blkbox)                                 |1.0        |      |        |2    |[cran/blkbox](https://github.com/cran/blkbox)                                       |
+|[blockseg](problems.md#blockseg)                             |0.5.0      |      |        |1    |[cran/blockseg](https://github.com/cran/blockseg)                                   |
+|blogdown                                                     |0.11       |      |        |     |[cran/blogdown](https://github.com/cran/blogdown)                                   |
+|[blorr](problems.md#blorr)                                   |0.2.1      |      |        |1    |[cran/blorr](https://github.com/cran/blorr)                                         |
+|bookdown                                                     |0.9        |      |        |     |[cran/bookdown](https://github.com/cran/bookdown)                                   |
+|[bpbounds](problems.md#bpbounds)                             |0.1.3      |      |        |1    |[cran/bpbounds](https://github.com/cran/bpbounds)                                   |
+|bridger2                                                     |0.1.0      |      |        |     |[cran/bridger2](https://github.com/cran/bridger2)                                   |
+|bs4Dash                                                      |0.2.0      |      |        |     |[cran/bs4Dash](https://github.com/cran/bs4Dash)                                     |
+|[bsplus](problems.md#bsplus)                                 |0.1.1      |      |        |1    |[cran/bsplus](https://github.com/cran/bsplus)                                       |
+|bullwhipgame                                                 |0.1.0      |      |        |     |[cran/bullwhipgame](https://github.com/cran/bullwhipgame)                           |
+|bunchr                                                       |1.2.0      |      |        |     |[cran/bunchr](https://github.com/cran/bunchr)                                       |
+|bupaR                                                        |0.4.2      |      |        |     |[cran/bupaR](https://github.com/cran/bupaR)                                         |
+|[caffsim](problems.md#caffsim)                               |0.2.2      |      |        |1    |[cran/caffsim](https://github.com/cran/caffsim)                                     |
+|canvasXpress                                                 |1.23.3     |      |        |     |[cran/canvasXpress](https://github.com/cran/canvasXpress)                           |
+|[cartools](problems.md#cartools)                             |0.1.0      |      |        |1    |[cran/cartools](https://github.com/cran/cartools)                                   |
+|[CATALYST](problems.md#catalyst)                             |1.4.2      |      |        |3    |[cran/CATALYST](https://github.com/cran/CATALYST)                                   |
+|cbsodataR                                                    |0.3.2      |      |        |     |[cran/cbsodataR](https://github.com/cran/cbsodataR)                                 |
+|[ChAMP](problems.md#champ)                                   |2.10.2     |1     |        |     |[cran/ChAMP](https://github.com/cran/ChAMP)                                         |
+|[ChannelAttributionApp](problems.md#channelattributionapp)   |1.1        |      |        |1    |[cran/ChannelAttributionApp](https://github.com/cran/ChannelAttributionApp)         |
+|[chipPCR](problems.md#chippcr)                               |0.0.8-10   |      |        |1    |[cran/chipPCR](https://github.com/cran/chipPCR)                                     |
+|chromoMap                                                    |0.1        |      |        |     |[cran/chromoMap](https://github.com/cran/chromoMap)                                 |
+|[chromVAR](problems.md#chromvar)                             |1.2.0      |1     |1       |1    |[cran/chromVAR](https://github.com/cran/chromVAR)                                   |
+|circglmbayes                                                 |1.2.3      |      |        |     |[cran/circglmbayes](https://github.com/cran/circglmbayes)                           |
+|Cite                                                         |0.1.0      |      |        |     |[cran/Cite](https://github.com/cran/Cite)                                           |
+|[citr](problems.md#citr)                                     |0.3.0      |      |        |1    |[cran/citr](https://github.com/cran/citr)                                           |
+|[cjoint](problems.md#cjoint)                                 |2.1.0      |      |        |2    |[cran/cjoint](https://github.com/cran/cjoint)                                       |
+|CLME                                                         |2.0-11     |      |        |     |[cran/CLME](https://github.com/cran/CLME)                                           |
+|[clustDRM](problems.md#clustdrm)                             |0.1-0      |1     |        |     |[cran/clustDRM](https://github.com/cran/clustDRM)                                   |
+|cNORM                                                        |1.1.8      |      |        |     |[cran/cNORM](https://github.com/cran/cNORM)                                         |
+|[CNVPanelizer](problems.md#cnvpanelizer)                     |1.12.0     |      |        |1    |[cran/CNVPanelizer](https://github.com/cran/CNVPanelizer)                           |
+|[CNVScope](problems.md#cnvscope)                             |1.9.7      |1     |        |     |[cran/CNVScope](https://github.com/cran/CNVScope)                                   |
+|[cocktailApp](problems.md#cocktailapp)                       |0.2.0      |      |        |1    |[cran/cocktailApp](https://github.com/cran/cocktailApp)                             |
+|[codebook](problems.md#codebook)                             |0.8.0      |      |        |3    |[cran/codebook](https://github.com/cran/codebook)                                   |
+|[CoGAPS](problems.md#cogaps)                                 |3.0.2      |      |        |2    |[cran/CoGAPS](https://github.com/cran/CoGAPS)                                       |
+|colorspace                                                   |1.4-1      |      |        |     |[cran/colorspace](https://github.com/cran/colorspace)                               |
+|colourpicker                                                 |1.0        |      |        |     |[cran/colourpicker](https://github.com/cran/colourpicker)                           |
+|[compareGroups](problems.md#comparegroups)                   |4.0.0      |      |        |1    |[cran/compareGroups](https://github.com/cran/compareGroups)                         |
+|[COMPASS](problems.md#compass)                               |1.18.1     |      |1       |3    |[cran/COMPASS](https://github.com/cran/COMPASS)                                     |
+|complexity                                                   |1.1.1      |      |        |     |[cran/complexity](https://github.com/cran/complexity)                               |
+|[condformat](problems.md#condformat)                         |0.8.0      |      |        |1    |[cran/condformat](https://github.com/cran/condformat)                               |
+|condir                                                       |0.1.1      |      |        |     |[cran/condir](https://github.com/cran/condir)                                       |
+|condvis                                                      |0.5-1      |      |        |     |[cran/condvis](https://github.com/cran/condvis)                                     |
+|convertr                                                     |0.1        |      |        |     |[cran/convertr](https://github.com/cran/convertr)                                   |
+|[CoRegNet](problems.md#coregnet)                             |1.18.0     |1     |1       |2    |[cran/CoRegNet](https://github.com/cran/CoRegNet)                                   |
+|[cosinor](problems.md#cosinor)                               |1.1        |      |        |1    |[cran/cosinor](https://github.com/cran/cosinor)                                     |
+|countfitteR                                                  |1.0        |      |        |     |[cran/countfitteR](https://github.com/cran/countfitteR)                             |
+|[coveffectsplot](problems.md#coveffectsplot)                 |0.0.3      |      |        |1    |[cran/coveffectsplot](https://github.com/cran/coveffectsplot)                       |
+|[CRANsearcher](problems.md#cransearcher)                     |1.0.0      |      |        |1    |[cran/CRANsearcher](https://github.com/cran/CRANsearcher)                           |
+|[crawl](problems.md#crawl)                                   |2.2.1      |      |        |1    |[cran/crawl](https://github.com/cran/crawl)                                         |
+|credsubs                                                     |1.0.1      |      |        |     |[cran/credsubs](https://github.com/cran/credsubs)                                   |
+|[crisprseekplus](problems.md#crisprseekplus)                 |1.6.0      |      |1       |     |[cran/crisprseekplus](https://github.com/cran/crisprseekplus)                       |
+|cromwellDashboard                                            |0.5.1      |      |        |     |[cran/cromwellDashboard](https://github.com/cran/cromwellDashboard)                 |
+|cronR                                                        |0.4.0      |      |        |     |[cran/cronR](https://github.com/cran/cronR)                                         |
+|[crossmeta](problems.md#crossmeta)                           |1.6.0      |      |1       |4    |[cran/crossmeta](https://github.com/cran/crossmeta)                                 |
+|crosstalk                                                    |1.0.0      |      |        |     |[cran/crosstalk](https://github.com/cran/crosstalk)                                 |
+|crunchy                                                      |0.2.0      |      |        |     |[cran/crunchy](https://github.com/cran/crunchy)                                     |
+|[CTRE](problems.md#ctre)                                     |0.1.0      |      |        |1    |[cran/CTRE](https://github.com/cran/CTRE)                                           |
+|[ctsem](problems.md#ctsem)                                   |2.8.2      |      |        |2    |[cran/ctsem](https://github.com/cran/ctsem)                                         |
+|ctsGE                                                        |1.6.1      |      |        |     |[cran/ctsGE](https://github.com/cran/ctsGE)                                         |
+|CTTinShiny                                                   |0.1.0      |      |        |     |[cran/CTTinShiny](https://github.com/cran/CTTinShiny)                               |
+|CTTShiny                                                     |0.1        |      |        |     |[cran/CTTShiny](https://github.com/cran/CTTShiny)                                   |
+|cubeview                                                     |0.1.0      |      |        |     |[cran/cubeview](https://github.com/cran/cubeview)                                   |
+|[CVE](problems.md#cve)                                       |1.6.0      |      |1       |1    |[cran/CVE](https://github.com/cran/CVE)                                             |
+|[cydar](problems.md#cydar)                                   |1.4.0      |      |1       |1    |[cran/cydar](https://github.com/cran/cydar)                                         |
+|CytobankAPIstats                                             |2.0        |      |        |     |[cran/CytobankAPIstats](https://github.com/cran/CytobankAPIstats)                   |
+|[cytofkit](problems.md#cytofkit)                             |1.12.0     |1     |        |2    |[cran/cytofkit](https://github.com/cran/cytofkit)                                   |
+|[d3heatmap](problems.md#d3heatmap)                           |0.6.1.2    |      |        |1    |[cran/d3heatmap](https://github.com/cran/d3heatmap)                                 |
+|[d3Tree](problems.md#d3tree)                                 |0.2.0      |      |        |1    |[cran/d3Tree](https://github.com/cran/d3Tree)                                       |
+|data.world                                                   |1.2.2      |      |        |     |[cran/data.world](https://github.com/cran/data.world)                               |
+|[datacheck](problems.md#datacheck)                           |1.2.2      |      |        |2    |[cran/datacheck](https://github.com/cran/datacheck)                                 |
+|[datadigest](problems.md#datadigest)                         |1.0.2      |      |        |1    |[cran/datadigest](https://github.com/cran/datadigest)                               |
+|datamaps                                                     |0.0.3      |      |        |     |[cran/datamaps](https://github.com/cran/datamaps)                                   |
+|datasets.load                                                |0.3.0      |      |        |     |[cran/datasets.load](https://github.com/cran/datasets.load)                         |
+|ddpcr                                                        |1.11       |      |        |     |[cran/ddpcr](https://github.com/cran/ddpcr)                                         |
+|[debrowser](problems.md#debrowser)                           |1.8.5      |1     |        |     |[cran/debrowser](https://github.com/cran/debrowser)                                 |
+|deisotoper                                                   |0.0.3      |      |        |     |[cran/deisotoper](https://github.com/cran/deisotoper)                               |
+|[DEP](problems.md#dep)                                       |1.2.0      |      |        |1    |[cran/DEP](https://github.com/cran/DEP)                                             |
+|[detzrcr](problems.md#detzrcr)                               |0.2.5      |      |        |1    |[cran/detzrcr](https://github.com/cran/detzrcr)                                     |
+|dexter                                                       |0.8.4      |      |        |     |[cran/dexter](https://github.com/cran/dexter)                                       |
+|[dextergui](problems.md#dextergui)                           |0.1.6      |      |        |1    |[cran/dextergui](https://github.com/cran/dextergui)                                 |
+|diffr                                                        |0.1        |      |        |     |[cran/diffr](https://github.com/cran/diffr)                                         |
+|discoveR                                                     |1.1.0      |      |        |     |[cran/discoveR](https://github.com/cran/discoveR)                                   |
+|distcomp                                                     |1.0-1      |      |        |     |[cran/distcomp](https://github.com/cran/distcomp)                                   |
+|distreg.vis                                                  |1.1.0      |      |        |     |[cran/distreg.vis](https://github.com/cran/distreg.vis)                             |
+|diveRsity                                                    |1.9.90     |      |        |     |[cran/diveRsity](https://github.com/cran/diveRsity)                                 |
+|[DLMtool](problems.md#dlmtool)                               |5.3        |      |        |1    |[cran/DLMtool](https://github.com/cran/DLMtool)                                     |
+|[Doscheda](problems.md#doscheda)                             |1.2.0      |      |        |1    |[cran/Doscheda](https://github.com/cran/Doscheda)                                   |
+|dpcR                                                         |0.5        |      |        |     |[cran/dpcR](https://github.com/cran/dpcR)                                           |
+|[dplyrAssist](problems.md#dplyrassist)                       |0.1.0      |      |        |1    |[cran/dplyrAssist](https://github.com/cran/dplyrAssist)                             |
+|dqshiny                                                      |0.0.3      |      |        |     |[cran/dqshiny](https://github.com/cran/dqshiny)                                     |
+|dragulaR                                                     |0.3.1      |      |        |     |[cran/dragulaR](https://github.com/cran/dragulaR)                                   |
+|DRomics                                                      |1.0-2      |      |        |     |[cran/DRomics](https://github.com/cran/DRomics)                                     |
+|[dropR](problems.md#dropr)                                   |0.1        |      |        |1    |[cran/dropR](https://github.com/cran/dropR)                                         |
+|[DSAIDE](problems.md#dsaide)                                 |0.7.0      |      |        |2    |[cran/DSAIDE](https://github.com/cran/DSAIDE)                                       |
+|[DSAIRM](problems.md#dsairm)                                 |0.5.5      |      |        |1    |[cran/DSAIRM](https://github.com/cran/DSAIRM)                                       |
+|DT                                                           |0.5        |      |        |     |[cran/DT](https://github.com/cran/DT)                                               |
+|DTAT                                                         |0.3-1      |      |        |     |[cran/DTAT](https://github.com/cran/DTAT)                                           |
+|[dtwclust](problems.md#dtwclust)                             |5.5.2      |      |        |1    |[cran/dtwclust](https://github.com/cran/dtwclust)                                   |
+|DVHmetrics                                                   |0.3.8      |      |        |     |[cran/DVHmetrics](https://github.com/cran/DVHmetrics)                               |
+|[dynamichazard](problems.md#dynamichazard)                   |0.6.4      |      |        |1    |[cran/dynamichazard](https://github.com/cran/dynamichazard)                         |
+|DynNom                                                       |4.1.1      |      |        |     |[cran/DynNom](https://github.com/cran/DynNom)                                       |
+|Eagle                                                        |1.3.0      |      |        |     |[cran/Eagle](https://github.com/cran/Eagle)                                         |
+|eAnalytics                                                   |0.1.4      |      |        |     |[cran/eAnalytics](https://github.com/cran/eAnalytics)                               |
+|easySdcTable                                                 |0.3.3      |      |        |     |[cran/easySdcTable](https://github.com/cran/easySdcTable)                           |
+|[EBImage](problems.md#ebimage)                               |4.22.1     |      |        |1    |[cran/EBImage](https://github.com/cran/EBImage)                                     |
+|ECharts2Shiny                                                |0.2.13     |      |        |     |[cran/ECharts2Shiny](https://github.com/cran/ECharts2Shiny)                         |
+|[echarts4r](problems.md#echarts4r)                           |0.2.1      |      |        |1    |[cran/echarts4r](https://github.com/cran/echarts4r)                                 |
+|edeaR                                                        |0.8.2      |      |        |     |[cran/edeaR](https://github.com/cran/edeaR)                                         |
+|edgebundleR                                                  |0.1.4      |      |        |     |[cran/edgebundleR](https://github.com/cran/edgebundleR)                             |
+|editData                                                     |0.1.2      |      |        |     |[cran/editData](https://github.com/cran/editData)                                   |
+|eechidna                                                     |1.3.0      |      |        |     |[cran/eechidna](https://github.com/cran/eechidna)                                   |
+|eemR                                                         |0.1.5      |      |        |     |[cran/eemR](https://github.com/cran/eemR)                                           |
+|EffectLiteR                                                  |0.4-3      |      |        |     |[cran/EffectLiteR](https://github.com/cran/EffectLiteR)                             |
+|[effectR](problems.md#effectr)                               |1.0.2      |      |        |1    |[cran/effectR](https://github.com/cran/effectR)                                     |
+|[egor](problems.md#egor)                                     |0.19.1     |      |        |1    |[cran/egor](https://github.com/cran/egor)                                           |
+|[EHRtemporalVariability](problems.md#ehrtemporalvariability) |1.0        |      |        |2    |[cran/EHRtemporalVariability](https://github.com/cran/EHRtemporalVariability)       |
+|[elementR](problems.md#elementr)                             |1.3.6      |1     |        |     |[cran/elementR](https://github.com/cran/elementR)                                   |
+|[embryogrowth](problems.md#embryogrowth)                     |7.4.1      |      |        |1    |[cran/embryogrowth](https://github.com/cran/embryogrowth)                           |
+|[EmiStatR](problems.md#emistatr)                             |1.2.1.2    |1     |        |     |[cran/EmiStatR](https://github.com/cran/EmiStatR)                                   |
+|EMMAgeo                                                      |0.9.4      |      |        |     |[cran/EMMAgeo](https://github.com/cran/EMMAgeo)                                     |
+|EMSaov                                                       |2.3        |      |        |     |[cran/EMSaov](https://github.com/cran/EMSaov)                                       |
+|[emuR](problems.md#emur)                                     |1.1.2      |      |        |1    |[cran/emuR](https://github.com/cran/emuR)                                           |
+|[ENCODExplorer](problems.md#encodexplorer)                   |2.6.0      |      |        |3    |[cran/ENCODExplorer](https://github.com/cran/ENCODExplorer)                         |
+|[enviGCMS](problems.md#envigcms)                             |0.5.0      |      |        |1    |[cran/enviGCMS](https://github.com/cran/enviGCMS)                                   |
+|enviPick                                                     |1.5        |      |        |     |[cran/enviPick](https://github.com/cran/enviPick)                                   |
+|[epicontacts](problems.md#epicontacts)                       |1.1.0      |      |        |1    |[cran/epicontacts](https://github.com/cran/epicontacts)                             |
+|epimdr                                                       |0.6-2      |      |        |     |[cran/epimdr](https://github.com/cran/epimdr)                                       |
+|EpiModel                                                     |1.7.2      |      |        |     |[cran/EpiModel](https://github.com/cran/EpiModel)                                   |
+|[EpiSignalDetection](problems.md#episignaldetection)         |0.1.1      |      |        |1    |[cran/EpiSignalDetection](https://github.com/cran/EpiSignalDetection)               |
+|[erma](problems.md#erma)                                     |0.12.0     |1     |        |     |[cran/erma](https://github.com/cran/erma)                                           |
+|ERSA                                                         |0.1.1      |      |        |     |[cran/ERSA](https://github.com/cran/ERSA)                                           |
+|esquisse                                                     |0.1.7      |      |        |     |[cran/esquisse](https://github.com/cran/esquisse)                                   |
+|EurosarcBayes                                                |1.1        |      |        |     |[cran/EurosarcBayes](https://github.com/cran/EurosarcBayes)                         |
+|evaluator                                                    |0.3.2      |      |        |     |[cran/evaluator](https://github.com/cran/evaluator)                                 |
+|[EventStudy](problems.md#eventstudy)                         |0.36       |      |        |2    |[cran/EventStudy](https://github.com/cran/EventStudy)                               |
+|evobiR                                                       |1.1        |      |        |     |[cran/evobiR](https://github.com/cran/evobiR)                                       |
+|ExPanDaR                                                     |0.3.0      |      |        |     |[cran/ExPanDaR](https://github.com/cran/ExPanDaR)                                   |
+|explor                                                       |0.3.4      |      |        |     |[cran/explor](https://github.com/cran/explor)                                       |
+|Factoshiny                                                   |1.0.7      |      |        |     |[cran/Factoshiny](https://github.com/cran/Factoshiny)                               |
+|[fanplot](problems.md#fanplot)                               |3.4.1      |      |        |1    |[cran/fanplot](https://github.com/cran/fanplot)                                     |
+|[FELLA](problems.md#fella)                                   |1.0.1      |      |1       |2    |[cran/FELLA](https://github.com/cran/FELLA)                                         |
+|findviews                                                    |0.1.3      |      |        |     |[cran/findviews](https://github.com/cran/findviews)                                 |
+|[fingertipsR](problems.md#fingertipsr)                       |0.2.1      |      |        |1    |[cran/fingertipsR](https://github.com/cran/fingertipsR)                             |
+|[fitteR](problems.md#fitter)                                 |0.1.0      |      |        |1    |[cran/fitteR](https://github.com/cran/fitteR)                                       |
+|[fitur](problems.md#fitur)                                   |0.6.1      |      |        |1    |[cran/fitur](https://github.com/cran/fitur)                                         |
+|flacco                                                       |1.7        |      |        |     |[cran/flacco](https://github.com/cran/flacco)                                       |
+|flexdashboard                                                |0.5.1.1    |      |        |     |[cran/flexdashboard](https://github.com/cran/flexdashboard)                         |
+|[flora](problems.md#flora)                                   |0.3.0      |      |        |1    |[cran/flora](https://github.com/cran/flora)                                         |
+|[flowAI](problems.md#flowai)                                 |1.10.1     |      |        |1    |[cran/flowAI](https://github.com/cran/flowAI)                                       |
+|[flowcatchR](problems.md#flowcatchr)                         |1.14.0     |      |        |3    |[cran/flowcatchR](https://github.com/cran/flowcatchR)                               |
+|[flowPloidy](problems.md#flowploidy)                         |1.6.0      |      |        |1    |[cran/flowPloidy](https://github.com/cran/flowPloidy)                               |
+|formatR                                                      |1.6        |      |        |     |[cran/formatR](https://github.com/cran/formatR)                                     |
+|formattable                                                  |0.2.0.1    |      |        |     |[cran/formattable](https://github.com/cran/formattable)                             |
+|FreqProf                                                     |0.0.1      |      |        |     |[cran/FreqProf](https://github.com/cran/FreqProf)                                   |
+|frequency                                                    |0.3.1      |      |        |     |[cran/frequency](https://github.com/cran/frequency)                                 |
+|[FunChIP](problems.md#funchip)                               |1.6.0      |      |2       |3    |[cran/FunChIP](https://github.com/cran/FunChIP)                                     |
+|FuzzyR                                                       |2.1        |      |        |     |[cran/FuzzyR](https://github.com/cran/FuzzyR)                                       |
+|G2Sd                                                         |2.1.5      |      |        |     |[cran/G2Sd](https://github.com/cran/G2Sd)                                           |
+|g3viz                                                        |0.1.4      |      |        |     |[cran/g3viz](https://github.com/cran/g3viz)                                         |
+|[GA4GHshiny](problems.md#ga4ghshiny)                         |1.2.0      |1     |        |2    |[cran/GA4GHshiny](https://github.com/cran/GA4GHshiny)                               |
+|[gamesGA](problems.md#gamesga)                               |1.1.3.6    |      |        |1    |[cran/gamesGA](https://github.com/cran/gamesGA)                                     |
+|[gastempt](problems.md#gastempt)                             |0.4.4      |      |        |3    |[cran/gastempt](https://github.com/cran/gastempt)                                   |
+|gazepath                                                     |1.2        |      |        |     |[cran/gazepath](https://github.com/cran/gazepath)                                   |
+|[GDCRNATools](problems.md#gdcrnatools)                       |1.1.1      |1     |        |     |[cran/GDCRNATools](https://github.com/cran/GDCRNATools)                             |
+|GDINA                                                        |2.4.0      |      |        |     |[cran/GDINA](https://github.com/cran/GDINA)                                         |
+|[genBaRcode](problems.md#genbarcode)                         |1.1.0      |1     |        |     |[cran/genBaRcode](https://github.com/cran/genBaRcode)                               |
+|[genBart](problems.md#genbart)                               |1.0.1      |      |        |1    |[cran/genBart](https://github.com/cran/genBart)                                     |
+|[GeneNetworkBuilder](problems.md#genenetworkbuilder)         |1.22.0     |      |1       |1    |[cran/GeneNetworkBuilder](https://github.com/cran/GeneNetworkBuilder)               |
+|GenEst                                                       |1.2.3      |      |        |     |[cran/GenEst](https://github.com/cran/GenEst)                                       |
+|genogeographer                                               |0.1.8      |      |        |     |[cran/genogeographer](https://github.com/cran/genogeographer)                       |
+|[GerminaR](problems.md#germinar)                             |1.2        |      |        |1    |[cran/GerminaR](https://github.com/cran/GerminaR)                                   |
+|getTBinR                                                     |0.5.7      |      |        |     |[cran/getTBinR](https://github.com/cran/getTBinR)                                   |
+|[ggedit](problems.md#ggedit)                                 |0.3.0      |      |        |1    |[cran/ggedit](https://github.com/cran/ggedit)                                       |
+|[ggExtra](problems.md#ggextra)                               |0.8        |      |        |1    |[cran/ggExtra](https://github.com/cran/ggExtra)                                     |
+|[ggiraph](problems.md#ggiraph)                               |0.6.0      |      |        |1    |[cran/ggiraph](https://github.com/cran/ggiraph)                                     |
+|[ggplotAssist](problems.md#ggplotassist)                     |0.1.3      |      |        |1    |[cran/ggplotAssist](https://github.com/cran/ggplotAssist)                           |
+|ggplotgui                                                    |1.0.0      |      |        |     |[cran/ggplotgui](https://github.com/cran/ggplotgui)                                 |
+|[ggquickeda](problems.md#ggquickeda)                         |0.1.2      |      |        |1    |[cran/ggquickeda](https://github.com/cran/ggquickeda)                               |
+|ggraptR                                                      |1.1        |      |        |     |[cran/ggraptR](https://github.com/cran/ggraptR)                                     |
+|ggThemeAssist                                                |0.1.5      |      |        |     |[cran/ggThemeAssist](https://github.com/cran/ggThemeAssist)                         |
+|[ggvis](problems.md#ggvis)                                   |0.4.4      |      |        |1    |[cran/ggvis](https://github.com/cran/ggvis)                                         |
+|gimmeTools                                                   |0.1        |      |        |     |[cran/gimmeTools](https://github.com/cran/gimmeTools)                               |
+|giphyr                                                       |0.1.3      |      |        |     |[cran/giphyr](https://github.com/cran/giphyr)                                       |
+|gitgadget                                                    |0.4.0      |      |        |     |[cran/gitgadget](https://github.com/cran/gitgadget)                                 |
+|gitlabr                                                      |1.1.6      |      |        |     |[cran/gitlabr](https://github.com/cran/gitlabr)                                     |
+|gmDatabase                                                   |0.5.0      |      |        |     |[cran/gmDatabase](https://github.com/cran/gmDatabase)                               |
+|GMSE                                                         |0.4.0.11   |      |        |     |[cran/GMSE](https://github.com/cran/GMSE)                                           |
+|googleAnalyticsR                                             |0.6.0      |      |        |     |[cran/googleAnalyticsR](https://github.com/cran/googleAnalyticsR)                   |
+|[googleAuthR](problems.md#googleauthr)                       |0.7.0      |      |        |1    |[cran/googleAuthR](https://github.com/cran/googleAuthR)                             |
+|googleLanguageR                                              |0.2.0      |      |        |     |[cran/googleLanguageR](https://github.com/cran/googleLanguageR)                     |
+|googleVis                                                    |0.6.3      |      |        |     |[cran/googleVis](https://github.com/cran/googleVis)                                 |
+|googleway                                                    |2.7.1      |      |        |     |[cran/googleway](https://github.com/cran/googleway)                                 |
+|[gQTLstats](problems.md#gqtlstats)                           |1.12.0     |1     |        |     |[cran/gQTLstats](https://github.com/cran/gQTLstats)                                 |
+|gradientPickerD3                                             |0.1.0.0    |      |        |     |[cran/gradientPickerD3](https://github.com/cran/gradientPickerD3)                   |
+|[gridsampler](problems.md#gridsampler)                       |0.6        |      |        |1    |[cran/gridsampler](https://github.com/cran/gridsampler)                             |
+|[GSCA](problems.md#gsca)                                     |2.10.0     |      |        |3    |[cran/GSCA](https://github.com/cran/GSCA)                                           |
+|[GSVA](problems.md#gsva)                                     |1.28.0     |      |1       |2    |[cran/GSVA](https://github.com/cran/GSVA)                                           |
+|gwdegree                                                     |0.1.1      |      |        |     |[cran/gwdegree](https://github.com/cran/gwdegree)                                   |
+|GWSDAT                                                       |3.0.3      |      |        |     |[cran/GWSDAT](https://github.com/cran/GWSDAT)                                       |
+|HARtools                                                     |0.0.5      |      |        |     |[cran/HARtools](https://github.com/cran/HARtools)                                   |
+|HelpersMG                                                    |3.5        |      |        |     |[cran/HelpersMG](https://github.com/cran/HelpersMG)                                 |
+|HH                                                           |3.1-35     |      |        |     |[cran/HH](https://github.com/cran/HH)                                               |
+|[highcharter](problems.md#highcharter)                       |0.7.0      |1     |        |     |[cran/highcharter](https://github.com/cran/highcharter)                             |
+|highlightHTML                                                |0.2.1      |      |        |     |[cran/highlightHTML](https://github.com/cran/highlightHTML)                         |
+|hR                                                           |0.1.8      |      |        |     |[cran/hR](https://github.com/cran/hR)                                               |
+|iCOBRA                                                       |1.8.0      |      |        |     |[cran/iCOBRA](https://github.com/cran/iCOBRA)                                       |
+|ICSShiny                                                     |0.5        |      |        |     |[cran/ICSShiny](https://github.com/cran/ICSShiny)                                   |
+|[ideal](problems.md#ideal)                                   |1.4.0      |1     |1       |3    |[cran/ideal](https://github.com/cran/ideal)                                         |
+|[idefix](problems.md#idefix)                                 |0.3.3      |      |        |2    |[cran/idefix](https://github.com/cran/idefix)                                       |
+|[idem](problems.md#idem)                                     |4.0        |      |        |2    |[cran/idem](https://github.com/cran/idem)                                           |
+|ifaTools                                                     |0.19       |      |        |     |[cran/ifaTools](https://github.com/cran/ifaTools)                                   |
+|igraphinshiny                                                |0.1        |      |        |     |[cran/igraphinshiny](https://github.com/cran/igraphinshiny)                         |
+|iheatmapr                                                    |0.4.8      |      |        |     |[cran/iheatmapr](https://github.com/cran/iheatmapr)                                 |
+|Imetagene                                                    |1.10.0     |      |        |     |[cran/Imetagene](https://github.com/cran/Imetagene)                                 |
+|IMP                                                          |1.1        |      |        |     |[cran/IMP](https://github.com/cran/IMP)                                             |
+|ImportExport                                                 |1.1        |      |        |     |[cran/ImportExport](https://github.com/cran/ImportExport)                           |
+|IncucyteDRC                                                  |0.5.4      |      |        |     |[cran/IncucyteDRC](https://github.com/cran/IncucyteDRC)                             |
+|[INDperform](problems.md#indperform)                         |0.2.0      |      |        |1    |[cran/INDperform](https://github.com/cran/INDperform)                               |
+|inferr                                                       |0.3.0      |      |        |     |[cran/inferr](https://github.com/cran/inferr)                                       |
+|[inlabru](problems.md#inlabru)                               |2.1.9      |      |        |2    |[cran/inlabru](https://github.com/cran/inlabru)                                     |
+|[interactiveDisplay](problems.md#interactivedisplay)         |1.18.0     |      |1       |3    |[cran/interactiveDisplay](https://github.com/cran/interactiveDisplay)               |
+|[interactiveDisplayBase](problems.md#interactivedisplaybase) |1.18.0     |      |        |2    |[cran/interactiveDisplayBase](https://github.com/cran/interactiveDisplayBase)       |
+|[interAdapt](problems.md#interadapt)                         |0.1        |      |        |2    |[cran/interAdapt](https://github.com/cran/interAdapt)                               |
+|ioncopy                                                      |2.1.1      |      |        |     |[cran/ioncopy](https://github.com/cran/ioncopy)                                     |
+|ipc                                                          |0.1.2      |      |        |     |[cran/ipc](https://github.com/cran/ipc)                                             |
+|[ipumsr](problems.md#ipumsr)                                 |0.4.0      |      |        |1    |[cran/ipumsr](https://github.com/cran/ipumsr)                                       |
+|irtDemo                                                      |0.1.4      |      |        |     |[cran/irtDemo](https://github.com/cran/irtDemo)                                     |
+|IRTShiny                                                     |1.2        |      |        |     |[cran/IRTShiny](https://github.com/cran/IRTShiny)                                   |
+|[iSEE](problems.md#isee)                                     |1.0.1      |2     |1       |2    |[cran/iSEE](https://github.com/cran/iSEE)                                           |
+|[ivygapSE](problems.md#ivygapse)                             |1.2.0      |      |1       |2    |[cran/ivygapSE](https://github.com/cran/ivygapSE)                                   |
+|JMbayes                                                      |0.8-83     |      |        |     |[cran/JMbayes](https://github.com/cran/JMbayes)                                     |
+|JointNets                                                    |1.0.0      |      |        |     |[cran/JointNets](https://github.com/cran/JointNets)                                 |
+|[jpmesh](problems.md#jpmesh)                                 |1.1.2      |      |        |1    |[cran/jpmesh](https://github.com/cran/jpmesh)                                       |
+|[jpndistrict](problems.md#jpndistrict)                       |0.3.2      |1     |        |     |[cran/jpndistrict](https://github.com/cran/jpndistrict)                             |
+|jsmodule                                                     |0.7.10     |      |        |     |[cran/jsmodule](https://github.com/cran/jsmodule)                                   |
+|KappaGUI                                                     |2.0.2      |      |        |     |[cran/KappaGUI](https://github.com/cran/KappaGUI)                                   |
+|kgc                                                          |1.0.0.2    |      |        |     |[cran/kgc](https://github.com/cran/kgc)                                             |
+|kgschart                                                     |1.3.5      |      |        |     |[cran/kgschart](https://github.com/cran/kgschart)                                   |
+|[kokudosuuchi](problems.md#kokudosuuchi)                     |0.4.2      |      |        |1    |[cran/kokudosuuchi](https://github.com/cran/kokudosuuchi)                           |
+|[koRpus](problems.md#korpus)                                 |0.11-5     |      |        |1    |[cran/koRpus](https://github.com/cran/koRpus)                                       |
+|lavaan.shiny                                                 |1.2        |      |        |     |[cran/lavaan.shiny](https://github.com/cran/lavaan.shiny)                           |
+|LBSPR                                                        |0.1.3      |      |        |     |[cran/LBSPR](https://github.com/cran/LBSPR)                                         |
+|LDAvis                                                       |0.3.2      |      |        |     |[cran/LDAvis](https://github.com/cran/LDAvis)                                       |
+|leaflet                                                      |2.0.2      |      |        |     |[cran/leaflet](https://github.com/cran/leaflet)                                     |
+|leaflet.minicharts                                           |0.5.4      |      |        |     |[cran/leaflet.minicharts](https://github.com/cran/leaflet.minicharts)               |
+|learnr                                                       |0.9.2.1    |      |        |     |[cran/learnr](https://github.com/cran/learnr)                                       |
+|[learnstats](problems.md#learnstats)                         |0.1.1      |      |        |1    |[cran/learnstats](https://github.com/cran/learnstats)                               |
+|lifelogr                                                     |0.1.0      |      |        |     |[cran/lifelogr](https://github.com/cran/lifelogr)                                   |
+|lightsout                                                    |0.3        |      |        |     |[cran/lightsout](https://github.com/cran/lightsout)                                 |
+|[likert](problems.md#likert)                                 |1.3.5      |      |        |1    |[cran/likert](https://github.com/cran/likert)                                       |
+|lime                                                         |0.4.1      |      |        |     |[cran/lime](https://github.com/cran/lime)                                           |
+|linguisticsdown                                              |1.2.0      |      |        |     |[cran/linguisticsdown](https://github.com/cran/linguisticsdown)                     |
+|linkspotter                                                  |1.2.0      |      |        |     |[cran/linkspotter](https://github.com/cran/linkspotter)                             |
+|linpk                                                        |1.0        |      |        |     |[cran/linpk](https://github.com/cran/linpk)                                         |
+|[listviewer](problems.md#listviewer)                         |2.1.0      |      |        |1    |[cran/listviewer](https://github.com/cran/listviewer)                               |
+|[live](problems.md#live)                                     |1.5.10     |      |        |1    |[cran/live](https://github.com/cran/live)                                           |
+|[lmviz](problems.md#lmviz)                                   |0.1.1      |      |        |1    |[cran/lmviz](https://github.com/cran/lmviz)                                         |
+|manipulateWidget                                             |0.10.0     |      |        |     |[cran/manipulateWidget](https://github.com/cran/manipulateWidget)                   |
+|[mapdeck](problems.md#mapdeck)                               |0.2.1      |      |        |2    |[cran/mapdeck](https://github.com/cran/mapdeck)                                     |
+|[mapedit](problems.md#mapedit)                               |0.5.0      |      |        |1    |[cran/mapedit](https://github.com/cran/mapedit)                                     |
+|MAVIS                                                        |1.1.3      |      |        |     |[cran/MAVIS](https://github.com/cran/MAVIS)                                         |
+|[MazamaSpatialUtils](problems.md#mazamaspatialutils)         |0.6.1      |      |        |1    |[cran/MazamaSpatialUtils](https://github.com/cran/MazamaSpatialUtils)               |
+|[mbgraphic](problems.md#mbgraphic)                           |1.0.0      |1     |        |     |[cran/mbgraphic](https://github.com/cran/mbgraphic)                                 |
+|meltt                                                        |0.4.0      |      |        |     |[cran/meltt](https://github.com/cran/meltt)                                         |
+|[memapp](problems.md#memapp)                                 |2.12       |      |        |1    |[cran/memapp](https://github.com/cran/memapp)                                       |
+|[memery](problems.md#memery)                                 |0.5.0      |      |        |1    |[cran/memery](https://github.com/cran/memery)                                       |
+|[mephas](problems.md#mephas)                                 |1.0.0      |1     |        |     |[cran/mephas](https://github.com/cran/mephas)                                       |
+|merTools                                                     |0.4.1      |      |        |     |[cran/merTools](https://github.com/cran/merTools)                                   |
+|[meta4diag](problems.md#meta4diag)                           |2.0.8      |      |        |1    |[cran/meta4diag](https://github.com/cran/meta4diag)                                 |
+|MetaAnalyser                                                 |0.2.1      |      |        |     |[cran/MetaAnalyser](https://github.com/cran/MetaAnalyser)                           |
+|[MetamapsDB](problems.md#metamapsdb)                         |0.0.2      |      |        |1    |[cran/MetamapsDB](https://github.com/cran/MetamapsDB)                               |
+|metamer                                                      |0.1.0      |      |        |     |[cran/metamer](https://github.com/cran/metamer)                                     |
+|[MetCirc](problems.md#metcirc)                               |1.10.0     |1     |        |1    |[cran/MetCirc](https://github.com/cran/MetCirc)                                     |
+|[MethylAid](problems.md#methylaid)                           |1.14.0     |2     |1       |1    |[cran/MethylAid](https://github.com/cran/MethylAid)                                 |
+|metricsgraphics                                              |0.9.0      |      |        |     |[cran/metricsgraphics](https://github.com/cran/metricsgraphics)                     |
+|mgcViz                                                       |0.1.3      |      |        |     |[cran/mgcViz](https://github.com/cran/mgcViz)                                       |
+|microsamplingDesign                                          |1.0.6      |      |        |     |[cran/microsamplingDesign](https://github.com/cran/microsamplingDesign)             |
+|midas                                                        |1.0.1      |      |        |     |[cran/midas](https://github.com/cran/midas)                                         |
+|miniUI                                                       |0.1.1.1    |      |        |     |[cran/miniUI](https://github.com/cran/miniUI)                                       |
+|[miRcomp](problems.md#mircomp)                               |1.10.0     |      |1       |     |[cran/miRcomp](https://github.com/cran/miRcomp)                                     |
+|mirt                                                         |1.30       |      |        |     |[cran/mirt](https://github.com/cran/mirt)                                           |
+|mirtCAT                                                      |1.8        |      |        |     |[cran/mirtCAT](https://github.com/cran/mirtCAT)                                     |
+|mizer                                                        |1.0.1      |      |        |     |[cran/mizer](https://github.com/cran/mizer)                                         |
+|mldr                                                         |0.4.2      |      |        |     |[cran/mldr](https://github.com/cran/mldr)                                           |
+|[MLInterfaces](problems.md#mlinterfaces)                     |1.60.1     |2     |2       |5    |[cran/MLInterfaces](https://github.com/cran/MLInterfaces)                           |
+|mlxR                                                         |3.3.0      |      |        |     |[cran/mlxR](https://github.com/cran/mlxR)                                           |
+|[MMDiff2](problems.md#mmdiff2)                               |1.8.0      |      |        |5    |[cran/MMDiff2](https://github.com/cran/MMDiff2)                                     |
+|[MNLR](problems.md#mnlr)                                     |0.1.0      |      |        |1    |[cran/MNLR](https://github.com/cran/MNLR)                                           |
+|modest                                                       |0.3-1      |      |        |     |[cran/modest](https://github.com/cran/modest)                                       |
+|[MODIStsp](problems.md#modistsp)                             |1.3.8      |1     |        |     |[cran/MODIStsp](https://github.com/cran/MODIStsp)                                   |
+|mplot                                                        |1.0.2      |      |        |     |[cran/mplot](https://github.com/cran/mplot)                                         |
+|mrMLM.GUI                                                    |3.2        |      |        |     |[cran/mrMLM.GUI](https://github.com/cran/mrMLM.GUI)                                 |
+|[MSGFgui](problems.md#msgfgui)                               |1.14.0     |      |        |2    |[cran/MSGFgui](https://github.com/cran/MSGFgui)                                     |
+|[MSnbase](problems.md#msnbase)                               |2.6.4      |2     |1       |4    |[cran/MSnbase](https://github.com/cran/MSnbase)                                     |
+|MSstatsQCgui                                                 |1.0.0      |      |        |     |[cran/MSstatsQCgui](https://github.com/cran/MSstatsQCgui)                           |
+|MtreeRing                                                    |1.1        |      |        |     |[cran/MtreeRing](https://github.com/cran/MtreeRing)                                 |
+|[MuChPoint](problems.md#muchpoint)                           |0.6.1      |      |        |1    |[cran/MuChPoint](https://github.com/cran/MuChPoint)                                 |
+|multichull                                                   |1.0.0      |      |        |     |[cran/multichull](https://github.com/cran/multichull)                               |
+|mwaved                                                       |1.1.6      |      |        |     |[cran/mwaved](https://github.com/cran/mwaved)                                       |
+|mwshiny                                                      |0.1.0      |      |        |     |[cran/mwshiny](https://github.com/cran/mwshiny)                                     |
+|[nbc4va](problems.md#nbc4va)                                 |1.1        |      |        |1    |[cran/nbc4va](https://github.com/cran/nbc4va)                                       |
+|[neo4r](problems.md#neo4r)                                   |0.1.1      |      |        |1    |[cran/neo4r](https://github.com/cran/neo4r)                                         |
+|netrankr                                                     |0.2.1      |      |        |     |[cran/netrankr](https://github.com/cran/netrankr)                                   |
+|nlgeocoder                                                   |0.1.3      |      |        |     |[cran/nlgeocoder](https://github.com/cran/nlgeocoder)                               |
+|NNTbiomarker                                                 |0.29.11    |      |        |     |[cran/NNTbiomarker](https://github.com/cran/NNTbiomarker)                           |
+|normalr                                                      |1.0.0      |      |        |     |[cran/normalr](https://github.com/cran/normalr)                                     |
+|npregfast                                                    |1.5.1      |      |        |     |[cran/npregfast](https://github.com/cran/npregfast)                                 |
+|[objectremover](problems.md#objectremover)                   |0.6.4      |      |        |1    |[cran/objectremover](https://github.com/cran/objectremover)                         |
+|[olsrr](problems.md#olsrr)                                   |0.5.2      |1     |        |     |[cran/olsrr](https://github.com/cran/olsrr)                                         |
+|omicplotR                                                    |1.0.1      |      |        |     |[cran/omicplotR](https://github.com/cran/omicplotR)                                 |
+|[oneSENSE](problems.md#onesense)                             |1.2.0      |      |1       |1    |[cran/oneSENSE](https://github.com/cran/oneSENSE)                                   |
+|[ontoProc](problems.md#ontoproc)                             |1.2.1      |2     |1       |5    |[cran/ontoProc](https://github.com/cran/ontoProc)                                   |
+|OpenImageR                                                   |1.1.5      |      |        |     |[cran/OpenImageR](https://github.com/cran/OpenImageR)                               |
+|[openPrimeRui](problems.md#openprimerui)                     |1.2.0      |      |        |2    |[cran/openPrimeRui](https://github.com/cran/openPrimeRui)                           |
+|[oppr](problems.md#oppr)                                     |0.0.2      |      |        |1    |[cran/oppr](https://github.com/cran/oppr)                                           |
+|optimStrat                                                   |2.0        |      |        |     |[cran/optimStrat](https://github.com/cran/optimStrat)                               |
+|OWEA                                                         |0.1.1      |      |        |     |[cran/OWEA](https://github.com/cran/OWEA)                                           |
+|[pairsD3](problems.md#pairsd3)                               |0.1.0      |      |        |1    |[cran/pairsD3](https://github.com/cran/pairsD3)                                     |
+|[PanVizGenerator](problems.md#panvizgenerator)               |1.8.0      |      |        |1    |[cran/PanVizGenerator](https://github.com/cran/PanVizGenerator)                     |
+|ParallelLogger                                               |1.1.0      |      |        |     |[cran/ParallelLogger](https://github.com/cran/ParallelLogger)                       |
+|paramGUI                                                     |2.1.3      |      |        |     |[cran/paramGUI](https://github.com/cran/paramGUI)                                   |
+|PathoStat                                                    |1.6.1      |      |        |     |[cran/PathoStat](https://github.com/cran/PathoStat)                                 |
+|[pcadapt](problems.md#pcadapt)                               |4.1.0      |      |        |1    |[cran/pcadapt](https://github.com/cran/pcadapt)                                     |
+|[pcaExplorer](problems.md#pcaexplorer)                       |2.6.0      |2     |1       |4    |[cran/pcaExplorer](https://github.com/cran/pcaExplorer)                             |
+|pdfsearch                                                    |0.3.0      |      |        |     |[cran/pdfsearch](https://github.com/cran/pdfsearch)                                 |
+|PDShiny                                                      |0.1.0      |      |        |     |[cran/PDShiny](https://github.com/cran/PDShiny)                                     |
+|PELVIS                                                       |1.1.0      |      |        |     |[cran/PELVIS](https://github.com/cran/PELVIS)                                       |
+|[pepStat](problems.md#pepstat)                               |1.14.0     |      |        |3    |[cran/pepStat](https://github.com/cran/pepStat)                                     |
+|[periscope](problems.md#periscope)                           |0.4.1      |      |        |1    |[cran/periscope](https://github.com/cran/periscope)                                 |
+|[phenocamr](problems.md#phenocamr)                           |1.1.3      |      |        |1    |[cran/phenocamr](https://github.com/cran/phenocamr)                                 |
+|phenology                                                    |7.3        |      |        |     |[cran/phenology](https://github.com/cran/phenology)                                 |
+|phuse                                                        |0.1.7      |      |        |     |[cran/phuse](https://github.com/cran/phuse)                                         |
+|pipe.design                                                  |0.5.1      |      |        |     |[cran/pipe.design](https://github.com/cran/pipe.design)                             |
+|pipefittr                                                    |0.1.2      |      |        |     |[cran/pipefittr](https://github.com/cran/pipefittr)                                 |
+|[pitchRx](problems.md#pitchrx)                               |1.8.2      |      |        |1    |[cran/pitchRx](https://github.com/cran/pitchRx)                                     |
+|PivotalR                                                     |0.1.18.3.1 |      |        |     |[cran/PivotalR](https://github.com/cran/PivotalR)                                   |
+|[pivottabler](problems.md#pivottabler)                       |1.2.0      |      |        |1    |[cran/pivottabler](https://github.com/cran/pivottabler)                             |
+|pixels                                                       |0.1.0      |      |        |     |[cran/pixels](https://github.com/cran/pixels)                                       |
+|PKconverter                                                  |1.3        |      |        |     |[cran/PKconverter](https://github.com/cran/PKconverter)                             |
+|plainview                                                    |0.1.0      |      |        |     |[cran/plainview](https://github.com/cran/plainview)                                 |
+|[plethem](problems.md#plethem)                               |0.1.7      |      |        |1    |[cran/plethem](https://github.com/cran/plethem)                                     |
+|[plotly](problems.md#plotly)                                 |4.8.0      |      |        |1    |[cran/plotly](https://github.com/cran/plotly)                                       |
+|plotROC                                                      |2.2.1      |      |        |     |[cran/plotROC](https://github.com/cran/plotROC)                                     |
+|plotSEMM                                                     |2.4        |      |        |     |[cran/plotSEMM](https://github.com/cran/plotSEMM)                                   |
+|plsr                                                         |0.0.1      |      |        |     |[cran/plsr](https://github.com/cran/plsr)                                           |
+|[pmd](problems.md#pmd)                                       |0.1.1      |      |        |2    |[cran/pmd](https://github.com/cran/pmd)                                             |
+|[pogos](problems.md#pogos)                                   |1.0.0      |      |1       |1    |[cran/pogos](https://github.com/cran/pogos)                                         |
+|polmineR                                                     |0.7.11     |      |        |     |[cran/polmineR](https://github.com/cran/polmineR)                                   |
+|[PopED](problems.md#poped)                                   |0.4.0      |      |        |1    |[cran/PopED](https://github.com/cran/PopED)                                         |
+|[poppr](problems.md#poppr)                                   |2.8.2      |      |        |1    |[cran/poppr](https://github.com/cran/poppr)                                         |
+|populationPDXdesign                                          |1.0.3      |      |        |     |[cran/populationPDXdesign](https://github.com/cran/populationPDXdesign)             |
+|[powdR](problems.md#powdr)                                   |0.2.0      |      |        |1    |[cran/powdR](https://github.com/cran/powdR)                                         |
+|powerlmm                                                     |0.4.0      |      |        |     |[cran/powerlmm](https://github.com/cran/powerlmm)                                   |
+|ppcSpatial                                                   |0.2.0      |      |        |     |[cran/ppcSpatial](https://github.com/cran/ppcSpatial)                               |
+|pqantimalarials                                              |0.2        |      |        |     |[cran/pqantimalarials](https://github.com/cran/pqantimalarials)                     |
+|[predictoR](problems.md#predictor)                           |1.0.4      |      |        |1    |[cran/predictoR](https://github.com/cran/predictoR)                                 |
+|[prioritizr](problems.md#prioritizr)                         |4.0.2      |      |        |1    |[cran/prioritizr](https://github.com/cran/prioritizr)                               |
+|[processanimateR](problems.md#processanimater)               |1.0.0      |      |        |2    |[cran/processanimateR](https://github.com/cran/processanimateR)                     |
+|processmapR                                                  |0.3.3      |      |        |     |[cran/processmapR](https://github.com/cran/processmapR)                             |
+|processmonitR                                                |0.1.0      |      |        |     |[cran/processmonitR](https://github.com/cran/processmonitR)                         |
+|[processR](problems.md#processr)                             |0.1.0      |      |        |1    |[cran/processR](https://github.com/cran/processR)                                   |
+|ProjectionBasedClustering                                    |1.0.7      |      |        |     |[cran/ProjectionBasedClustering](https://github.com/cran/ProjectionBasedClustering) |
+|projector                                                    |0.0.2      |      |        |     |[cran/projector](https://github.com/cran/projector)                                 |
+|[pRolocGUI](problems.md#prolocgui)                           |1.14.0     |1     |2       |3    |[cran/pRolocGUI](https://github.com/cran/pRolocGUI)                                 |
+|Prostar                                                      |1.12.18    |      |        |     |[cran/Prostar](https://github.com/cran/Prostar)                                     |
+|[psichomics](problems.md#psichomics)                         |1.6.2      |      |        |2    |[cran/psichomics](https://github.com/cran/psichomics)                               |
+|pushbar                                                      |0.1.0      |      |        |     |[cran/pushbar](https://github.com/cran/pushbar)                                     |
+|[QCA](problems.md#qca)                                       |3.4        |      |        |1    |[cran/QCA](https://github.com/cran/QCA)                                             |
+|qgam                                                         |1.2.3      |      |        |     |[cran/qgam](https://github.com/cran/qgam)                                           |
+|[qlcData](problems.md#qlcdata)                               |0.2.1      |      |        |1    |[cran/qlcData](https://github.com/cran/qlcData)                                     |
+|[qqplotr](problems.md#qqplotr)                               |0.0.3      |      |        |1    |[cran/qqplotr](https://github.com/cran/qqplotr)                                     |
+|qqvases                                                      |1.0.0      |      |        |     |[cran/qqvases](https://github.com/cran/qqvases)                                     |
+|QRAGadget                                                    |0.1.0      |      |        |     |[cran/QRAGadget](https://github.com/cran/QRAGadget)                                 |
+|qrage                                                        |1.0        |      |        |     |[cran/qrage](https://github.com/cran/qrage)                                         |
+|QTL.gCIMapping.GUI                                           |1.0        |      |        |     |[cran/QTL.gCIMapping.GUI](https://github.com/cran/QTL.gCIMapping.GUI)               |
+|[questionr](problems.md#questionr)                           |0.7.0      |      |        |2    |[cran/questionr](https://github.com/cran/questionr)                                 |
+|r2d3                                                         |0.2.3      |      |        |     |[cran/r2d3](https://github.com/cran/r2d3)                                           |
+|[R3CPET](problems.md#r3cpet)                                 |1.12.0     |      |        |5    |[cran/R3CPET](https://github.com/cran/R3CPET)                                       |
+|rabi                                                         |1.0.0      |      |        |     |[cran/rabi](https://github.com/cran/rabi)                                           |
+|radarchart                                                   |0.3.1      |      |        |     |[cran/radarchart](https://github.com/cran/radarchart)                               |
+|radiant                                                      |0.9.9      |      |        |     |[cran/radiant](https://github.com/cran/radiant)                                     |
+|radiant.basics                                               |0.9.9      |      |        |     |[cran/radiant.basics](https://github.com/cran/radiant.basics)                       |
+|radiant.data                                                 |0.9.9      |      |        |     |[cran/radiant.data](https://github.com/cran/radiant.data)                           |
+|radiant.design                                               |0.9.9      |      |        |     |[cran/radiant.design](https://github.com/cran/radiant.design)                       |
+|radiant.model                                                |0.9.9      |      |        |     |[cran/radiant.model](https://github.com/cran/radiant.model)                         |
+|radiant.multivariate                                         |0.9.9      |      |        |     |[cran/radiant.multivariate](https://github.com/cran/radiant.multivariate)           |
+|radix                                                        |0.6        |      |        |     |[cran/radix](https://github.com/cran/radix)                                         |
+|[RagGrid](problems.md#raggrid)                               |0.2.0      |      |        |1    |[cran/RagGrid](https://github.com/cran/RagGrid)                                     |
+|[rAmCharts](problems.md#ramcharts)                           |2.1.10     |      |        |1    |[cran/rAmCharts](https://github.com/cran/rAmCharts)                                 |
+|rangeMapper                                                  |0.3-5      |      |        |     |[cran/rangeMapper](https://github.com/cran/rangeMapper)                             |
+|RanglaPunjab                                                 |2.3.4      |      |        |     |[cran/RanglaPunjab](https://github.com/cran/RanglaPunjab)                           |
+|[Rariant](problems.md#rariant)                               |1.16.0     |1     |        |4    |[cran/Rariant](https://github.com/cran/Rariant)                                     |
+|[rbin](problems.md#rbin)                                     |0.1.1      |1     |        |     |[cran/rbin](https://github.com/cran/rbin)                                           |
+|[rblt](problems.md#rblt)                                     |0.2.3.6    |1     |        |     |[cran/rblt](https://github.com/cran/rblt)                                           |
+|[rcellminer](problems.md#rcellminer)                         |2.2.0      |1     |        |     |[cran/rcellminer](https://github.com/cran/rcellminer)                               |
+|[rCGH](problems.md#rcgh)                                     |1.10.0     |1     |        |     |[cran/rCGH](https://github.com/cran/rCGH)                                           |
+|rclipboard                                                   |0.1.1      |      |        |     |[cran/rclipboard](https://github.com/cran/rclipboard)                               |
+|rcrossref                                                    |0.9.0      |      |        |     |[cran/rcrossref](https://github.com/cran/rcrossref)                                 |
+|rddapp                                                       |1.1.0      |      |        |     |[cran/rddapp](https://github.com/cran/rddapp)                                       |
+|[RDML](problems.md#rdml)                                     |0.9-9      |      |        |1    |[cran/RDML](https://github.com/cran/RDML)                                           |
+|reactlog                                                     |1.0.0      |      |        |     |[cran/reactlog](https://github.com/cran/reactlog)                                   |
+|reactR                                                       |0.3.0      |      |        |     |[cran/reactR](https://github.com/cran/reactR)                                       |
+|[recmap](problems.md#recmap)                                 |1.0.1      |      |        |1    |[cran/recmap](https://github.com/cran/recmap)                                       |
+|[RefNet](problems.md#refnet)                                 |1.16.0     |1     |1       |3    |[cran/RefNet](https://github.com/cran/RefNet)                                       |
+|refund.shiny                                                 |0.3.0      |      |        |     |[cran/refund.shiny](https://github.com/cran/refund.shiny)                           |
+|regexSelect                                                  |1.0.0      |      |        |     |[cran/regexSelect](https://github.com/cran/regexSelect)                             |
+|Repliscope                                                   |1.0.0      |      |        |     |[cran/Repliscope](https://github.com/cran/Repliscope)                               |
+|repo                                                         |2.1.3      |      |        |     |[cran/repo](https://github.com/cran/repo)                                           |
+|[ReportingTools](problems.md#reportingtools)                 |2.20.0     |1     |        |     |[cran/ReportingTools](https://github.com/cran/ReportingTools)                       |
+|[reprex](problems.md#reprex)                                 |0.2.1      |      |        |1    |[cran/reprex](https://github.com/cran/reprex)                                       |
+|[revtools](problems.md#revtools)                             |0.3.0      |      |        |1    |[cran/revtools](https://github.com/cran/revtools)                                   |
+|[RforProteomics](problems.md#rforproteomics)                 |1.18.1     |      |1       |2    |[cran/RforProteomics](https://github.com/cran/RforProteomics)                       |
+|RGA                                                          |0.4.2      |      |        |     |[cran/RGA](https://github.com/cran/RGA)                                             |
+|[rgl](problems.md#rgl)                                       |0.100.19   |      |        |2    |[cran/rgl](https://github.com/cran/rgl)                                             |
+|[rhandsontable](problems.md#rhandsontable)                   |0.3.7      |      |        |1    |[cran/rhandsontable](https://github.com/cran/rhandsontable)                         |
+|Rilostat                                                     |0.2.1      |      |        |     |[cran/Rilostat](https://github.com/cran/Rilostat)                                   |
+|rintrojs                                                     |0.2.0      |      |        |     |[cran/rintrojs](https://github.com/cran/rintrojs)                                   |
+|rivr                                                         |1.2-1      |      |        |     |[cran/rivr](https://github.com/cran/rivr)                                           |
+|[RLumShiny](problems.md#rlumshiny)                           |0.2.2      |      |        |1    |[cran/RLumShiny](https://github.com/cran/RLumShiny)                                 |
+|[rmarkdown](problems.md#rmarkdown)                           |1.12       |      |        |1    |[cran/rmarkdown](https://github.com/cran/rmarkdown)                                 |
+|[rmd](problems.md#rmd)                                       |0.1.4      |      |        |1    |[cran/rmd](https://github.com/cran/rmd)                                             |
+|[RnBeads](problems.md#rnbeads)                               |1.12.1     |1     |        |6    |[cran/RnBeads](https://github.com/cran/RnBeads)                                     |
+|Rnightlights                                                 |0.2.3      |      |        |     |[cran/Rnightlights](https://github.com/cran/Rnightlights)                           |
+|rnn                                                          |0.8.1      |      |        |     |[cran/rnn](https://github.com/cran/rnn)                                             |
+|roadoi                                                       |0.5.2      |      |        |     |[cran/roadoi](https://github.com/cran/roadoi)                                       |
+|robmed                                                       |0.3.0      |      |        |     |[cran/robmed](https://github.com/cran/robmed)                                       |
+|[rosr](problems.md#rosr)                                     |0.0.6      |      |        |1    |[cran/rosr](https://github.com/cran/rosr)                                           |
+|rPackedBar                                                   |0.2.1      |      |        |     |[cran/rPackedBar](https://github.com/cran/rPackedBar)                               |
+|[rpostgisLT](problems.md#rpostgislt)                         |0.6.0      |      |        |1    |[cran/rpostgisLT](https://github.com/cran/rpostgisLT)                               |
+|[Rqc](problems.md#rqc)                                       |1.14.0     |      |        |1    |[cran/Rqc](https://github.com/cran/Rqc)                                             |
+|[RQuantLib](problems.md#rquantlib)                           |0.4.8      |2     |        |     |[cran/RQuantLib](https://github.com/cran/RQuantLib)                                 |
+|rrtable                                                      |0.1.0      |      |        |     |[cran/rrtable](https://github.com/cran/rrtable)                                     |
+|[rsconnect](problems.md#rsconnect)                           |0.8.13     |      |        |1    |[cran/rsconnect](https://github.com/cran/rsconnect)                                 |
+|[rtimicropem](problems.md#rtimicropem)                       |1.3        |      |        |1    |[cran/rtimicropem](https://github.com/cran/rtimicropem)                             |
+|[rTRMui](problems.md#rtrmui)                                 |1.18.0     |1     |        |     |[cran/rTRMui](https://github.com/cran/rTRMui)                                       |
+|[RtutoR](problems.md#rtutor)                                 |1.2        |      |        |1    |[cran/RtutoR](https://github.com/cran/RtutoR)                                       |
+|rusk                                                         |0.1.1      |      |        |     |[cran/rusk](https://github.com/cran/rusk)                                           |
+|ruv                                                          |0.9.7      |      |        |     |[cran/ruv](https://github.com/cran/ruv)                                             |
+|rwalkr                                                       |0.4.0      |      |        |     |[cran/rwalkr](https://github.com/cran/rwalkr)                                       |
+|[RxODE](problems.md#rxode)                                   |0.8.0-9    |      |        |1    |[cran/RxODE](https://github.com/cran/RxODE)                                         |
+|sadists                                                      |0.2.3      |      |        |     |[cran/sadists](https://github.com/cran/sadists)                                     |
+|safetyGraphics                                               |0.7.3      |      |        |     |[cran/safetyGraphics](https://github.com/cran/safetyGraphics)                       |
+|samr                                                         |3.0        |      |        |     |[cran/samr](https://github.com/cran/samr)                                           |
+|[sangerseqR](problems.md#sangerseqr)                         |1.16.0     |      |        |1    |[cran/sangerseqR](https://github.com/cran/sangerseqR)                               |
+|[santaR](problems.md#santar)                                 |1.0        |      |        |1    |[cran/santaR](https://github.com/cran/santaR)                                       |
+|[SC3](problems.md#sc3)                                       |1.8.0      |      |1       |1    |[cran/SC3](https://github.com/cran/SC3)                                             |
+|[scater](problems.md#scater)                                 |1.8.4      |1     |1       |1    |[cran/scater](https://github.com/cran/scater)                                       |
+|scdhlm                                                       |0.3.1      |      |        |     |[cran/scdhlm](https://github.com/cran/scdhlm)                                       |
+|[scone](problems.md#scone)                                   |1.4.0      |      |1       |2    |[cran/scone](https://github.com/cran/scone)                                         |
+|[scran](problems.md#scran)                                   |1.8.4      |      |2       |2    |[cran/scran](https://github.com/cran/scran)                                         |
+|sdcHierarchies                                               |0.17       |      |        |     |[cran/sdcHierarchies](https://github.com/cran/sdcHierarchies)                       |
+|sdcMicro                                                     |5.3.0      |      |        |     |[cran/sdcMicro](https://github.com/cran/sdcMicro)                                   |
+|[SDEFSR](problems.md#sdefsr)                                 |0.7.1.0    |      |        |1    |[cran/SDEFSR](https://github.com/cran/SDEFSR)                                       |
+|sdm                                                          |1.0-67     |      |        |     |[cran/sdm](https://github.com/cran/sdm)                                             |
+|[SEA](problems.md#sea)                                       |1.0        |      |        |1    |[cran/SEA](https://github.com/cran/SEA)                                             |
+|searchConsoleR                                               |0.3.0      |      |        |     |[cran/searchConsoleR](https://github.com/cran/searchConsoleR)                       |
+|seasonalview                                                 |0.3        |      |        |     |[cran/seasonalview](https://github.com/cran/seasonalview)                           |
+|semantic.dashboard                                           |0.1.1      |      |        |     |[cran/semantic.dashboard](https://github.com/cran/semantic.dashboard)               |
+|[semdrw](problems.md#semdrw)                                 |0.1.0      |      |        |1    |[cran/semdrw](https://github.com/cran/semdrw)                                       |
+|SensMixed                                                    |2.1-0      |      |        |     |[cran/SensMixed](https://github.com/cran/SensMixed)                                 |
+|[SEPA](problems.md#sepa)                                     |1.10.0     |1     |        |     |[cran/SEPA](https://github.com/cran/SEPA)                                           |
+|[seqplots](problems.md#seqplots)                             |1.18.0     |      |        |3    |[cran/seqplots](https://github.com/cran/seqplots)                                   |
+|serieslcb                                                    |0.3.0      |      |        |     |[cran/serieslcb](https://github.com/cran/serieslcb)                                 |
+|[sevenbridges](problems.md#sevenbridges)                     |1.10.5     |      |        |1    |[cran/sevenbridges](https://github.com/cran/sevenbridges)                           |
+|[sglr](problems.md#sglr)                                     |0.7        |      |        |2    |[cran/sglr](https://github.com/cran/sglr)                                           |
+|SHELF                                                        |1.5.0      |      |        |     |[cran/SHELF](https://github.com/cran/SHELF)                                         |
+|[shiny.router](problems.md#shinyrouter)                      |0.1.1      |      |        |1    |[cran/shiny.router](https://github.com/cran/shiny.router)                           |
+|[shiny.semantic](problems.md#shinysemantic)                  |0.2.1      |      |        |1    |[cran/shiny.semantic](https://github.com/cran/shiny.semantic)                       |
+|[shinyAce](problems.md#shinyace)                             |0.3.3      |      |        |1    |[cran/shinyAce](https://github.com/cran/shinyAce)                                   |
+|[shinyaframe](problems.md#shinyaframe)                       |1.0.1      |      |        |1    |[cran/shinyaframe](https://github.com/cran/shinyaframe)                             |
+|shinyalert                                                   |1.0        |      |        |     |[cran/shinyalert](https://github.com/cran/shinyalert)                               |
+|shinyanimate                                                 |0.3.0      |      |        |     |[cran/shinyanimate](https://github.com/cran/shinyanimate)                           |
+|shinybootstrap2                                              |0.2.1      |      |        |     |[cran/shinybootstrap2](https://github.com/cran/shinybootstrap2)                     |
+|[shinyBS](problems.md#shinybs)                               |0.61       |      |        |1    |[cran/shinyBS](https://github.com/cran/shinyBS)                                     |
+|shinycssloaders                                              |0.2.0      |      |        |     |[cran/shinycssloaders](https://github.com/cran/shinycssloaders)                     |
+|shinycustomloader                                            |0.9.0      |      |        |     |[cran/shinycustomloader](https://github.com/cran/shinycustomloader)                 |
+|shinydashboard                                               |0.7.1      |      |        |     |[cran/shinydashboard](https://github.com/cran/shinydashboard)                       |
+|shinydashboardPlus                                           |0.6.0      |      |        |     |[cran/shinydashboardPlus](https://github.com/cran/shinydashboardPlus)               |
+|shinyDND                                                     |0.1.0      |      |        |     |[cran/shinyDND](https://github.com/cran/shinyDND)                                   |
+|[shinyEffects](problems.md#shinyeffects)                     |0.1.0      |      |        |1    |[cran/shinyEffects](https://github.com/cran/shinyEffects)                           |
+|shinyEventLogger                                             |0.1.1      |      |        |     |[cran/shinyEventLogger](https://github.com/cran/shinyEventLogger)                   |
+|shinyFeedback                                                |0.1.0      |      |        |     |[cran/shinyFeedback](https://github.com/cran/shinyFeedback)                         |
+|shinyFiles                                                   |0.7.2      |      |        |     |[cran/shinyFiles](https://github.com/cran/shinyFiles)                               |
+|[shinyHeatmaply](problems.md#shinyheatmaply)                 |0.1.0      |      |        |1    |[cran/shinyHeatmaply](https://github.com/cran/shinyHeatmaply)                       |
+|[shinyhelper](problems.md#shinyhelper)                       |0.3.1      |      |        |1    |[cran/shinyhelper](https://github.com/cran/shinyhelper)                             |
+|ShinyImage                                                   |0.1.0      |      |        |     |[cran/ShinyImage](https://github.com/cran/ShinyImage)                               |
+|[ShinyItemAnalysis](problems.md#shinyitemanalysis)           |1.3.0      |      |        |2    |[cran/ShinyItemAnalysis](https://github.com/cran/ShinyItemAnalysis)                 |
+|[shinyjqui](problems.md#shinyjqui)                           |0.3.2      |1     |        |     |[cran/shinyjqui](https://github.com/cran/shinyjqui)                                 |
+|[shinyjs](problems.md#shinyjs)                               |1.0        |      |        |1    |[cran/shinyjs](https://github.com/cran/shinyjs)                                     |
+|[shinyKGode](problems.md#shinykgode)                         |1.0.5      |      |        |1    |[cran/shinyKGode](https://github.com/cran/shinyKGode)                               |
+|shinyLP                                                      |1.1.2      |      |        |     |[cran/shinyLP](https://github.com/cran/shinyLP)                                     |
+|shinymaterial                                                |0.5.5      |      |        |     |[cran/shinymaterial](https://github.com/cran/shinymaterial)                         |
+|shinyMatrix                                                  |0.1.0      |      |        |     |[cran/shinyMatrix](https://github.com/cran/shinyMatrix)                             |
+|[shinyMethyl](problems.md#shinymethyl)                       |1.16.0     |1     |        |     |[cran/shinyMethyl](https://github.com/cran/shinyMethyl)                             |
+|[shinyrecap](problems.md#shinyrecap)                         |0.1.0      |      |        |1    |[cran/shinyrecap](https://github.com/cran/shinyrecap)                               |
+|shinyRGL                                                     |0.1.0      |      |        |     |[cran/shinyRGL](https://github.com/cran/shinyRGL)                                   |
+|[shinystan](problems.md#shinystan)                           |2.5.0      |      |        |1    |[cran/shinystan](https://github.com/cran/shinystan)                                 |
+|[shinyTANDEM](problems.md#shinytandem)                       |1.18.0     |      |        |2    |[cran/shinyTANDEM](https://github.com/cran/shinyTANDEM)                             |
+|shinytest                                                    |1.3.0      |      |        |     |[cran/shinytest](https://github.com/cran/shinytest)                                 |
+|shinythemes                                                  |1.1.2      |      |        |     |[cran/shinythemes](https://github.com/cran/shinythemes)                             |
+|shinyTime                                                    |0.2.1      |      |        |     |[cran/shinyTime](https://github.com/cran/shinyTime)                                 |
+|shinytoastr                                                  |2.1.1      |      |        |     |[cran/shinytoastr](https://github.com/cran/shinytoastr)                             |
+|shinyTree                                                    |0.2.6      |      |        |     |[cran/shinyTree](https://github.com/cran/shinyTree)                                 |
+|shinyWidgets                                                 |0.4.8      |      |        |     |[cran/shinyWidgets](https://github.com/cran/shinyWidgets)                           |
+|shotGroups                                                   |0.7.4      |      |        |     |[cran/shotGroups](https://github.com/cran/shotGroups)                               |
+|[sigmajs](problems.md#sigmajs)                               |0.1.2      |      |        |2    |[cran/sigmajs](https://github.com/cran/sigmajs)                                     |
+|sigmaNet                                                     |1.1.0      |      |        |     |[cran/sigmaNet](https://github.com/cran/sigmaNet)                                   |
+|signalHsmm                                                   |1.5        |      |        |     |[cran/signalHsmm](https://github.com/cran/signalHsmm)                               |
+|[SimDesign](problems.md#simdesign)                           |1.13       |      |        |1    |[cran/SimDesign](https://github.com/cran/SimDesign)                                 |
+|simglm                                                       |0.7.2      |      |        |     |[cran/simglm](https://github.com/cran/simglm)                                       |
+|simPATHy                                                     |0.2        |      |        |     |[cran/simPATHy](https://github.com/cran/simPATHy)                                   |
+|sinew                                                        |0.3.8      |      |        |     |[cran/sinew](https://github.com/cran/sinew)                                         |
+|SingleCaseES                                                 |0.4.1      |      |        |     |[cran/SingleCaseES](https://github.com/cran/SingleCaseES)                           |
+|[singleCellTK](problems.md#singlecelltk)                     |1.0.3      |1     |        |     |[cran/singleCellTK](https://github.com/cran/singleCellTK)                           |
+|skeleSim                                                     |0.9.8      |      |        |     |[cran/skeleSim](https://github.com/cran/skeleSim)                                   |
+|skpr                                                         |0.57.0     |      |        |     |[cran/skpr](https://github.com/cran/skpr)                                           |
+|slickR                                                       |0.2.4      |      |        |     |[cran/slickR](https://github.com/cran/slickR)                                       |
+|SMITIDvisu                                                   |0.0.4      |      |        |     |[cran/SMITIDvisu](https://github.com/cran/SMITIDvisu)                               |
+|snotelr                                                      |1.0.1      |      |        |     |[cran/snotelr](https://github.com/cran/snotelr)                                     |
+|[soc.ca](problems.md#socca)                                  |0.7.3      |      |        |1    |[cran/soc.ca](https://github.com/cran/soc.ca)                                       |
+|Sofi                                                         |0.16.4.8   |      |        |     |[cran/Sofi](https://github.com/cran/Sofi)                                           |
+|[soilcarbon](problems.md#soilcarbon)                         |1.2.0      |      |        |1    |[cran/soilcarbon](https://github.com/cran/soilcarbon)                               |
+|solvebio                                                     |2.6.1      |      |        |     |[cran/solvebio](https://github.com/cran/solvebio)                                   |
+|SOMbrero                                                     |1.2-4      |      |        |     |[cran/SOMbrero](https://github.com/cran/SOMbrero)                                   |
+|[soundgen](problems.md#soundgen)                             |1.4.0      |      |        |1    |[cran/soundgen](https://github.com/cran/soundgen)                                   |
+|[SpaDES.addins](problems.md#spadesaddins)                    |0.1.2      |      |        |1    |[cran/SpaDES.addins](https://github.com/cran/SpaDES.addins)                         |
+|sparkline                                                    |2.0        |      |        |     |[cran/sparkline](https://github.com/cran/sparkline)                                 |
+|sparklyr                                                     |1.0.0      |      |        |     |[cran/sparklyr](https://github.com/cran/sparklyr)                                   |
+|sparkTable                                                   |1.3.0      |      |        |     |[cran/sparkTable](https://github.com/cran/sparkTable)                               |
+|[SpatialEpiApp](problems.md#spatialepiapp)                   |0.3        |      |        |2    |[cran/SpatialEpiApp](https://github.com/cran/SpatialEpiApp)                         |
+|[spectrolab](problems.md#spectrolab)                         |0.0.8      |      |        |1    |[cran/spectrolab](https://github.com/cran/spectrolab)                               |
+|SpNetPrep                                                    |1.1        |      |        |     |[cran/SpNetPrep](https://github.com/cran/SpNetPrep)                                 |
+|spotGUI                                                      |0.2.1      |      |        |     |[cran/spotGUI](https://github.com/cran/spotGUI)                                     |
+|SqlRender                                                    |1.6.0      |      |        |     |[cran/SqlRender](https://github.com/cran/SqlRender)                                 |
+|squid                                                        |0.1.1      |      |        |     |[cran/squid](https://github.com/cran/squid)                                         |
+|[SSDM](problems.md#ssdm)                                     |0.2.4      |      |        |1    |[cran/SSDM](https://github.com/cran/SSDM)                                           |
+|[sstModel](problems.md#sstmodel)                             |1.0.0      |      |        |1    |[cran/sstModel](https://github.com/cran/sstModel)                                   |
+|statnetWeb                                                   |0.5.0      |      |        |     |[cran/statnetWeb](https://github.com/cran/statnetWeb)                               |
+|statsr                                                       |0.1-0      |      |        |     |[cran/statsr](https://github.com/cran/statsr)                                       |
+|[steemr](problems.md#steemr)                                 |0.1.3      |      |        |1    |[cran/steemr](https://github.com/cran/steemr)                                       |
+|StereoMorph                                                  |1.6.2      |      |        |     |[cran/StereoMorph](https://github.com/cran/StereoMorph)                             |
+|stmgui                                                       |0.1.6      |      |        |     |[cran/stmgui](https://github.com/cran/stmgui)                                       |
+|[stminsights](problems.md#stminsights)                       |0.3.0      |      |        |1    |[cran/stminsights](https://github.com/cran/stminsights)                             |
+|STMotif                                                      |1.0.2      |      |        |     |[cran/STMotif](https://github.com/cran/STMotif)                                     |
+|[strataG](problems.md#stratag)                               |2.0.2      |      |        |1    |[cran/strataG](https://github.com/cran/strataG)                                     |
+|StratigrapheR                                                |0.0.3      |      |        |     |[cran/StratigrapheR](https://github.com/cran/StratigrapheR)                         |
+|[subscreen](problems.md#subscreen)                           |2.0.1      |      |        |1    |[cran/subscreen](https://github.com/cran/subscreen)                                 |
+|SubVis                                                       |2.0.2      |      |        |     |[cran/SubVis](https://github.com/cran/SubVis)                                       |
+|swirlify                                                     |0.5.2      |      |        |     |[cran/swirlify](https://github.com/cran/swirlify)                                   |
+|synthACS                                                     |1.4.5      |      |        |     |[cran/synthACS](https://github.com/cran/synthACS)                                   |
+|[tableHTML](problems.md#tablehtml)                           |2.0.0      |      |        |2    |[cran/tableHTML](https://github.com/cran/tableHTML)                                 |
+|[tablerDash](problems.md#tablerdash)                         |0.1.0      |      |        |1    |[cran/tablerDash](https://github.com/cran/tablerDash)                               |
+|tabulizer                                                    |0.2.2      |      |        |     |[cran/tabulizer](https://github.com/cran/tabulizer)                                 |
+|taipan                                                       |0.1.2      |      |        |     |[cran/taipan](https://github.com/cran/taipan)                                       |
+|[TAShiny](problems.md#tashiny)                               |0.1.0      |      |        |1    |[cran/TAShiny](https://github.com/cran/TAShiny)                                     |
+|[TCGAbiolinksGUI](problems.md#tcgabiolinksgui)               |1.6.1      |1     |        |     |[cran/TCGAbiolinksGUI](https://github.com/cran/TCGAbiolinksGUI)                     |
+|TeachBayes                                                   |1.0        |      |        |     |[cran/TeachBayes](https://github.com/cran/TeachBayes)                               |
+|teachingApps                                                 |1.0.4      |      |        |     |[cran/teachingApps](https://github.com/cran/teachingApps)                           |
+|[tenXplore](problems.md#tenxplore)                           |1.2.0      |1     |        |     |[cran/tenXplore](https://github.com/cran/tenXplore)                                 |
+|[testextra](problems.md#testextra)                           |0.1.0      |      |        |1    |[cran/testextra](https://github.com/cran/testextra)                                 |
+|texPreview                                                   |1.2.3      |      |        |     |[cran/texPreview](https://github.com/cran/texPreview)                               |
+|[TFutils](problems.md#tfutils)                               |1.0.0      |2     |1       |2    |[cran/TFutils](https://github.com/cran/TFutils)                                     |
+|themetagenomics                                              |0.1.0      |      |        |     |[cran/themetagenomics](https://github.com/cran/themetagenomics)                     |
+|tidystats                                                    |0.3        |      |        |     |[cran/tidystats](https://github.com/cran/tidystats)                                 |
+|tigerstats                                                   |0.3        |      |        |     |[cran/tigerstats](https://github.com/cran/tigerstats)                               |
+|[timeline](problems.md#timeline)                             |0.9        |      |        |2    |[cran/timeline](https://github.com/cran/timeline)                                   |
+|[TimerQuant](problems.md#timerquant)                         |1.10.0     |      |        |1    |[cran/TimerQuant](https://github.com/cran/TimerQuant)                               |
+|[timeseriesdb](problems.md#timeseriesdb)                     |0.4.1      |      |        |1    |[cran/timeseriesdb](https://github.com/cran/timeseriesdb)                           |
+|[timevis](problems.md#timevis)                               |0.5        |      |        |1    |[cran/timevis](https://github.com/cran/timevis)                                     |
+|tippy                                                        |0.0.1      |      |        |     |[cran/tippy](https://github.com/cran/tippy)                                         |
+|[tmaptools](problems.md#tmaptools)                           |2.0-1      |      |        |1    |[cran/tmaptools](https://github.com/cran/tmaptools)                                 |
+|TnT                                                          |1.2.0      |      |        |     |[cran/TnT](https://github.com/cran/TnT)                                             |
+|toxEval                                                      |1.0.4      |      |        |     |[cran/toxEval](https://github.com/cran/toxEval)                                     |
+|trackdem                                                     |0.4.3      |      |        |     |[cran/trackdem](https://github.com/cran/trackdem)                                   |
+|trackr                                                       |0.10.5     |      |        |     |[cran/trackr](https://github.com/cran/trackr)                                       |
+|trade                                                        |0.5.3      |      |        |     |[cran/trade](https://github.com/cran/trade)                                         |
+|treemap                                                      |2.4-2      |      |        |     |[cran/treemap](https://github.com/cran/treemap)                                     |
+|[TreeSearch](problems.md#treesearch)                         |0.3.0      |      |1       |     |[cran/TreeSearch](https://github.com/cran/TreeSearch)                               |
+|[treespace](problems.md#treespace)                           |1.1.3      |      |        |1    |[cran/treespace](https://github.com/cran/treespace)                                 |
+|Trendy                                                       |1.2.11     |      |        |     |[cran/Trendy](https://github.com/cran/Trendy)                                       |
+|[tricolore](problems.md#tricolore)                           |1.2.0      |      |        |2    |[cran/tricolore](https://github.com/cran/tricolore)                                 |
+|[TSCAN](problems.md#tscan)                                   |1.18.0     |      |        |1    |[cran/TSCAN](https://github.com/cran/TSCAN)                                         |
+|[ttestshiny](problems.md#ttestshiny)                         |0.1.0      |      |        |1    |[cran/ttestshiny](https://github.com/cran/ttestshiny)                               |
+|[TVTB](problems.md#tvtb)                                     |1.6.0      |1     |1       |2    |[cran/TVTB](https://github.com/cran/TVTB)                                           |
+|[twoddpcr](problems.md#twoddpcr)                             |1.4.1      |      |        |1    |[cran/twoddpcr](https://github.com/cran/twoddpcr)                                   |
+|UCSCXenaTools                                                |1.0.1      |      |        |     |[cran/UCSCXenaTools](https://github.com/cran/UCSCXenaTools)                         |
+|Umatrix                                                      |3.1        |      |        |     |[cran/Umatrix](https://github.com/cran/Umatrix)                                     |
+|[VariantFiltering](problems.md#variantfiltering)             |1.16.0     |3     |        |5    |[cran/VariantFiltering](https://github.com/cran/VariantFiltering)                   |
+|VarSelLCM                                                    |2.1.3      |      |        |     |[cran/VarSelLCM](https://github.com/cran/VarSelLCM)                                 |
+|[vdiffr](problems.md#vdiffr)                                 |0.3.0      |      |        |1    |[cran/vdiffr](https://github.com/cran/vdiffr)                                       |
+|vegawidget                                                   |0.1.0      |      |        |     |[cran/vegawidget](https://github.com/cran/vegawidget)                               |
+|VineCopula                                                   |2.1.8      |      |        |     |[cran/VineCopula](https://github.com/cran/VineCopula)                               |
+|[visNetwork](problems.md#visnetwork)                         |2.0.6      |      |        |1    |[cran/visNetwork](https://github.com/cran/visNetwork)                               |
+|vistributions                                                |0.1.1      |      |        |     |[cran/vistributions](https://github.com/cran/vistributions)                         |
+|visvow                                                       |0.4.0      |      |        |     |[cran/visvow](https://github.com/cran/visvow)                                       |
+|voronoiTreemap                                               |0.2.0      |      |        |     |[cran/voronoiTreemap](https://github.com/cran/voronoiTreemap)                       |
+|VRPM                                                         |1.2        |      |        |     |[cran/VRPM](https://github.com/cran/VRPM)                                           |
+|VWPre                                                        |1.1.0      |      |        |     |[cran/VWPre](https://github.com/cran/VWPre)                                         |
+|waiter                                                       |0.0.1      |      |        |     |[cran/waiter](https://github.com/cran/waiter)                                       |
+|[wallace](problems.md#wallace)                               |1.0.6      |      |        |1    |[cran/wallace](https://github.com/cran/wallace)                                     |
+|webshot                                                      |0.5.1      |      |        |     |[cran/webshot](https://github.com/cran/webshot)                                     |
+|weco                                                         |1.2        |      |        |     |[cran/weco](https://github.com/cran/weco)                                           |
+|weightr                                                      |2.0.1      |      |        |     |[cran/weightr](https://github.com/cran/weightr)                                     |
+|wilson                                                       |2.0.2      |      |        |     |[cran/wilson](https://github.com/cran/wilson)                                       |
+|wiqid                                                        |0.2.1      |      |        |     |[cran/wiqid](https://github.com/cran/wiqid)                                         |
+|[wiseR](problems.md#wiser)                                   |1.0.1      |      |        |2    |[cran/wiseR](https://github.com/cran/wiseR)                                         |
+|wppExplorer                                                  |2.1-1      |      |        |     |[cran/wppExplorer](https://github.com/cran/wppExplorer)                             |
+|[wTO](problems.md#wto)                                       |1.6.3      |      |        |1    |[cran/wTO](https://github.com/cran/wTO)                                             |
+|xplorerr                                                     |0.1.1      |      |        |     |[cran/xplorerr](https://github.com/cran/xplorerr)                                   |
+|xROI                                                         |0.9.13     |      |        |     |[cran/xROI](https://github.com/cran/xROI)                                           |
+|[yuimaGUI](problems.md#yuimagui)                             |1.3.0      |1     |        |     |[cran/yuimaGUI](https://github.com/cran/yuimaGUI)                                   |
+|zooimage                                                     |5.5.2      |      |        |     |[cran/zooimage](https://github.com/cran/zooimage)                                   |
+|[zscorer](problems.md#zscorer)                               |0.2.0      |      |        |1    |[cran/zscorer](https://github.com/cran/zscorer)                                     |
 
